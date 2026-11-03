@@ -1,0 +1,568 @@
+﻿ma_chi_tra,ma_huong,ky_chi,ky_huong,loai_khoan,truy_linh_tu_ky,truy_linh_den_ky,so_thuc_chi,ngay_chi,ma_nguoi_nhan,ma_tai_khoan,hinh_thuc_chi,don_vi_chi_tra,ket_qua
+CT0000001,HCD000001,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000424,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000002,HCD000001,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000424,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000003,HCD000001,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000424,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000004,HCD000001,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000424,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000005,HCD000001,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000424,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000006,HCD000001,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000424,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000007,HCD000001,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000424,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000008,HCD000002,2026-08,2026-08,Một lần,,,10800000,2026-08-10,NG000425,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000009,HCD000003,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000426,TK0001,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000010,HCD000003,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000426,TK0001,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000011,HCD000003,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000426,TK0001,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000012,HCD000003,2026-10,2026-10,Thường kỳ,,,750000,2026-10-10,NG000426,TK0001,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000013,HCD000004,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000014,HCD000004,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000015,HCD000004,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000016,HCD000004,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000017,HCD000004,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000018,HCD000004,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000019,HCD000004,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000020,HCD000005,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000021,HCD000005,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000022,HCD000005,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000023,HCD000005,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000024,HCD000005,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000025,HCD000005,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000026,HCD000005,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000427,TK0002,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000027,HCD000006,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000430,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000028,HCD000006,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000430,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000029,HCD000006,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000430,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000030,HCD000006,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000430,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000031,HCD000006,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000430,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000032,HCD000006,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000430,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000033,HCD000006,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000430,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000034,HCD000007,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000436,TK0004,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000035,HCD000007,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000436,TK0004,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000036,HCD000007,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000436,TK0004,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000037,HCD000007,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000436,TK0004,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000038,HCD000007,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000436,TK0004,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000039,HCD000007,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000436,TK0004,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000040,HCD000007,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000436,TK0004,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000041,HCD000008,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000436,TK0004,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000042,HCD000009,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000437,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000043,HCD000009,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000437,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000044,HCD000009,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000437,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000045,HCD000009,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000437,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000046,HCD000009,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000437,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000047,HCD000009,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000437,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000048,HCD000009,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000437,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000049,HCD000010,2026-07,2026-07,Thường kỳ,,,6024000,2026-07-10,NG000438,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000050,HCD000010,2026-08,2026-08,Thường kỳ,,,6024000,2026-08-10,NG000438,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000051,HCD000010,2026-09,2026-09,Thường kỳ,,,6024000,2026-09-10,NG000438,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000052,HCD000010,2026-10,2026-10,Thường kỳ,,,6024000,2026-10-10,NG000438,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000053,HCD000011,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000054,HCD000011,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000055,HCD000011,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000056,HCD000011,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000057,HCD000011,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000058,HCD000011,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000059,HCD000011,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000060,HCD000012,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000443,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000061,HCD000012,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000443,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000062,HCD000012,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000443,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000063,HCD000012,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000443,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000064,HCD000012,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000443,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000065,HCD000012,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000443,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000066,HCD000012,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000443,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000067,HCD000013,2026-07,2026-07,Thường kỳ,,,1250000,2026-07-10,NG000451,TK0006,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000068,HCD000013,2026-08,2026-08,Thường kỳ,,,1250000,2026-08-10,NG000451,TK0006,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000069,HCD000013,2026-09,2026-09,Thường kỳ,,,1250000,2026-09-10,NG000451,TK0006,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000070,HCD000013,2026-10,2026-10,Thường kỳ,,,1350000,2026-10-10,NG000451,TK0006,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000071,HCD000013,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,100000,2026-10-10,NG000451,TK0006,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000072,HCD000013,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,100000,2026-10-10,NG000451,TK0006,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000073,HCD000013,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,100000,2026-10-10,NG000451,TK0006,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000074,HCD000014,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000455,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000075,HCD000014,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000455,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000076,HCD000014,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000455,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000077,HCD000014,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000455,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000078,HCD000014,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000455,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000079,HCD000014,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000455,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000080,HCD000014,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000455,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000081,HCD000015,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000459,TK0007,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000082,HCD000015,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000459,TK0007,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000083,HCD000015,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000459,TK0007,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000084,HCD000015,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000459,TK0007,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000085,HCD000015,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000459,TK0007,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000086,HCD000015,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000459,TK0007,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000087,HCD000015,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000459,TK0007,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000088,HCD000016,2026-08,2026-08,Một lần,,,23400000,2026-08-10,NG000464,TK0008,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000089,HCD000017,2026-07,2026-07,Thường kỳ,,,3012000,2026-07-10,NG000467,TK0009,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000090,HCD000017,2026-08,2026-08,Thường kỳ,,,3012000,2026-08-10,NG000467,TK0009,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000091,HCD000017,2026-09,2026-09,Thường kỳ,,,3012000,2026-09-10,NG000467,TK0009,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000092,HCD000017,2026-10,2026-10,Thường kỳ,,,3012000,2026-10-10,NG000467,TK0009,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000093,HCD000018,2026-07,2026-07,Thường kỳ,,,3012000,2026-07-10,NG000472,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000094,HCD000018,2026-08,2026-08,Thường kỳ,,,3012000,2026-08-10,NG000472,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000095,HCD000018,2026-09,2026-09,Thường kỳ,,,3012000,2026-09-10,NG000472,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000096,HCD000018,2026-10,2026-10,Thường kỳ,,,3012000,2026-10-10,NG000472,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000097,HCD000019,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000474,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000098,HCD000019,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000474,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000099,HCD000019,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000474,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000100,HCD000019,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000474,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000101,HCD000019,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000474,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000102,HCD000019,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000474,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000103,HCD000020,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000475,TK0010,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000104,HCD000020,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000475,TK0010,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000105,HCD000020,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000475,TK0010,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000106,HCD000020,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000475,TK0010,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000107,HCD000020,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000475,TK0010,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000108,HCD000020,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000475,TK0010,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000109,HCD000020,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000475,TK0010,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000110,HCD000020,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000475,TK0010,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000111,HCD000021,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000112,HCD000021,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000113,HCD000021,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000114,HCD000021,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000115,HCD000021,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000116,HCD000021,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000117,HCD000021,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000118,HCD000022,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000119,HCD000022,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000120,HCD000022,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000121,HCD000022,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000122,HCD000022,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000123,HCD000022,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000124,HCD000022,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000125,HCD000023,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000126,HCD000023,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000127,HCD000023,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000128,HCD000023,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000129,HCD000023,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000130,HCD000023,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000131,HCD000023,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000132,HCD000024,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000133,HCD000024,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000134,HCD000024,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000135,HCD000024,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000136,HCD000024,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000137,HCD000024,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000138,HCD000025,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000056,TK0013,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000139,HCD000025,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000056,TK0013,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000140,HCD000025,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000056,TK0013,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000141,HCD000025,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000056,TK0013,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000142,HCD000025,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000056,TK0013,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000143,HCD000025,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000056,TK0013,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000144,HCD000025,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000056,TK0013,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000145,HCD000026,2026-07,2026-07,Thường kỳ,,,3825000,2026-07-10,NG000057,TK0014,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000146,HCD000026,2026-08,2026-08,Thường kỳ,,,3825000,2026-08-10,NG000057,TK0014,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000147,HCD000026,2026-09,2026-09,Thường kỳ,,,3825000,2026-09-10,NG000057,TK0014,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000148,HCD000026,2026-10,2026-10,Thường kỳ,,,3825000,2026-10-10,NG000057,TK0014,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000149,HCD000027,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000074,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000150,HCD000027,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000074,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000151,HCD000027,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000074,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000152,HCD000027,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000074,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000153,HCD000027,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000074,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000154,HCD000027,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000074,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000155,HCD000027,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000074,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000156,HCD000028,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000076,TK0015,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000157,HCD000028,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000076,TK0015,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000158,HCD000028,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000076,TK0015,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000159,HCD000028,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000076,TK0015,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000160,HCD000028,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000076,TK0015,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000161,HCD000028,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000076,TK0015,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000162,HCD000029,2026-09,2026-09,Một lần,,,10800000,2026-09-10,NG000077,TK0016,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000163,HCD000030,2026-07,2026-07,Thường kỳ,,,3012000,2026-07-10,NG000077,TK0016,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000164,HCD000030,2026-08,2026-08,Thường kỳ,,,3012000,2026-08-10,NG000077,TK0016,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000165,HCD000030,2026-09,2026-09,Thường kỳ,,,3012000,2026-09-10,NG000077,TK0016,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000166,HCD000030,2026-10,2026-10,Thường kỳ,,,3012000,2026-10-10,NG000077,TK0016,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000167,HCD000031,2026-10,2026-10,Thường kỳ,,,2410000,2026-10-10,NG000077,TK0016,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000168,HCD000032,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000078,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000169,HCD000032,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000078,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000170,HCD000032,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000078,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000171,HCD000032,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000078,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000172,HCD000032,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000078,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000173,HCD000032,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000078,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000174,HCD000032,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000078,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000175,HCD000033,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000079,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000176,HCD000033,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000079,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000177,HCD000033,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000079,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000178,HCD000033,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000079,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000179,HCD000033,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000079,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000180,HCD000033,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000079,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000181,HCD000033,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000079,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000182,HCD000034,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000107,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000183,HCD000034,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000107,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000184,HCD000034,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000107,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000185,HCD000034,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000107,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000186,HCD000034,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000107,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000187,HCD000034,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000107,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000188,HCD000034,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000107,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000189,HCD000035,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000126,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000190,HCD000035,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000126,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000191,HCD000035,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000126,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000192,HCD000035,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000126,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000193,HCD000035,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000126,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000194,HCD000035,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000126,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000195,HCD000035,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000126,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000196,HCD000036,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000127,TK0017,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000197,HCD000036,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000127,TK0017,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000198,HCD000036,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000127,TK0017,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000199,HCD000036,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000127,TK0017,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000200,HCD000036,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000127,TK0017,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000201,HCD000036,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000127,TK0017,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000202,HCD000036,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000127,TK0017,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000203,HCD000037,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000128,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000204,HCD000037,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000128,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000205,HCD000037,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000128,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000206,HCD000037,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000128,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000207,HCD000037,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000128,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000208,HCD000037,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000128,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000209,HCD000037,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000128,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000210,HCD000038,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000134,TK0018,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000211,HCD000038,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000134,TK0018,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000212,HCD000038,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000134,TK0018,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000213,HCD000038,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000134,TK0018,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000214,HCD000038,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000134,TK0018,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000215,HCD000038,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000134,TK0018,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000216,HCD000038,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000134,TK0018,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000217,HCD000039,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000146,TK0019,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000218,HCD000039,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000146,TK0019,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000219,HCD000039,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000146,TK0019,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000220,HCD000039,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000146,TK0019,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000221,HCD000039,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000146,TK0019,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000222,HCD000039,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000146,TK0019,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000223,HCD000039,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000146,TK0019,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000224,HCD000040,2026-07,2026-07,Thường kỳ,,,3012000,2026-07-10,NG000147,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000225,HCD000040,2026-08,2026-08,Thường kỳ,,,3012000,2026-08-10,NG000147,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000226,HCD000040,2026-09,2026-09,Thường kỳ,,,3012000,2026-09-10,NG000147,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000227,HCD000040,2026-10,2026-10,Thường kỳ,,,3012000,2026-10-10,NG000147,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000228,HCD000041,2026-07,2026-07,Thường kỳ,,,1250000,2026-07-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000229,HCD000041,2026-08,2026-08,Thường kỳ,,,1250000,2026-08-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000230,HCD000041,2026-09,2026-09,Thường kỳ,,,1250000,2026-09-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000231,HCD000041,2026-10,2026-10,Thường kỳ,,,1350000,2026-10-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000232,HCD000041,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,100000,2026-10-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000233,HCD000041,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,100000,2026-10-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000234,HCD000041,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,100000,2026-10-10,NG000155,TK0011,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000235,HCD000042,2026-07,2026-07,Thường kỳ,,,3012000,2026-07-10,NG000179,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000236,HCD000042,2026-08,2026-08,Thường kỳ,,,3012000,2026-08-10,NG000179,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000237,HCD000043,2026-08,2026-08,Một lần,,,23400000,2026-08-10,NG000176,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000238,HCD000044,2026-08,2026-08,Một lần,,,9036000,2026-08-10,NG000176,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000239,HCD000045,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000180,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000240,HCD000045,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000180,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000241,HCD000045,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000180,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000242,HCD000045,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000180,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000243,HCD000045,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000180,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000244,HCD000045,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000180,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000245,HCD000045,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000180,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000246,HCD000046,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000181,TK0020,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000247,HCD000046,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000181,TK0020,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000248,HCD000046,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000181,TK0020,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000249,HCD000046,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000181,TK0020,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000250,HCD000046,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000181,TK0020,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000251,HCD000046,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000181,TK0020,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000252,HCD000046,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000181,TK0020,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000253,HCD000047,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000188,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000254,HCD000047,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000188,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000255,HCD000047,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000188,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000256,HCD000047,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000188,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000257,HCD000047,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000188,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000258,HCD000047,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000188,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000259,HCD000047,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000188,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000260,HCD000048,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000189,TK0021,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000261,HCD000048,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000189,TK0021,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000262,HCD000048,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000189,TK0021,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000263,HCD000048,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000189,TK0021,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000264,HCD000048,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000189,TK0021,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000265,HCD000048,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000189,TK0021,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000266,HCD000048,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000189,TK0021,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000267,HCD000049,2026-07,2026-07,Thường kỳ,,,5361000,2026-07-10,NG000192,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000268,HCD000049,2026-08,2026-08,Thường kỳ,,,5361000,2026-08-10,NG000192,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000269,HCD000049,2026-09,2026-09,Thường kỳ,,,5361000,2026-09-10,NG000192,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000270,HCD000049,2026-10,2026-10,Thường kỳ,,,5361000,2026-10-10,NG000192,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000271,HCD000050,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000193,TK0022,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000272,HCD000050,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000193,TK0022,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000273,HCD000050,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000193,TK0022,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000274,HCD000050,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000193,TK0022,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000275,HCD000050,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000193,TK0022,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000276,HCD000050,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000193,TK0022,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000277,HCD000050,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000193,TK0022,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000278,HCD000051,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000194,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000279,HCD000051,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000194,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000280,HCD000051,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000194,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000281,HCD000051,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000194,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000282,HCD000051,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000194,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000283,HCD000051,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000194,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000284,HCD000051,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000194,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000285,HCD000052,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000203,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000286,HCD000052,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000203,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000287,HCD000052,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000203,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000288,HCD000052,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000203,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000289,HCD000052,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000203,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000290,HCD000052,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000203,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000291,HCD000052,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000203,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000292,HCD000053,2026-07,2026-07,Thường kỳ,,,6024000,2026-07-10,NG000211,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000293,HCD000053,2026-08,2026-08,Thường kỳ,,,6024000,2026-08-10,NG000211,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000294,HCD000053,2026-09,2026-09,Thường kỳ,,,6024000,2026-09-10,NG000211,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000295,HCD000053,2026-10,2026-10,Thường kỳ,,,6024000,2026-10-10,NG000211,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000296,HCD000054,2026-07,2026-07,Thường kỳ,,,2410000,2026-07-10,NG000211,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000297,HCD000054,2026-08,2026-08,Thường kỳ,,,2410000,2026-08-10,NG000211,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000298,HCD000054,2026-09,2026-09,Thường kỳ,,,2410000,2026-09-10,NG000211,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000299,HCD000054,2026-10,2026-10,Thường kỳ,,,2410000,2026-10-10,NG000211,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000300,HCD000055,2026-07,2026-07,Thường kỳ,,,3012000,2026-07-10,NG000217,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000301,HCD000055,2026-08,2026-08,Thường kỳ,,,3012000,2026-08-10,NG000217,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000302,HCD000055,2026-09,2026-09,Thường kỳ,,,3012000,2026-09-10,NG000217,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000303,HCD000055,2026-10,2026-10,Thường kỳ,,,3012000,2026-10-10,NG000217,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000304,HCD000056,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000305,HCD000056,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000306,HCD000056,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000307,HCD000056,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000308,HCD000056,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000309,HCD000056,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000310,HCD000056,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000225,TK0012,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000311,HCD000057,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000236,TK0023,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000312,HCD000057,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000236,TK0023,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000313,HCD000057,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000236,TK0023,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000314,HCD000057,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000236,TK0023,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000315,HCD000057,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000236,TK0023,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000316,HCD000057,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000236,TK0023,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000317,HCD000057,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000236,TK0023,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000318,HCD000058,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000259,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000319,HCD000058,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000259,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000320,HCD000058,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000259,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000321,HCD000058,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000259,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000322,HCD000058,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000259,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000323,HCD000058,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000259,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000324,HCD000058,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000259,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000325,HCD000059,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000282,TK0024,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000326,HCD000059,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000282,TK0024,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000327,HCD000059,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000282,TK0024,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000328,HCD000059,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000282,TK0024,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000329,HCD000059,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000282,TK0024,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000330,HCD000059,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000282,TK0024,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000331,HCD000059,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000282,TK0024,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000332,HCD000060,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000287,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000333,HCD000060,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000287,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000334,HCD000060,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000287,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000335,HCD000060,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000287,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000336,HCD000060,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000287,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000337,HCD000060,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000287,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000338,HCD000060,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000287,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000339,HCD000061,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000290,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000340,HCD000061,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000290,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000341,HCD000061,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000290,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000342,HCD000061,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000290,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000343,HCD000061,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000290,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000344,HCD000061,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000290,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000345,HCD000061,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000290,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000346,HCD000062,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000291,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000347,HCD000062,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000291,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000348,HCD000062,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000291,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000349,HCD000062,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000291,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000350,HCD000062,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000291,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000351,HCD000062,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000291,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000352,HCD000062,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000291,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000353,HCD000063,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000292,TK0025,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000354,HCD000063,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000292,TK0025,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000355,HCD000063,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000292,TK0025,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000356,HCD000063,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000292,TK0025,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000357,HCD000063,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000292,TK0025,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000358,HCD000063,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000292,TK0025,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000359,HCD000063,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000292,TK0025,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000360,HCD000064,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000293,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000361,HCD000064,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000293,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000362,HCD000064,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000293,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000363,HCD000064,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000293,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000364,HCD000064,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000293,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000365,HCD000064,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000293,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000366,HCD000064,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000293,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000367,HCD000065,2026-07,2026-07,Thường kỳ,,,3012000,2026-07-10,NG000298,TK0026,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000368,HCD000065,2026-08,2026-08,Thường kỳ,,,3012000,2026-08-10,NG000298,TK0026,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000369,HCD000065,2026-09,2026-09,Thường kỳ,,,3012000,2026-09-10,NG000298,TK0026,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000370,HCD000065,2026-10,2026-10,Thường kỳ,,,3012000,2026-10-10,NG000298,TK0026,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000371,HCD000066,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000322,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000372,HCD000066,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000322,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000373,HCD000066,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000322,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000374,HCD000066,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000322,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000375,HCD000066,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000322,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000376,HCD000066,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000322,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000377,HCD000066,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000322,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000378,HCD000067,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000330,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000379,HCD000067,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000330,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000380,HCD000067,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000330,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000381,HCD000067,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000330,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000382,HCD000067,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000330,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000383,HCD000067,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000330,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000384,HCD000067,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000330,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000385,HCD000068,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000341,TK0027,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000386,HCD000068,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000341,TK0027,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000387,HCD000068,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000341,TK0027,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000388,HCD000068,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000341,TK0027,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000389,HCD000068,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000341,TK0027,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000390,HCD000068,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000341,TK0027,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000391,HCD000068,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000341,TK0027,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000392,HCD000069,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000342,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000393,HCD000069,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000342,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000394,HCD000069,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000342,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000395,HCD000069,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000342,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000396,HCD000069,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000342,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000397,HCD000069,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000342,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000398,HCD000069,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000342,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000399,HCD000070,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000363,TK0028,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000400,HCD000070,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000363,TK0028,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000401,HCD000070,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000363,TK0028,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000402,HCD000070,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000363,TK0028,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000403,HCD000070,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000363,TK0028,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000404,HCD000070,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000363,TK0028,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000405,HCD000070,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000363,TK0028,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000406,HCD000071,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000364,TK0029,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000407,HCD000071,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000364,TK0029,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000408,HCD000071,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000364,TK0029,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000409,HCD000071,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000364,TK0029,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000410,HCD000071,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000364,TK0029,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000411,HCD000071,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000364,TK0029,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000412,HCD000071,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000364,TK0029,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000413,HCD000072,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000414,HCD000072,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000415,HCD000072,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000416,HCD000072,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000417,HCD000072,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000418,HCD000072,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000419,HCD000072,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000367,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000420,HCD000073,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000374,TK0030,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000421,HCD000073,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000374,TK0030,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000422,HCD000073,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000374,TK0030,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000423,HCD000073,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000374,TK0030,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000424,HCD000073,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000374,TK0030,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000425,HCD000073,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000374,TK0030,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000426,HCD000073,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000374,TK0030,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000427,HCD000074,2026-07,2026-07,Thường kỳ,,,5361000,2026-07-10,NG000387,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000428,HCD000074,2026-08,2026-08,Thường kỳ,,,5361000,2026-08-10,NG000387,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000429,HCD000074,2026-09,2026-09,Thường kỳ,,,5361000,2026-09-10,NG000387,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000430,HCD000074,2026-10,2026-10,Thường kỳ,,,5361000,2026-10-10,NG000387,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000431,HCD000075,2026-07,2026-07,Thường kỳ,,,6024000,2026-07-10,NG000398,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000432,HCD000075,2026-08,2026-08,Thường kỳ,,,6024000,2026-08-10,NG000398,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000433,HCD000075,2026-09,2026-09,Thường kỳ,,,6024000,2026-09-10,NG000398,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000434,HCD000075,2026-10,2026-10,Thường kỳ,,,6024000,2026-10-10,NG000398,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000435,HCD000076,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000436,HCD000076,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000437,HCD000076,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000438,HCD000076,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000439,HCD000076,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000440,HCD000076,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000441,HCD000076,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000442,HCD000077,2026-07,2026-07,Thường kỳ,,,1250000,2026-07-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000443,HCD000077,2026-08,2026-08,Thường kỳ,,,1250000,2026-08-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000444,HCD000077,2026-09,2026-09,Thường kỳ,,,1250000,2026-09-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000445,HCD000077,2026-10,2026-10,Thường kỳ,,,1350000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000446,HCD000077,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,100000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000447,HCD000077,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,100000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000448,HCD000077,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,100000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000449,HCD000078,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000450,HCD000078,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000451,HCD000078,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000452,HCD000078,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000453,HCD000078,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000454,HCD000078,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000455,HCD000078,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000401,TK0031,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000456,HCD000079,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000406,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000457,HCD000079,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000406,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000458,HCD000079,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000406,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000459,HCD000079,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000406,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000460,HCD000079,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000406,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000461,HCD000079,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000406,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000462,HCD000079,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000406,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000463,HCD000080,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000411,TK0032,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000464,HCD000080,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000411,TK0032,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000465,HCD000080,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000411,TK0032,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000466,HCD000080,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000411,TK0032,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000467,HCD000080,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000411,TK0032,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000468,HCD000080,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000411,TK0032,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000469,HCD000080,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000411,TK0032,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000470,HCD000081,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000416,TK0033,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000471,HCD000081,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000416,TK0033,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000472,HCD000081,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000416,TK0033,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000473,HCD000081,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000416,TK0033,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000474,HCD000081,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000416,TK0033,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000475,HCD000081,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000416,TK0033,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000476,HCD000081,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000416,TK0033,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000477,HCD000082,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000419,TK0034,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000478,HCD000082,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000419,TK0034,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000479,HCD000082,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000419,TK0034,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000480,HCD000082,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000419,TK0034,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000481,HCD000082,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000419,TK0034,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000482,HCD000082,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000419,TK0034,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000483,HCD000082,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000419,TK0034,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000484,HCD000083,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000421,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000485,HCD000083,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000421,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000486,HCD000083,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000421,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000487,HCD000083,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000421,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000488,HCD000083,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000421,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000489,HCD000083,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000421,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000490,HCD000083,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000421,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000491,HCD000084,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000432,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000492,HCD000084,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000432,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000493,HCD000084,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000432,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000494,HCD000084,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000432,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000495,HCD000084,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000432,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000496,HCD000084,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000432,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000497,HCD000084,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000432,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000498,HCD000085,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000433,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000499,HCD000085,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000433,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000500,HCD000085,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000433,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000501,HCD000085,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000433,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000502,HCD000085,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000433,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000503,HCD000085,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000433,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000504,HCD000085,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000433,TK0003,Chuyển khoản,Bưu điện Xã An Bình (giả),Đã chi
+CT0000505,HCD000086,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000434,TK0003,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000506,HCD000086,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000434,TK0003,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000507,HCD000086,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000434,TK0003,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000508,HCD000086,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000434,TK0003,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000509,HCD000086,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000434,TK0003,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000510,HCD000086,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000434,TK0003,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000511,HCD000086,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000434,TK0003,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000512,HCD000087,2026-07,2026-07,Thường kỳ,,,750000,2026-07-10,NG000435,TK0003,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000513,HCD000087,2026-08,2026-08,Thường kỳ,,,750000,2026-08-10,NG000435,TK0003,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000514,HCD000087,2026-09,2026-09,Thường kỳ,,,750000,2026-09-10,NG000435,TK0003,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000515,HCD000087,2026-10,2026-10,Thường kỳ,,,810000,2026-10-10,NG000435,TK0003,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000516,HCD000087,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,60000,2026-10-10,NG000435,TK0003,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000517,HCD000087,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,60000,2026-10-10,NG000435,TK0003,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000518,HCD000087,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,60000,2026-10-10,NG000435,TK0003,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000519,HCD000088,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000520,HCD000088,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000521,HCD000089,2026-07,2026-07,Một lần,,,10800000,2026-07-10,NG000441,TK0005,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000522,HCD000090,2026-07,2026-07,Thường kỳ,,,0,,NG000444,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Không nhận
+CT0000523,HCD000090,2026-08,2026-08,Thường kỳ,,,0,,NG000444,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Không nhận
+CT0000524,HCD000090,2026-09,2026-09,Thường kỳ,,,0,,NG000444,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Không nhận
+CT0000525,HCD000090,2026-10,2026-10,Thường kỳ,,,0,,NG000444,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Không nhận
+CT0000526,HCD000090,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,0,,NG000444,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Không nhận
+CT0000527,HCD000090,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,0,,NG000444,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Không nhận
+CT0000528,HCD000090,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,0,,NG000444,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Không nhận
+CT0000529,HCD000091,2026-07,2026-07,Thường kỳ,,,1000000,2026-07-10,NG000445,TK0036,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000530,HCD000091,2026-08,2026-08,Thường kỳ,,,1000000,2026-08-10,NG000445,TK0036,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000531,HCD000091,2026-09,2026-09,Thường kỳ,,,1000000,2026-09-10,NG000445,TK0036,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000532,HCD000091,2026-10,2026-10,Thường kỳ,,,1080000,2026-10-10,NG000445,TK0036,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000533,HCD000091,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,80000,2026-10-10,NG000445,TK0036,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000534,HCD000091,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,80000,2026-10-10,NG000445,TK0036,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000535,HCD000091,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,80000,2026-10-10,NG000445,TK0036,Chuyển khoản,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000536,HCD000092,2026-07,2026-07,Thường kỳ,,,3012000,2026-07-10,NG000447,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000537,HCD000092,2026-08,2026-08,Thường kỳ,,,3012000,2026-08-10,NG000447,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000538,HCD000092,2026-09,2026-09,Thường kỳ,,,3012000,2026-09-10,NG000447,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000539,HCD000092,2026-10,2026-10,Thường kỳ,,,3012000,2026-10-10,NG000447,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000540,HCD000093,2026-07,2026-07,Thường kỳ,,,9036000,2026-07-10,NG000448,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000541,HCD000093,2026-08,2026-08,Thường kỳ,,,9036000,2026-08-10,NG000448,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000542,HCD000093,2026-09,2026-09,Thường kỳ,,,9036000,2026-09-10,NG000448,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000543,HCD000093,2026-10,2026-10,Thường kỳ,,,9036000,2026-10-10,NG000448,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000544,HCD000094,2026-07,2026-07,Thường kỳ,,,2524000,2026-07-10,NG000448,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000545,HCD000094,2026-08,2026-08,Thường kỳ,,,2524000,2026-08-10,NG000448,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000546,HCD000094,2026-09,2026-09,Thường kỳ,,,2524000,2026-09-10,NG000448,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000547,HCD000094,2026-10,2026-10,Thường kỳ,,,2524000,2026-10-10,NG000448,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000548,HCD000095,2026-07,2026-07,Thường kỳ,,,1250000,2026-07-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000549,HCD000095,2026-08,2026-08,Thường kỳ,,,1250000,2026-08-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000550,HCD000095,2026-09,2026-09,Thường kỳ,,,1250000,2026-09-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000551,HCD000095,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,100000,2026-10-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000552,HCD000095,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,100000,2026-10-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000553,HCD000095,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,100000,2026-10-10,NG000461,,Tiền mặt qua bưu điện,Bưu điện Xã Hòa Lạc (giả),Đã chi
+CT0000554,HCD000096,2026-07,2026-07,Thường kỳ,,,3825000,2026-07-10,NG000463,TK0037,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000555,HCD000096,2026-08,2026-08,Thường kỳ,,,3825000,2026-08-10,NG000463,TK0037,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000556,HCD000097,2026-07,2026-07,Thường kỳ,,,500000,2026-07-10,NG000464,TK0008,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000557,HCD000097,2026-08,2026-08,Thường kỳ,,,500000,2026-08-10,NG000464,TK0008,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000558,HCD000097,2026-09,2026-09,Thường kỳ,,,500000,2026-09-10,NG000464,TK0008,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000559,HCD000097,2026-10,2026-10,Thường kỳ,,,540000,2026-10-10,NG000464,TK0008,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000560,HCD000097,2026-10,2026-07,Truy lĩnh,2026-07,2026-07,40000,2026-10-10,NG000464,TK0008,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000561,HCD000097,2026-10,2026-08,Truy lĩnh,2026-08,2026-08,40000,2026-10-10,NG000464,TK0008,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000562,HCD000097,2026-10,2026-09,Truy lĩnh,2026-09,2026-09,40000,2026-10-10,NG000464,TK0008,Chuyển khoản,Bưu điện Xã Tân Phú (giả),Đã chi
+CT0000563,HCD000098,2026-07,2026-07,Thường kỳ,,,3012000,2026-07-10,NG000465,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000564,HCD000098,2026-08,2026-08,Thường kỳ,,,3012000,2026-08-10,NG000465,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000565,HCD000098,2026-09,2026-09,Thường kỳ,,,3012000,2026-09-10,NG000465,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000566,HCD000098,2026-10,2026-10,Thường kỳ,,,3012000,2026-10-10,NG000465,,Tiền mặt qua bưu điện,Bưu điện Xã An Bình (giả),Đã chi
+CT0000567,HCD000099,2026-09,2026-09,Một lần,,,23400000,2026-09-10,NG000471,,Tiền mặt qua bưu điện,Bưu điện Xã Tân Phú (giả),Đã chi

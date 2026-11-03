@@ -1,0 +1,111 @@
+classDiagram
+  direction LR
+  class HuongCheDo["E05 HƯỞNG CHẾ ĐỘ"] {
+    mã
+    hình thức: tiền hằng tháng, một lần, hiện vật, dịch vụ, miễn giảm
+    hệ số
+    mức hưởng theo quyết định
+    hiệu lực từ
+    hiệu lực đến
+    trạng thái
+    lý do chấm dứt
+  }
+  class Nguoi["E01 NGƯỜI"]
+  class Ho["E02 HỘ"]
+  class Dien["E04 DIỆN ĐỐI TƯỢNG"]
+  class QuyetDinh["E09 QUYẾT ĐỊNH"] {
+    số
+    ngày ký
+    cơ quan ban hành
+    loại: hưởng, điều chỉnh, tạm dừng, thôi hưởng, di chuyển
+    hiệu lực từ
+    lý do
+  }
+  class ChiTra["E07 CHI TRẢ"] {
+    kỳ chi
+    loại khoản: thường kỳ, truy lĩnh, thu hồi
+    số thực chi
+    ngày chi thực tế
+    hình thức: tài khoản, tiền mặt
+    đơn vị chi trả
+    kết quả chi
+  }
+  class TaiKhoan["E10 TÀI KHOẢN NHẬN"] {
+    ngân hàng hoặc ví
+    số tài khoản, che khi hiển thị
+    hiệu lực từ
+    hiệu lực đến
+  }
+  class CheDo["E20 CHẾ ĐỘ"] {
+    mã
+    tên
+    nhóm chính sách: NCC, TGXH, giảm nghèo, khác
+    hình thức
+    đơn vị tính: người, hộ
+    hiệu lực từ
+    hiệu lực đến
+  }
+  class VanBan["E21 VĂN BẢN PHÁP LÝ"] {
+    số hiệu
+    ngày ban hành
+    hiệu lực từ
+    hiệu lực đến
+  }
+  class ThamSo["E22 THAM SỐ CHÍNH SÁCH"] {
+    loại: mức chuẩn, hệ số, mức cố định
+    giá trị
+    áp dụng từ
+    áp dụng đến
+    điều khoản căn cứ
+  }
+  class QuyTac["E23 QUY TẮC"] {
+    mã BR
+    điều kiện hưởng
+    quy tắc nhiều diện
+    ngoại lệ
+    áp dụng từ
+    áp dụng đến
+  }
+  class DangHuongTinh["E31 ĐÁNG HƯỞNG"] {
+    kỳ
+    mức đáng hưởng
+    số phải chi theo quy tắc
+    hệ số
+    diện và quy tắc áp dụng
+    tham số áp dụng
+    chạy lại được theo khóa người hoặc hộ, chế độ, kỳ
+  }
+  class LanTinh["E32 LẦN TÍNH"] {
+    mã lần chạy
+    thời điểm
+    phạm vi: người, hộ, chế độ × kỳ
+    mã bản chụp ETL
+    tập phiên bản cấu hình
+    kịch bản: chính thức, mô phỏng
+    người kích hoạt
+  }
+
+  HuongCheDo "0..*" --> "1" Nguoi : đối tượng
+  HuongCheDo "0..*" --> "0..1" Nguoi : người được hưởng
+  HuongCheDo "0..*" --> "0..1" Ho : hộ được hưởng
+  HuongCheDo "0..*" --> "0..1" Nguoi : người nhận tiền
+  HuongCheDo "0..*" --> "1" CheDo
+  HuongCheDo "0..*" --> "0..*" Dien : căn cứ diện
+  HuongCheDo "1" -- "1..*" QuyetDinh
+  HuongCheDo "1" -- "0..*" ChiTra
+  ChiTra "0..*" --> "0..1" TaiKhoan
+  TaiKhoan "0..*" --> "1" Nguoi : chủ tài khoản
+  CheDo "1" -- "0..*" ThamSo
+  ThamSo "0..*" --> "1" VanBan
+  CheDo "1" -- "1..*" QuyTac
+  QuyTac "0..*" --> "1..*" VanBan
+  VanBan "0..1" --> "0..*" VanBan : thay thế
+  QuyTac ..> Dien : điều kiện
+  QuyTac ..> ThamSo : tính mức
+  DangHuongTinh "0..*" --> "0..1" Nguoi
+  DangHuongTinh "0..*" --> "0..1" Ho
+  DangHuongTinh "0..*" --> "1" CheDo
+  DangHuongTinh "0..*" --> "1" LanTinh : sinh bởi
+  DangHuongTinh ..> ThamSo : dùng mức
+  DangHuongTinh ..> QuyTac : áp dụng
+  DangHuongTinh ..> HuongCheDo : so sánh với

@@ -1,0 +1,16 @@
+stateDiagram-v2
+  [*] --> Moi : quy tắc kích hoạt
+  Moi : Mới
+  DangXacMinh : Đang xác minh
+  XacNhanDung : Xác nhận đúng
+  SaiCanhBao : Cảnh báo sai
+  DaXuLy : Đã xử lý
+  KhongConPhat : Không còn phát hiện
+  Moi --> DangXacMinh : giao cán bộ xã hoặc tỉnh
+  Moi --> KhongConPhat : chạy lại không còn vi phạm, giữ lại để đối chiếu
+  DangXacMinh --> XacNhanDung
+  DangXacMinh --> SaiCanhBao : dữ liệu nguồn sai hoặc quy tắc chưa đúng
+  XacNhanDung --> DaXuLy : dừng chi, thu hồi, lập hồ sơ bổ sung
+  SaiCanhBao --> [*] : ghi nhận để chỉnh quy tắc
+  DaXuLy --> [*]
+  KhongConPhat --> [*]

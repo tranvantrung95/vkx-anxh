@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2740 1294">
+<defs><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap');
+text { font-family: 'JetBrains Mono', 'SF Mono', 'Menlo', 'Noto Sans', sans-serif; }
+</style>
+<marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#475569"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="28" fill="#0f172a" font-size="16" font-weight="700">6.3 Hưởng chế độ, chi trả, chính sách</text>
+<text x="20" y="46" fill="#475569" font-size="9">Nguồn: output/project019_007_ra_soat_mo_hinh_du_lieu.md mục 6. Giả định chờ Q50 đến Q58.</text>
+<path d="M 787.8 645.0 C 804.8 650.9 833.5 674.2 889.6 680.0 C 945.8 685.8 1045.1 680.0 1124.8 680.0 C 1204.4 680.0 1291.9 680.0 1367.5 680.0 C 1443.1 680.0 1509.3 680.0 1578.3 680.0 C 1647.3 680.0 1726.1 690.6 1781.4 680.0 C 1836.8 669.4 1889.0 627.1 1910.5 616.5" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="800.0" y="661.7" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="1892.1" y="618.5" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<rect x="1340.5" y="673.0" width="53.9" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1367.5" y="683.0" fill="#334155" font-size="8.5" text-anchor="middle">đối tượng</text>
+<path d="M 787.8 623.5 C 804.8 626.7 833.5 639.7 889.6 643.0 C 945.8 646.3 1045.1 643.0 1124.8 643.0 C 1204.4 643.0 1291.9 643.0 1367.5 643.0 C 1443.1 643.0 1509.3 643.0 1578.3 643.0 C 1647.3 643.0 1731.2 648.1 1781.4 643.0 C 1831.7 637.9 1863.2 617.6 1879.6 612.6" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="801.8" y="638.3" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="1861.7" y="611.7" fill="#334155" font-size="8.5" text-anchor="middle">0..1</text>
+<rect x="1322.7" y="636.0" width="89.6" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1367.5" y="646.0" fill="#334155" font-size="8.5" text-anchor="middle">người được hưởng</text>
+<path d="M 703.4 499.8 C 734.4 447.8 836.9 245.4 889.6 187.8 C 942.4 130.1 998.1 159.5 1019.8 153.9" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="719.3" y="493.6" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="1002.0" y="152.2" fill="#334155" font-size="8.5" text-anchor="middle">0..1</text>
+<rect x="852.5" y="180.8" width="74.3" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="889.6" y="190.8" fill="#334155" font-size="8.5" text-anchor="middle">hộ được hưởng</text>
+<path d="M 787.8 601.9 C 804.8 602.6 833.5 605.3 889.6 606.0 C 945.8 606.7 1045.1 606.0 1124.8 606.0 C 1204.4 606.0 1291.9 606.0 1367.5 606.0 C 1443.1 606.0 1509.3 606.0 1578.3 606.0 C 1647.3 606.0 1731.2 608.1 1781.4 606.0 C 1831.7 603.9 1863.2 595.5 1879.6 593.4" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="803.4" y="614.6" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="1862.6" y="589.5" fill="#334155" font-size="8.5" text-anchor="middle">0..1</text>
+<rect x="1325.2" y="599.0" width="84.5" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1367.5" y="609.0" fill="#334155" font-size="8.5" text-anchor="middle">người nhận tiền</text>
+<path d="M 701.6 692.8 C 732.9 747.0 839.8 967.6 889.6 1018.0 C 939.5 1068.4 982.1 998.7 1000.5 994.9" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="701.8" y="714.1" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="983.1" y="992.3" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<path d="M 787.8 678.2 C 804.8 688.0 833.5 727.2 889.6 737.0 C 945.8 746.8 1045.1 737.0 1124.8 737.0 C 1204.4 737.0 1291.9 737.0 1367.5 737.0 C 1443.1 737.0 1509.3 737.0 1578.3 737.0 C 1647.3 737.0 1731.2 738.1 1781.4 737.0 C 1831.7 735.9 1863.2 731.3 1879.6 730.1" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="797.2" y="697.0" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="1863.0" y="725.3" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<rect x="1335.4" y="730.0" width="64.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1367.5" y="740.0" fill="#334155" font-size="8.5" text-anchor="middle">căn cứ diện</text>
+<path d="M 719.6 499.8 C 747.9 462.7 844.9 314.5 889.6 277.5 C 934.4 240.5 971.4 277.5 987.8 277.5" fill="none" stroke="#475569" stroke-width="1.2"/>
+<text x="736.5" y="495.5" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<text x="971.8" y="271.5" fill="#334155" font-size="8.5" text-anchor="middle">1..*</text>
+<path d="M 787.8 538.2 C 804.8 531.2 852.9 503.4 889.6 496.5 C 926.4 489.6 988.4 496.5 1008.2 496.5" fill="none" stroke="#475569" stroke-width="1.2"/>
+<text x="806.0" y="543.4" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<text x="992.2" y="490.5" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<path d="M 1241.3 496.5 C 1262.3 496.5 1328.8 496.5 1367.5 496.5 C 1406.2 496.5 1455.7 496.5 1473.3 496.5" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="1257.3" y="508.5" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="1457.3" y="490.5" fill="#334155" font-size="8.5" text-anchor="middle">0..1</text>
+<path d="M 1683.3 496.5 C 1699.7 496.5 1746.0 488.7 1781.4 496.5 C 1816.9 504.3 1876.7 535.7 1895.8 543.5" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="1699.3" y="508.5" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="1884.4" y="532.1" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<rect x="1744.3" y="489.5" width="74.3" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1781.4" y="499.5" fill="#334155" font-size="8.5" text-anchor="middle">chủ tài khoản</text>
+<path d="M 1242.0 1053.5 C 1262.9 1068.6 1311.4 1128.9 1367.5 1144.0 C 1423.6 1159.1 1509.3 1144.0 1578.3 1144.0 C 1647.3 1144.0 1731.2 1147.4 1781.4 1144.0 C 1831.7 1140.6 1863.2 1126.8 1879.6 1123.3" fill="none" stroke="#475569" stroke-width="1.2"/>
+<text x="1249.7" y="1073.2" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<text x="1862.1" y="1120.8" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<path d="M 2089.6 1101.2 C 2099.6 1101.2 2127.7 1109.8 2149.6 1101.2 C 2171.5 1092.8 2209.3 1058.8 2221.2 1050.2" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="2105.6" y="1113.2" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="2203.0" y="1055.2" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<path d="M 1248.3 884.5 C 1268.2 870.9 1330.0 812.7 1367.5 803.0 C 1405.0 793.3 1455.7 822.4 1473.3 826.3" fill="none" stroke="#475569" stroke-width="1.2"/>
+<text x="1266.6" y="885.9" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<text x="1459.6" y="817.1" fill="#334155" font-size="8.5" text-anchor="middle">1..*</text>
+<path d="M 1683.3 849.5 C 1699.7 849.5 1731.2 849.5 1781.4 849.5 C 1831.7 849.5 1923.2 849.5 1984.6 849.5 C 2046.0 849.5 2108.2 838.2 2149.6 849.5 C 2191.0 860.8 2219.0 906.0 2232.9 917.2" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="1699.3" y="861.5" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="2226.1" y="903.2" fill="#334155" font-size="8.5" text-anchor="middle">1..*</text>
+<path d="M 2419.6 950.5 C 2465.6 942.5 2465.6 1025.0 2419.6 1017.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="2473.6" y="986.8" fill="#334155" font-size="8.5">thay thế</text>
+<path d="M 1683.3 776.6 C 1699.7 765.3 1748.7 718.7 1781.4 708.5 C 1814.2 698.3 1863.2 714.2 1879.6 715.4" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<rect x="1754.5" y="701.5" width="53.9" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1781.4" y="711.5" fill="#334155" font-size="8.5" text-anchor="middle">điều kiện</text>
+<path d="M 1638.3 928.0 C 1662.1 959.2 1741.2 1085.4 1781.4 1115.5 C 1821.7 1145.6 1863.2 1109.8 1879.6 1108.6" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<rect x="1757.0" y="1108.5" width="48.8" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1781.4" y="1118.5" fill="#334155" font-size="8.5" text-anchor="middle">tính mức</text>
+<path d="M 269.8 511.8 C 292.7 491.0 344.3 407.8 406.9 387.0 C 469.6 366.2 565.3 387.0 645.8 387.0 C 726.2 387.0 809.8 387.0 889.6 387.0 C 969.5 387.0 1045.1 387.0 1124.8 387.0 C 1204.4 387.0 1291.9 387.0 1367.5 387.0 C 1443.1 387.0 1509.3 387.0 1578.3 387.0 C 1647.3 387.0 1720.1 360.9 1781.4 387.0 C 1842.8 413.1 1918.7 517.4 1946.2 543.5" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="287.7" y="510.6" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="1940.8" y="529.0" fill="#334155" font-size="8.5" text-anchor="middle">0..1</text>
+<path d="M 217.1 511.8 C 248.7 445.2 335.5 178.8 406.9 112.2 C 478.4 45.7 565.3 112.2 645.8 112.2 C 726.2 112.2 827.3 110.9 889.6 112.2 C 952.0 113.6 998.1 118.8 1019.8 120.1" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="232.1" y="504.2" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="1004.3" y="113.2" fill="#334155" font-size="8.5" text-anchor="middle">0..1</text>
+<path d="M 235.4 680.8 C 264.0 722.0 338.6 887.2 406.9 928.5 C 475.3 969.8 565.3 928.5 645.8 928.5 C 726.2 928.5 830.5 925.3 889.6 928.5 C 948.8 931.7 982.1 944.4 1000.5 947.6" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="237.2" y="702.0" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="986.3" y="939.0" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<path d="M 231.9 511.8 C 261.1 466.9 362.3 287.4 406.9 242.5 C 451.6 197.6 484.5 242.5 500.0 242.5" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<text x="248.2" y="506.2" fill="#334155" font-size="8.5" text-anchor="middle">0..*</text>
+<text x="484.0" y="236.5" fill="#334155" font-size="8.5" text-anchor="middle">1</text>
+<rect x="382.6" y="235.5" width="48.8" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="406.9" y="245.5" fill="#334155" font-size="8.5" text-anchor="middle">sinh bởi</text>
+<path d="M 216.6 680.8 C 248.3 748.5 335.4 1019.3 406.9 1087.0 C 478.5 1154.7 565.3 1087.0 645.8 1087.0 C 726.2 1087.0 809.8 1087.0 889.6 1087.0 C 969.5 1087.0 1045.1 1087.0 1124.8 1087.0 C 1204.4 1087.0 1291.9 1087.0 1367.5 1087.0 C 1443.1 1087.0 1509.3 1087.0 1578.3 1087.0 C 1647.3 1087.0 1731.2 1085.9 1781.4 1087.0 C 1831.7 1088.1 1863.2 1092.7 1879.6 1093.9" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<rect x="1100.3" y="1080.0" width="48.8" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="1124.8" y="1090.0" fill="#334155" font-size="8.5" text-anchor="middle">dùng mức</text>
+<path d="M 250.8 680.8 C 276.8 710.5 341.1 829.7 406.9 859.5 C 472.8 889.3 565.3 859.5 645.8 859.5 C 726.2 859.5 809.8 859.5 889.6 859.5 C 969.5 859.5 1045.1 859.5 1124.8 859.5 C 1204.4 859.5 1309.4 860.3 1367.5 859.5 C 1425.6 858.7 1455.7 855.3 1473.3 854.5" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<rect x="867.8" y="852.5" width="43.7" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="889.6" y="862.5" fill="#334155" font-size="8.5" text-anchor="middle">áp dụng</text>
+<path d="M 313.9 596.2 C 329.4 596.2 375.3 596.2 406.9 596.2 C 438.6 596.2 487.6 596.2 503.7 596.2" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<rect x="374.9" y="589.2" width="64.1" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="406.9" y="599.2" fill="#334155" font-size="8.5" text-anchor="middle">so sánh với</text>
+<g transform="translate(503.7,499.8)">
+<rect width="284.09999999999997" height="193" rx="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H278.09999999999997 Q284.09999999999997 0 284.09999999999997 6 V26 H0 Z" fill="#2e7d32"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E05</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">HƯỞNG CHẾ ĐỘ</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">mã</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">hình thức: tiền hằng tháng, một lần, hiện vật, dịch</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">   vụ, miễn giảm</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">hệ số</text>
+<text x="10" y="88" fill="#475569" font-size="8.5">mức hưởng theo quyết định</text>
+<text x="10" y="100" fill="#475569" font-size="8.5">hiệu lực từ</text>
+<text x="10" y="112" fill="#475569" font-size="8.5">hiệu lực đến</text>
+<text x="10" y="124" fill="#475569" font-size="8.5">trạng thái</text>
+<text x="10" y="136" fill="#475569" font-size="8.5">lý do chấm dứt</text>
+<line x1="0" y1="146" x2="284.09999999999997" y2="146" stroke="#2e7d32" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="154" width="46.3" height="14" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="0.8"/>
+<text x="33.2" y="164" fill="#075985" font-size="8" font-weight="600" text-anchor="middle">ETL/API</text>
+<text x="10" y="186" fill="#334155" font-size="7.5" font-style="italic">Chỉ nghĩa 'đang hưởng' (chờ Q52)</text>
+</g>
+<g transform="translate(1879.6,543.5)">
+<rect width="210" height="73" rx="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H204 Q210 0 210 6 V26 H0 Z" fill="#2e7d32"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E01</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">NGƯỜI</text>
+<rect x="10.0" y="34" width="46.3" height="14" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="0.8"/>
+<text x="33.2" y="44" fill="#075985" font-size="8" font-weight="600" text-anchor="middle">ETL/API</text>
+<rect x="61.3" y="34" width="110.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/>
+<text x="116.3" y="44" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT02 duyệt gộp, tách</text>
+<text x="10" y="66" fill="#334155" font-size="7.5" font-style="italic">Không sửa tay. Sai thì phản hồi nguồn</text>
+</g>
+<g transform="translate(1019.8,90.0)">
+<rect width="210" height="73" rx="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H204 Q210 0 210 6 V26 H0 Z" fill="#2e7d32"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E02</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">HỘ</text>
+<rect x="10.0" y="34" width="46.3" height="14" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="0.8"/>
+<text x="33.2" y="44" fill="#075985" font-size="8" font-weight="600" text-anchor="middle">ETL/API</text>
+<rect x="61.3" y="34" width="100.2" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/>
+<text x="111.4" y="44" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT02 duyệt ghép hộ</text>
+<text x="10" y="66" fill="#334155" font-size="7.5" font-style="italic">Không sửa tay</text>
+</g>
+<g transform="translate(1879.6,686.2)">
+<rect width="210" height="73" rx="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H204 Q210 0 210 6 V26 H0 Z" fill="#2e7d32"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E04</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">DIỆN ĐỐI TƯỢNG</text>
+<rect x="10.0" y="34" width="95.3" height="14" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="0.8"/>
+<text x="57.7" y="44" fill="#075985" font-size="8" font-weight="600" text-anchor="middle">ETL/API công nhận</text>
+<rect x="110.3" y="34" width="75.7" height="14" rx="3" fill="#ede9fe" stroke="#7c3aed" stroke-width="0.8"/>
+<text x="148.2" y="44" fill="#5b21b6" font-size="8" font-weight="600" text-anchor="middle">Engine suy ra</text>
+<text x="10" y="66" fill="#334155" font-size="7.5" font-style="italic">Phần suy ra tạo lại mỗi lần chạy</text>
+</g>
+<g transform="translate(987.8,193.0)">
+<rect width="273.9" height="169" rx="6" fill="#ffffff" stroke="#b58900" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H267.9 Q273.9 0 273.9 6 V26 H0 Z" fill="#b58900"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E09</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">QUYẾT ĐỊNH</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">số</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">ngày ký</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">cơ quan ban hành</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">loại: hưởng, điều chỉnh, tạm dừng, thôi hưởng, di</text>
+<text x="10" y="88" fill="#475569" font-size="8.5">   chuyển</text>
+<text x="10" y="100" fill="#475569" font-size="8.5">hiệu lực từ</text>
+<text x="10" y="112" fill="#475569" font-size="8.5">lý do</text>
+<line x1="0" y1="122" x2="273.9" y2="122" stroke="#b58900" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="130" width="56.1" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
+<text x="38.0" y="140" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT05 nhập</text>
+<rect x="71.1" y="130" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/>
+<text x="101.6" y="140" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT04 duyệt</text>
+<text x="10" y="162" fill="#334155" font-size="7.5" font-style="italic">Sửa tạo phiên bản mới (chờ Q50)</text>
+</g>
+<g transform="translate(1008.2,412.0)">
+<rect width="233.1" height="169" rx="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H227.1 Q233.1 0 233.1 6 V26 H0 Z" fill="#2e7d32"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E07</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">CHI TRẢ</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">kỳ chi</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">loại khoản: thường kỳ, truy lĩnh, thu hồi</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">số thực chi</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">ngày chi thực tế</text>
+<text x="10" y="88" fill="#475569" font-size="8.5">hình thức: tài khoản, tiền mặt</text>
+<text x="10" y="100" fill="#475569" font-size="8.5">đơn vị chi trả</text>
+<text x="10" y="112" fill="#475569" font-size="8.5">kết quả chi</text>
+<line x1="0" y1="122" x2="233.1" y2="122" stroke="#2e7d32" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="130" width="46.3" height="14" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="0.8"/>
+<text x="33.2" y="140" fill="#075985" font-size="8" font-weight="600" text-anchor="middle">ETL/API</text>
+<text x="10" y="162" fill="#334155" font-size="7.5" font-style="italic">Không sửa tay</text>
+</g>
+<g transform="translate(1473.3,430.0)">
+<rect width="210" height="133" rx="6" fill="#ffffff" stroke="#2e7d32" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H204 Q210 0 210 6 V26 H0 Z" fill="#2e7d32"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E10</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">TÀI KHOẢN NHẬN</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">ngân hàng hoặc ví</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">số tài khoản, che khi hiển thị</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">hiệu lực từ</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">hiệu lực đến</text>
+<line x1="0" y1="86" x2="210" y2="86" stroke="#2e7d32" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="94" width="46.3" height="14" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="0.8"/>
+<text x="33.2" y="104" fill="#075985" font-size="8" font-weight="600" text-anchor="middle">ETL/API</text>
+<text x="10" y="126" fill="#334155" font-size="7.5" font-style="italic">Không sửa tay</text>
+</g>
+<g transform="translate(1000.5,884.5)">
+<rect width="248.39999999999998" height="169" rx="6" fill="#ffffff" stroke="#b58900" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H242.39999999999998 Q248.39999999999998 0 248.39999999999998 6 V26 H0 Z" fill="#b58900"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E20</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">CHẾ ĐỘ</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">mã</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">tên</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">nhóm chính sách: NCC, TGXH, giảm nghèo, khác</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">hình thức</text>
+<text x="10" y="88" fill="#475569" font-size="8.5">đơn vị tính: người, hộ</text>
+<text x="10" y="100" fill="#475569" font-size="8.5">hiệu lực từ</text>
+<text x="10" y="112" fill="#475569" font-size="8.5">hiệu lực đến</text>
+<line x1="0" y1="122" x2="248.39999999999998" y2="122" stroke="#b58900" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="130" width="56.1" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
+<text x="38.0" y="140" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT03 soạn</text>
+<rect x="71.1" y="130" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/>
+<text x="101.6" y="140" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT04 duyệt</text>
+<text x="10" y="162" fill="#334155" font-size="7.5" font-style="italic">Sửa tạo phiên bản mới</text>
+</g>
+<g transform="translate(2209.6,917.2)">
+<rect width="210" height="133" rx="6" fill="#ffffff" stroke="#b58900" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H204 Q210 0 210 6 V26 H0 Z" fill="#b58900"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E21</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">VĂN BẢN PHÁP LÝ</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">số hiệu</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">ngày ban hành</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">hiệu lực từ</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">hiệu lực đến</text>
+<line x1="0" y1="86" x2="210" y2="86" stroke="#b58900" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="94" width="56.1" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
+<text x="38.0" y="104" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT03 soạn</text>
+<rect x="71.1" y="94" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/>
+<text x="101.6" y="104" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT04 duyệt</text>
+<text x="10" y="126" fill="#334155" font-size="7.5" font-style="italic">Sửa tạo phiên bản mới</text>
+</g>
+<g transform="translate(1879.6,1028.8)">
+<rect width="210" height="145" rx="6" fill="#ffffff" stroke="#b58900" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H204 Q210 0 210 6 V26 H0 Z" fill="#b58900"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E22</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">THAM SỐ CHÍNH SÁCH</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">loại: mức chuẩn, hệ số, mức cố định</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">giá trị</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">áp dụng từ</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">áp dụng đến</text>
+<text x="10" y="88" fill="#475569" font-size="8.5">điều khoản căn cứ</text>
+<line x1="0" y1="98" x2="210" y2="98" stroke="#b58900" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="106" width="56.1" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
+<text x="38.0" y="116" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT03 soạn</text>
+<rect x="71.1" y="106" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/>
+<text x="101.6" y="116" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT04 duyệt</text>
+<text x="10" y="138" fill="#334155" font-size="7.5" font-style="italic">Sửa tạo phiên bản mới</text>
+</g>
+<g transform="translate(1473.3,771.0)">
+<rect width="210" height="157" rx="6" fill="#ffffff" stroke="#b58900" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H204 Q210 0 210 6 V26 H0 Z" fill="#b58900"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E23</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">QUY TẮC</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">mã BR</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">điều kiện hưởng</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">quy tắc nhiều diện</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">ngoại lệ</text>
+<text x="10" y="88" fill="#475569" font-size="8.5">áp dụng từ</text>
+<text x="10" y="100" fill="#475569" font-size="8.5">áp dụng đến</text>
+<line x1="0" y1="110" x2="210" y2="110" stroke="#b58900" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="118" width="56.1" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
+<text x="38.0" y="128" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT03 soạn</text>
+<rect x="71.1" y="118" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/>
+<text x="101.6" y="128" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT04 duyệt</text>
+<text x="10" y="150" fill="#334155" font-size="7.5" font-style="italic">Sửa tạo phiên bản mới</text>
+</g>
+<g transform="translate(40.0,511.8)">
+<rect width="273.9" height="169" rx="6" fill="#ffffff" stroke="#6d4fc2" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H267.9 Q273.9 0 273.9 6 V26 H0 Z" fill="#6d4fc2"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E31</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">ĐÁNG HƯỞNG</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">kỳ</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">mức đáng hưởng</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">số phải chi theo quy tắc</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">hệ số</text>
+<text x="10" y="88" fill="#475569" font-size="8.5">diện và quy tắc áp dụng</text>
+<text x="10" y="100" fill="#475569" font-size="8.5">tham số áp dụng</text>
+<text x="10" y="112" fill="#475569" font-size="8.5">chạy lại được theo khóa người hoặc hộ, chế độ, kỳ</text>
+<line x1="0" y1="122" x2="273.9" y2="122" stroke="#6d4fc2" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="130" width="41.4" height="14" rx="3" fill="#ede9fe" stroke="#7c3aed" stroke-width="0.8"/>
+<text x="30.7" y="140" fill="#5b21b6" font-size="8" font-weight="600" text-anchor="middle">Engine</text>
+<text x="10" y="162" fill="#334155" font-size="7.5" font-style="italic">Người dùng chỉ xem. Tạo lại mỗi lần chạy</text>
+</g>
+<g transform="translate(500.0,158.0)">
+<rect width="291.5" height="169" rx="6" fill="#ffffff" stroke="#6d4fc2" stroke-width="1.6"/>
+<path d="M0 6 Q0 0 6 0 H285.5 Q291.5 0 291.5 6 V26 H0 Z" fill="#6d4fc2"/>
+<text x="10" y="17" fill="#ffffff" font-size="10" font-weight="700">E32</text>
+<text x="46" y="17" fill="#ffffff" font-size="11" font-weight="700">LẦN TÍNH</text>
+<text x="10" y="40" fill="#475569" font-size="8.5">mã lần chạy</text>
+<text x="10" y="52" fill="#475569" font-size="8.5">thời điểm</text>
+<text x="10" y="64" fill="#475569" font-size="8.5">phạm vi: người, hộ, chế độ × kỳ</text>
+<text x="10" y="76" fill="#475569" font-size="8.5">mã bản chụp ETL</text>
+<text x="10" y="88" fill="#475569" font-size="8.5">tập phiên bản cấu hình</text>
+<text x="10" y="100" fill="#475569" font-size="8.5">kịch bản: chính thức, mô phỏng</text>
+<text x="10" y="112" fill="#475569" font-size="8.5">người kích hoạt</text>
+<line x1="0" y1="122" x2="291.5" y2="122" stroke="#6d4fc2" stroke-width="0.5" stroke-opacity="0.45"/>
+<rect x="10.0" y="130" width="41.4" height="14" rx="3" fill="#ede9fe" stroke="#7c3aed" stroke-width="0.8"/>
+<text x="30.7" y="140" fill="#5b21b6" font-size="8" font-weight="600" text-anchor="middle">Engine</text>
+<rect x="56.4" y="130" width="110.0" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
+<text x="111.4" y="140" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT01 chạy chính thức</text>
+<rect x="171.4" y="130" width="105.1" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
+<text x="224.0" y="140" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT06, VT07 mô phỏng</text>
+<text x="10" y="162" fill="#334155" font-size="7.5" font-style="italic">Chỉ thêm, không sửa</text>
+</g>
+<text x="20" y="1213.75" fill="#0f172a" font-size="10" font-weight="700">Chú giải</text>
+<rect x="20" y="1221.75" width="16" height="12" rx="2" fill="#2e7d32"/>
+<text x="42" y="1231.75" fill="#334155" font-size="8.5">Lớp 1: nạp từ nguồn (ETL/API)</text>
+<rect x="211.89999999999998" y="1221.75" width="16" height="12" rx="2" fill="#b58900"/>
+<text x="233.89999999999998" y="1231.75" fill="#334155" font-size="8.5">Lớp 2: cấu hình, cán bộ nhập, có phiên bản</text>
+<rect x="470.09999999999997" y="1221.75" width="16" height="12" rx="2" fill="#6d4fc2"/>
+<text x="492.09999999999997" y="1231.75" fill="#334155" font-size="8.5">Lớp 3: tổng hợp, engine chạy lại</text>
+<rect x="677.3" y="1221.75" width="16" height="12" rx="2" fill="#64748b"/>
+<text x="699.3" y="1231.75" fill="#334155" font-size="8.5">nhóm C, chưa phân lớp (chờ Q27)</text>
+<rect x="20" y="1241.75" width="46.3" height="14" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="0.8"/>
+<text x="43.2" y="1251.75" fill="#075985" font-size="8" font-weight="600" text-anchor="middle">ETL/API</text>
+<rect x="74.30000000000001" y="1241.75" width="41.4" height="14" rx="3" fill="#ede9fe" stroke="#7c3aed" stroke-width="0.8"/>
+<text x="95.0" y="1251.75" fill="#5b21b6" font-size="8" font-weight="600" text-anchor="middle">Engine</text>
+<rect x="123.70000000000002" y="1241.75" width="119.8" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
+<text x="183.6" y="1251.75" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT0x nhập, soạn, xử lý</text>
+<rect x="251.50000000000003" y="1241.75" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/>
+<text x="282.0" y="1251.75" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT0x duyệt</text>
+<text x="326.5" y="1251.75" fill="#334155" font-size="8.5">chip: tác nhân ghi dữ liệu (máy: ETL/API, Engine; người: VT01 đến VT07)</text>
+<text x="20" y="1269.75" fill="#475569" font-size="8.5">Bội số đọc từ đầu gần ra đầu xa. Nét liền: liên kết. Nét liền có mũi tên: tham chiếu. Nét đứt: phụ thuộc.</text>
+</svg>

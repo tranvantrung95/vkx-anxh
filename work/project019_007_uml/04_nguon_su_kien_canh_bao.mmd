@@ -1,0 +1,61 @@
+classDiagram
+  direction LR
+  class Nguon["NGUỒN DỮ LIỆU"] {
+    tên hệ thống
+    cơ quan chủ quản
+    chiều: vào, ra, hai chiều
+    đơn vị dữ liệu: cá nhân, hộ
+  }
+  class LanDongBo["LẦN ĐỒNG BỘ"] {
+    thời điểm
+    kiểu: toàn bộ, gia tăng
+    số bản ghi
+    số lỗi
+  }
+  class BanGhiNguon["E17 BẢN GHI NGUỒN"] {
+    khóa tại nguồn
+    phương pháp ghép: số định danh, ghép mờ
+    độ tin cậy
+    trạng thái ghép
+    snapshot
+  }
+  class Nguoi["E01 NGƯỜI"]
+  class Ho["E02 HỘ"]
+  class HuongCheDo["E05 HƯỞNG CHẾ ĐỘ"]
+  class ChiTra["E07 CHI TRẢ"]
+  class QuyTac["E23 QUY TẮC"]
+  class DangHuongTinh["E31 ĐÁNG HƯỞNG"]
+  class LanTinh["E32 LẦN TÍNH"]
+  class SuKien["E15 SỰ KIỆN"] {
+    loại: mất, chuyển cư trú, qua mốc tuổi, sinh con, đổi giám định, đổi phân loại hộ
+    ngày xảy ra
+    ngày ghi nhận
+    trạng thái
+    khóa tự nhiên: loại, người, ngày xảy ra
+  }
+  class CanhBao["E16 CẢNH BÁO"] {
+    loại: chi sai, trùng chế độ, bỏ sót, chuyển đổi chế độ
+    khóa tự nhiên: quy tắc, đối tượng, kỳ, loại
+    ngày phát hiện
+    số tiền ảnh hưởng
+    phần xử lý do cán bộ ghi, chạy lại không ghi đè:
+    trạng thái xử lý
+    kết quả xử lý
+    người xử lý
+  }
+
+  Nguon "1" -- "0..*" LanDongBo
+  LanDongBo "1" -- "0..*" BanGhiNguon
+  BanGhiNguon "0..*" --> "0..1" Nguoi : ghép vào
+  BanGhiNguon "0..*" --> "0..1" Ho : ghép vào
+  SuKien "0..*" --> "0..1" Nguoi
+  SuKien "0..*" --> "0..1" Ho
+  SuKien "0..*" --> "1..*" BanGhiNguon : phát hiện từ
+  SuKien ..> HuongCheDo : làm thay đổi
+  CanhBao "0..*" --> "1" QuyTac : vi phạm hoặc kích hoạt
+  CanhBao "0..*" --> "0..1" Nguoi
+  CanhBao "0..*" --> "0..1" HuongCheDo
+  CanhBao "0..*" --> "0..*" ChiTra
+  CanhBao "0..*" --> "0..1" SuKien
+  CanhBao "0..*" --> "0..1" DangHuongTinh : so với đang hưởng
+  CanhBao "0..*" --> "1" LanTinh : sinh bởi

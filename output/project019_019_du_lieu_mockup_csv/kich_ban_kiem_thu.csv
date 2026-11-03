@@ -1,0 +1,28 @@
+﻿ma_tc,ten,du_lieu_gieo,loai_mong_doi,quy_tac_mong_doi,ma_doi_tuong,ma_che_do,ky_tu,ky_den,so_tien_mong_doi,uc,ma_canh_bao_thuc_te,ket_qua
+TC-M01,Chi sau ngày mất,"NCT 80 tuổi hộ nghèo, mất 15/08/2026; nguồn chi trả vẫn chi 09, 10/2026",Chi sau ngày mất,BR-05; BR-08,NG000424,CD01,2026-09,2026-10,2160000,UC07,CB0010,Đạt
+TC-M02,Chưa chuyển mức theo NĐ 335,"NCT 66 tuổi hộ nghèo; xã chưa quyết định chuyển mức: nguồn vẫn 1,5 × 500.000 = 750.000 đến kỳ 10/2026, không có truy lĩnh",Sai mức,BR-13,NG000426,CD01,2026-07,2026-10,240000,UC07,CB0013,Đạt
+TC-M03,Hưởng hai mức TGXH cùng lúc,"NKT nặng 65 tuổi hộ nghèo; nguồn có 2 bản ghi trợ cấp (2,0 và 1,5)",Trùng chế độ,BR-02,NG000427,CD01,2026-07,2026-10,3240000,UC06,CB0017,Đạt
+TC-M04,Đủ điều kiện TGXH nhưng chưa hưởng,"NCT 78 tuổi, hộ nghèo, không người phụng dưỡng; không có bản ghi hưởng",Bỏ sót,BR-01,NG000428,CD01,2026-07,2026-10,4320000,UC09,CB0001,Đạt
+TC-M05,Đủ điều kiện hưu trí xã hội nhưng chưa hưởng,"Người 80 tuổi, không lương hưu, không thuộc diện TGXH",Bỏ sót,KT-HTXH,NG000429,CD03,2026-07,2026-10,2160000,UC09,CB0002,Đạt
+TC-M06,Hưởng hưu trí xã hội khi có lương hưu,Người 77 tuổi có lương hưu BHXH (E33) vẫn nhận hưu trí xã hội,Chi khi không đủ điều kiện,KT-HTXH,NG000430,CD03,2026-07,2026-10,2160000,UC07,CB0007,Đạt
+TC-M07,Một tài khoản nhận cho nhiều người khác hộ,"4 NKT nặng ở 4 hộ, cả 4 nhận vào tài khoản của một người ngoài hộ",Tài khoản nhận bất thường,KT-TK,TK0003,,2026-07,2026-10,12960000,UC08,CB0019,Đạt
+TC-M08,"Chuyển cư trú, nơi cũ chưa thôi chi","NKT nặng chuyển từ X99001 sang X99002 ngày 10/09/2026; nơi mới hưởng từ 10/2026, nơi cũ vẫn chi",Trùng nơi chi,BR-06,NG000436,CD01,2026-10,2026-10,810000,UC07,CB0018,Đạt
+TC-M09,"Đủ 75 tuổi, chưa điều chỉnh hệ số","NCT hộ nghèo đủ 75 tuổi ngày 12/09/2026; nguồn giữ 1,5",Chuyển đổi chế độ,BR-05,NG000437,CD01,2026-09,2026-10,540000,UC11,CB0020,Đạt
+TC-M10,"Con liệt sĩ đủ 18 tuổi, chưa chuyển mức",Con liệt sĩ đủ 18 tuổi ngày 20/08/2026 (giả định đang đi học); nguồn giữ mục 3.1,Chuyển đổi chế độ,BR-22,NG000439,CD07,2026-09,2026-10,6024000,UC11,CB0021,Đạt
+TC-M11,Hỗ trợ hộ chăm sóc vẫn chi sau khi NKT mất,NKT đặc biệt nặng mất 20/07/2026; trợ cấp của NKT đã dừng nhưng hỗ trợ hộ vẫn chi,Chi khi người được chăm sóc đã mất,BR-09,HO00134,CD02,2026-08,2026-10,1620000,UC07,CB0009,Đạt
+TC-M12,Trạng thái sống chưa xác định,"NKT nặng, nguồn dân cư ghi 'chưa xác định'; vẫn chi 4 kỳ",Chưa đủ dữ liệu,BR-52,NG000443,CD01,2026-07,2026-10,3240000,UC07,CB0025,Đạt
+TC-M13,Không nhận liên tục từ 3 tháng,NKT nặng không nhận tiền kỳ 07 đến 10/2026; nguồn vẫn ghi đang hưởng,Cần tạm dừng,BR-07,NG000444,CD01,2026-07,2026-10,3240000,UC07,CB0012,Đạt
+TC-M14,Đang hưởng trợ cấp nhưng chưa có thẻ BHYT,NKT đặc biệt nặng hưởng trợ cấp đúng nhưng không có thẻ BHYT trong E33,Chưa có thẻ BHYT,KT-BHYT,NG000445,CD01,2026-10,2026-10,0,UC16,CB0024,Đạt
+TC-M15,Bản ghi nguồn ghép mờ và không ghép được,"2 bản ghi nguồn: một lệch ngày sinh (ghép mờ chờ VT02 duyệt), một thiếu số định danh",Không sinh cảnh báo; BR-50 đếm riêng 2 bản ghi,BR-50,,,,,0,UC01,,Đạt
+TC-M16,Bà mẹ Việt Nam anh hùng và người phục vụ (ca đúng),"BMVNAH 97 tuổi: trợ cấp 9.036.000, phụ cấp 2.524.000; người phục vụ 3.012.000 (NĐ 321/2026 mục 12.1)",Không sinh cảnh báo,BR-20,NG000448,CD04;CD05;CD06,2026-07,2026-10,0,UC04,,Đạt
+TC-M17,"Trẻ mồ côi đủ 4 tuổi, chưa đổi hệ số","Trẻ mồ côi cả cha mẹ đủ 4 tuổi ngày 15/08/2026; nguồn giữ hệ số 2,5",Chuyển đổi chế độ,BR-05,NG000452,CD01,2026-08,2026-10,1620000,UC11,CB0022,Đạt
+TC-M18,"Trẻ mồ côi đủ 16 tuổi, không đi học, vẫn chi","Trẻ mồ côi đủ 16 tuổi ngày 25/07/2026, không đi học; thôi từ 08/2026 nhưng nguồn vẫn chi",Chuyển đổi chế độ,BR-05,NG000456,CD01,2026-08,2026-10,2430000,UC11,CB0023,Đạt
+TC-M19,"Đơn thân nghèo là NKT nặng, thiếu phần đơn thân","Mẹ đơn thân hộ nghèo, NKT nặng, nuôi 1 con 6 tuổi; nguồn chỉ có trợ cấp NKT 1,5",Bỏ sót phần cộng thêm,BR-03,NG000459,CD01,2026-07,2026-10,2160000,UC06,CB0006,Đạt
+TC-M20,"Đối tượng TGXH chết, chưa hỗ trợ mai táng",NKT đặc biệt nặng 72 tuổi mất 20/09/2026; trợ cấp đã dừng đúng nhưng chưa có hỗ trợ mai táng,Bỏ sót,BR-10,NG000462,CD09,2026-09,2026-09,10800000,UC11,CB0003,Đạt
+TC-M21,Chi mai táng NCC khi đã hưởng mai táng BHXH,Người nhiễm chất độc hóa học có lương hưu mất 12/08/2026; BHXH chi mai táng (E33) và ngân sách vẫn chi,Chi khi không đủ điều kiện,BR-27,NG000463,CD10,2026-08,2026-08,23400000,UC07,CB0008,Đạt
+TC-M22,Vợ liệt sĩ sống cô đơn chưa có tuất nuôi dưỡng,"Vợ liệt sĩ 83 tuổi sống một mình, không người phụng dưỡng; nguồn chỉ có tuất hằng tháng",Bỏ sót,KT-TUAT-ND,NG000465,CD08,2026-07,2026-10,9640000,UC23,CB0004,Đạt
+TC-M23,Mẹ hai liệt sĩ hưởng mức thân nhân một liệt sĩ,Mẹ của 2 liệt sĩ; nguồn trả NCC-PL1-09 thay vì NCC-PL1-10,Sai mức,BR-20,NG000467,CD07,2026-07,2026-10,12048000,UC07,CB0014,Đạt
+TC-M24,Thân nhân liệt sĩ chết: tuất vẫn chi,Vợ liệt sĩ mất 10/09/2026; nguồn vẫn chi tuất kỳ 10/2026,Chi sau ngày mất,BR-28,NG000472,CD07,2026-10,2026-10,3012000,UC07,CB0011,Đạt
+TC-M24,Thân nhân liệt sĩ chết: chưa có trợ cấp một lần,"Cùng người: mai táng NCC đã chi đúng, trợ cấp một lần 3 tháng chưa chi",Bỏ sót,KT-TUAT-1L,NG000472,CD11,2026-09,2026-09,9036000,UC23,CB0005,Đạt
+TC-M25,Truy lĩnh thiếu một kỳ,"NKT đặc biệt nặng: kỳ 07 đến 09 chi 1.000.000, kỳ 10 truy lĩnh 07 và 08, thiếu kỳ 09",Truy lĩnh thiếu,BR-41,NG000474,CD01,2026-09,2026-09,80000,UC07,CB0015,Đạt
+TC-M26,Truy lĩnh trùng một kỳ,NKT nặng: truy lĩnh kỳ 07/2026 được chi hai lần trong kỳ 10,Truy lĩnh thừa,BR-41,NG000475,CD01,2026-07,2026-07,60000,UC07,CB0016,Đạt

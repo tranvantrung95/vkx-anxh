@@ -1,0 +1,176 @@
+﻿ma_qd,ma_huong,so_hieu,ngay_ky,co_quan,loai,hieu_luc_tu,ly_do,nguon
+QD00001,HCD000001,750/QĐ-UBND,2025-11-04,UBND Xã An Bình (giả),Hưởng,2025-11-04,Đủ điều kiện hưởng,ETL/API
+QD00002,HCD000001,597/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh","Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00003,HCD000002,564/QĐ-UBND,2026-08-20,UBND Xã An Bình (giả),Hỗ trợ chi phí mai táng,2026-08-20,Đủ điều kiện hưởng,ETL/API
+QD00004,HCD000003,494/QĐ-UBND,2020-12-02,UBND Xã Hòa Lạc (giả),Hưởng,2020-12-02,Đủ điều kiện hưởng,ETL/API
+QD00005,HCD000004,506/QĐ-UBND,2025-08-03,UBND Xã Tân Phú (giả),Hưởng,2025-08-03,Đủ điều kiện hưởng,ETL/API
+QD00006,HCD000004,312/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00007,HCD000005,212/QĐ-UBND,2022-10-24,UBND Xã Tân Phú (giả),Hưởng,2022-10-24,Đủ điều kiện hưởng,ETL/API
+QD00008,HCD000005,748/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00009,HCD000006,379/QĐ-UBND,2024-09-20,UBND Xã Tân Phú (giả),Hưởng,2024-09-20,Đủ điều kiện hưởng,ETL/API
+QD00010,HCD000006,415/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00011,HCD000007,562/QĐ-UBND,2019-11-16,UBND Xã An Bình (giả),Hưởng,2019-11-16,Đủ điều kiện hưởng,ETL/API
+QD00012,HCD000007,476/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00013,HCD000008,594/QĐ-UBND,2026-10-01,UBND Xã Hòa Lạc (giả),Hưởng,2026-10-01,Đủ điều kiện hưởng,ETL/API
+QD00014,HCD000009,708/QĐ-UBND,2021-06-02,UBND Xã Tân Phú (giả),Hưởng,2021-06-02,Đủ điều kiện hưởng,ETL/API
+QD00015,HCD000009,188/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00016,HCD000010,264/QĐ-UBND,2024-06-06,UBND Xã An Bình (giả),Hưởng,2024-06-06,Đủ điều kiện hưởng,ETL/API
+QD00017,HCD000011,859/QĐ-UBND,2023-01-03,UBND Xã Hòa Lạc (giả),Hưởng,2023-01-03,Đủ điều kiện hưởng,ETL/API
+QD00018,HCD000011,138/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00019,HCD000012,687/QĐ-UBND,2022-12-15,UBND Xã Tân Phú (giả),Hưởng,2022-12-15,Đủ điều kiện hưởng,ETL/API
+QD00020,HCD000012,260/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00021,HCD000013,342/QĐ-UBND,2025-08-07,UBND Xã Hòa Lạc (giả),Hưởng,2025-08-07,Đủ điều kiện hưởng,ETL/API
+QD00022,HCD000013,865/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00023,HCD000014,329/QĐ-UBND,2022-08-20,UBND Xã Tân Phú (giả),Hưởng,2022-08-20,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00024,HCD000014,195/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00025,HCD000015,626/QĐ-UBND,2019-12-12,UBND Xã An Bình (giả),Hưởng,2019-12-12,Đủ điều kiện hưởng,ETL/API
+QD00026,HCD000015,771/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00027,HCD000016,265/QĐ-UBND,2026-08-18,UBND Xã Tân Phú (giả),Trợ cấp mai táng,2026-08-18,Đủ điều kiện hưởng,ETL/API
+QD00028,HCD000017,466/QĐ-UBND,2025-06-16,UBND Xã Hòa Lạc (giả),Hưởng,2025-06-16,Đủ điều kiện hưởng,ETL/API
+QD00029,HCD000018,661/QĐ-UBND,2021-05-08,UBND Xã Tân Phú (giả),Hưởng,2021-05-08,Đủ điều kiện hưởng,ETL/API
+QD00030,HCD000019,254/QĐ-UBND,2024-04-10,UBND Xã An Bình (giả),Hưởng,2024-04-10,Đủ điều kiện hưởng,ETL/API
+QD00031,HCD000019,457/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00032,HCD000020,949/QĐ-UBND,2022-06-27,UBND Xã Hòa Lạc (giả),Hưởng,2022-06-27,Đủ điều kiện hưởng,ETL/API
+QD00033,HCD000020,940/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00034,HCD000021,716/QĐ-UBND,2022-09-15,UBND Xã Hòa Lạc (giả),Hưởng,2022-09-15,Đủ điều kiện hưởng,ETL/API
+QD00035,HCD000021,328/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00036,HCD000022,598/QĐ-UBND,2023-04-11,UBND Xã Hòa Lạc (giả),Hưởng,2023-04-11,Đủ điều kiện hưởng,ETL/API
+QD00037,HCD000022,140/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00038,HCD000023,361/QĐ-UBND,2019-01-19,UBND Xã An Bình (giả),Hưởng,2019-01-19,Đủ điều kiện hưởng,ETL/API
+QD00039,HCD000023,426/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00040,HCD000024,821/QĐ-UBND,2025-06-17,UBND Xã Hòa Lạc (giả),Hưởng,2025-06-17,Đủ điều kiện hưởng,ETL/API
+QD00041,HCD000024,137/QĐ-UBND,2026-10-01,UBND Xã Hòa Lạc (giả),Thôi hưởng,2026-10-01,Người được chăm sóc chết (BR-09),"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00042,HCD000024,314/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh","Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00043,HCD000025,921/QĐ-UBND,2020-06-23,UBND Xã An Bình (giả),Hưởng,2020-06-23,Đủ điều kiện hưởng,ETL/API
+QD00044,HCD000025,957/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh","Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00045,HCD000026,353/QĐ-SNV,2025-01-16,Sở Nội vụ Tỉnh Mẫu (giả),Hưởng,2025-01-16,Đủ điều kiện hưởng,ETL/API
+QD00046,HCD000027,907/QĐ-UBND,2024-07-15,UBND Xã An Bình (giả),Hưởng,2024-07-15,Đủ điều kiện hưởng,ETL/API
+QD00047,HCD000027,937/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00048,HCD000028,592/QĐ-UBND,2021-06-09,UBND Xã An Bình (giả),Hưởng,2021-06-09,Đủ điều kiện hưởng,ETL/API
+QD00049,HCD000028,821/QĐ-UBND,2026-10-01,UBND Xã An Bình (giả),Thôi hưởng,2026-10-01,Đối tượng chết (BR-05),ETL/API
+QD00050,HCD000028,200/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00051,HCD000029,458/QĐ-UBND,2026-09-19,UBND Xã An Bình (giả),Hỗ trợ chi phí mai táng,2026-09-19,Đủ điều kiện hưởng,ETL/API
+QD00052,HCD000030,861/QĐ-UBND,2025-04-17,UBND Xã An Bình (giả),Hưởng,2025-04-17,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00053,HCD000031,176/QĐ-UBND,2026-10-01,UBND Xã An Bình (giả),Hưởng,2026-10-01,Đủ điều kiện hưởng,ETL/API
+QD00054,HCD000032,958/QĐ-UBND,2022-10-10,UBND Xã Hòa Lạc (giả),Hưởng,2022-10-10,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00055,HCD000032,682/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00056,HCD000033,871/QĐ-UBND,2023-02-12,UBND Xã Hòa Lạc (giả),Hưởng,2023-02-12,Đủ điều kiện hưởng,ETL/API
+QD00057,HCD000033,445/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00058,HCD000034,491/QĐ-UBND,2023-08-18,UBND Xã An Bình (giả),Hưởng,2023-08-18,Đủ điều kiện hưởng,ETL/API
+QD00059,HCD000034,930/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00060,HCD000035,567/QĐ-UBND,2020-05-03,UBND Xã Hòa Lạc (giả),Hưởng,2020-05-03,Đủ điều kiện hưởng,ETL/API
+QD00061,HCD000035,578/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00062,HCD000036,318/QĐ-UBND,2024-05-13,UBND Xã Hòa Lạc (giả),Hưởng,2024-05-13,Đủ điều kiện hưởng,ETL/API
+QD00063,HCD000036,419/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00064,HCD000037,482/QĐ-UBND,2021-12-17,UBND Xã Tân Phú (giả),Hưởng,2021-12-17,Đủ điều kiện hưởng,ETL/API
+QD00065,HCD000037,334/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00066,HCD000038,805/QĐ-UBND,2025-07-21,UBND Xã Hòa Lạc (giả),Hưởng,2025-07-21,Đủ điều kiện hưởng,ETL/API
+QD00067,HCD000038,229/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh","Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00068,HCD000039,406/QĐ-UBND,2022-07-23,UBND Xã An Bình (giả),Hưởng,2022-07-23,Đủ điều kiện hưởng,ETL/API
+QD00069,HCD000039,272/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00070,HCD000040,791/QĐ-UBND,2024-09-16,UBND Xã An Bình (giả),Hưởng,2024-09-16,Đủ điều kiện hưởng,ETL/API
+QD00071,HCD000041,700/QĐ-UBND,2024-09-13,UBND Xã Hòa Lạc (giả),Hưởng,2024-09-13,Đủ điều kiện hưởng,ETL/API
+QD00072,HCD000041,552/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00073,HCD000042,862/QĐ-UBND,2021-06-27,UBND Xã An Bình (giả),Hưởng,2021-06-27,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00074,HCD000042,936/QĐ-UBND,2026-09-01,UBND Xã An Bình (giả),Thôi hưởng,2026-09-01,Đối tượng chết (BR-05),ETL/API
+QD00075,HCD000043,873/QĐ-UBND,2026-08-08,UBND Xã An Bình (giả),Trợ cấp mai táng,2026-08-08,Đủ điều kiện hưởng,ETL/API
+QD00076,HCD000044,823/QĐ-UBND,2026-08-08,UBND Xã An Bình (giả),Trợ cấp một lần,2026-08-08,Đủ điều kiện hưởng,ETL/API
+QD00077,HCD000045,786/QĐ-UBND,2021-09-22,UBND Xã Hòa Lạc (giả),Hưởng,2021-09-22,Đủ điều kiện hưởng,ETL/API
+QD00078,HCD000045,975/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh","Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00079,HCD000046,176/QĐ-UBND,2023-12-05,UBND Xã Hòa Lạc (giả),Hưởng,2023-12-05,Đủ điều kiện hưởng,ETL/API
+QD00080,HCD000046,433/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00081,HCD000047,309/QĐ-UBND,2023-12-24,UBND Xã An Bình (giả),Hưởng,2023-12-24,Đủ điều kiện hưởng,ETL/API
+QD00082,HCD000047,970/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00083,HCD000048,542/QĐ-UBND,2024-08-21,UBND Xã An Bình (giả),Hưởng,2024-08-21,Đủ điều kiện hưởng,ETL/API
+QD00084,HCD000048,688/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00085,HCD000049,660/QĐ-SNV,2023-07-19,Sở Nội vụ Tỉnh Mẫu (giả),Hưởng,2023-07-19,Đủ điều kiện hưởng,ETL/API
+QD00086,HCD000050,483/QĐ-UBND,2023-09-07,UBND Xã An Bình (giả),Hưởng,2023-09-07,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00087,HCD000050,594/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00088,HCD000051,319/QĐ-UBND,2019-09-05,UBND Xã Tân Phú (giả),Hưởng,2019-09-05,Đủ điều kiện hưởng,ETL/API
+QD00089,HCD000051,322/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00090,HCD000052,590/QĐ-UBND,2025-05-02,UBND Xã Tân Phú (giả),Hưởng,2025-05-02,Đủ điều kiện hưởng,ETL/API
+QD00091,HCD000052,754/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00092,HCD000053,119/QĐ-UBND,2019-11-03,UBND Xã An Bình (giả),Hưởng,2019-11-03,Đủ điều kiện hưởng,ETL/API
+QD00093,HCD000054,147/QĐ-UBND,2022-10-28,UBND Xã An Bình (giả),Hưởng,2022-10-28,Đủ điều kiện hưởng,ETL/API
+QD00094,HCD000055,916/QĐ-UBND,2021-03-12,UBND Xã An Bình (giả),Hưởng,2021-03-12,Đủ điều kiện hưởng,ETL/API
+QD00095,HCD000056,866/QĐ-UBND,2019-04-11,UBND Xã Hòa Lạc (giả),Hưởng,2019-04-11,Đủ điều kiện hưởng,ETL/API
+QD00096,HCD000056,511/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00097,HCD000057,613/QĐ-UBND,2024-03-16,UBND Xã Hòa Lạc (giả),Hưởng,2024-03-16,Đủ điều kiện hưởng,ETL/API
+QD00098,HCD000057,447/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00099,HCD000058,373/QĐ-UBND,2024-03-15,UBND Xã Tân Phú (giả),Hưởng,2024-03-15,Đủ điều kiện hưởng,ETL/API
+QD00100,HCD000058,926/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00101,HCD000059,634/QĐ-UBND,2024-09-27,UBND Xã An Bình (giả),Hưởng,2024-09-27,Đủ điều kiện hưởng,ETL/API
+QD00102,HCD000059,884/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00103,HCD000060,627/QĐ-UBND,2019-01-18,UBND Xã An Bình (giả),Hưởng,2019-01-18,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00104,HCD000060,339/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00105,HCD000061,795/QĐ-UBND,2021-05-11,UBND Xã Hòa Lạc (giả),Hưởng,2021-05-11,Đủ điều kiện hưởng,ETL/API
+QD00106,HCD000061,284/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00107,HCD000062,628/QĐ-UBND,2023-07-21,UBND Xã Hòa Lạc (giả),Hưởng,2023-07-21,Đủ điều kiện hưởng,ETL/API
+QD00108,HCD000062,397/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00109,HCD000063,334/QĐ-UBND,2019-03-10,UBND Xã An Bình (giả),Hưởng,2019-03-10,Đủ điều kiện hưởng,ETL/API
+QD00110,HCD000063,890/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00111,HCD000064,829/QĐ-UBND,2019-04-13,UBND Xã An Bình (giả),Hưởng,2019-04-13,Đủ điều kiện hưởng,ETL/API
+QD00112,HCD000064,522/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00113,HCD000065,673/QĐ-UBND,2019-01-15,UBND Xã Tân Phú (giả),Hưởng,2019-01-15,Đủ điều kiện hưởng,ETL/API
+QD00114,HCD000066,537/QĐ-UBND,2024-10-16,UBND Xã Hòa Lạc (giả),Hưởng,2024-10-16,Đủ điều kiện hưởng,ETL/API
+QD00115,HCD000066,558/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00116,HCD000067,939/QĐ-UBND,2021-10-06,UBND Xã An Bình (giả),Hưởng,2021-10-06,Đủ điều kiện hưởng,ETL/API
+QD00117,HCD000067,238/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00118,HCD000068,775/QĐ-UBND,2020-01-26,UBND Xã Hòa Lạc (giả),Hưởng,2020-01-26,Đủ điều kiện hưởng,ETL/API
+QD00119,HCD000068,940/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00120,HCD000069,615/QĐ-UBND,2023-07-01,UBND Xã An Bình (giả),Hưởng,2023-07-01,Đủ điều kiện hưởng,ETL/API
+QD00121,HCD000069,635/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00122,HCD000070,345/QĐ-UBND,2023-11-27,UBND Xã Tân Phú (giả),Hưởng,2023-11-27,Đủ điều kiện hưởng,ETL/API
+QD00123,HCD000070,169/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00124,HCD000071,378/QĐ-UBND,2024-07-01,UBND Xã Hòa Lạc (giả),Hưởng,2024-07-01,Đủ điều kiện hưởng,ETL/API
+QD00125,HCD000071,133/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00126,HCD000072,233/QĐ-UBND,2024-02-22,UBND Xã An Bình (giả),Hưởng,2024-02-22,Đủ điều kiện hưởng,ETL/API
+QD00127,HCD000072,976/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00128,HCD000073,622/QĐ-UBND,2024-06-22,UBND Xã An Bình (giả),Hưởng,2024-06-22,Đủ điều kiện hưởng,ETL/API
+QD00129,HCD000073,464/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00130,HCD000074,107/QĐ-SNV,2023-02-09,Sở Nội vụ Tỉnh Mẫu (giả),Hưởng,2023-02-09,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00131,HCD000075,613/QĐ-UBND,2022-07-12,UBND Xã Tân Phú (giả),Hưởng,2022-07-12,Đủ điều kiện hưởng,ETL/API
+QD00132,HCD000076,597/QĐ-UBND,2020-07-16,UBND Xã An Bình (giả),Hưởng,2020-07-16,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00133,HCD000076,605/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00134,HCD000077,258/QĐ-UBND,2019-03-24,UBND Xã An Bình (giả),Hưởng,2019-03-24,Đủ điều kiện hưởng,ETL/API
+QD00135,HCD000077,389/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00136,HCD000078,563/QĐ-UBND,2021-08-27,UBND Xã An Bình (giả),Hưởng,2021-08-27,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00137,HCD000078,437/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00138,HCD000079,642/QĐ-UBND,2024-05-27,UBND Xã Hòa Lạc (giả),Hưởng,2024-05-27,Đủ điều kiện hưởng,ETL/API
+QD00139,HCD000079,465/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00140,HCD000080,797/QĐ-UBND,2024-10-09,UBND Xã Tân Phú (giả),Hưởng,2024-10-09,Đủ điều kiện hưởng,ETL/API
+QD00141,HCD000080,701/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00142,HCD000081,649/QĐ-UBND,2019-12-14,UBND Xã An Bình (giả),Hưởng,2019-12-14,Đủ điều kiện hưởng,ETL/API
+QD00143,HCD000081,888/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00144,HCD000082,590/QĐ-UBND,2023-04-20,UBND Xã Hòa Lạc (giả),Hưởng,2023-04-20,Đủ điều kiện hưởng,ETL/API
+QD00145,HCD000082,993/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00146,HCD000083,164/QĐ-UBND,2024-12-24,UBND Xã Tân Phú (giả),Hưởng,2024-12-24,Đủ điều kiện hưởng,ETL/API
+QD00147,HCD000083,750/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00148,HCD000084,117/QĐ-UBND,2023-07-11,UBND Xã An Bình (giả),Hưởng,2023-07-11,Đủ điều kiện hưởng,ETL/API
+QD00149,HCD000084,189/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh","Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00150,HCD000085,476/QĐ-UBND,2021-03-14,UBND Xã An Bình (giả),Hưởng,2021-03-14,Đủ điều kiện hưởng,ETL/API
+QD00151,HCD000085,143/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00152,HCD000086,600/QĐ-UBND,2024-12-28,UBND Xã Hòa Lạc (giả),Hưởng,2024-12-28,Đủ điều kiện hưởng,ETL/API
+QD00153,HCD000086,525/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00154,HCD000087,814/QĐ-UBND,2023-03-04,UBND Xã Tân Phú (giả),Hưởng,2023-03-04,Đủ điều kiện hưởng,ETL/API
+QD00155,HCD000087,405/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00156,HCD000088,857/QĐ-UBND,2020-05-21,UBND Xã Hòa Lạc (giả),Hưởng,2020-05-21,Đủ điều kiện hưởng,ETL/API
+QD00157,HCD000088,579/QĐ-UBND,2026-08-01,UBND Xã Hòa Lạc (giả),Thôi hưởng,2026-08-01,Đối tượng chết (BR-05),ETL/API
+QD00158,HCD000088,199/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00159,HCD000089,739/QĐ-UBND,2026-07-25,UBND Xã Hòa Lạc (giả),Hỗ trợ chi phí mai táng,2026-07-25,Đủ điều kiện hưởng,ETL/API
+QD00160,HCD000090,732/QĐ-UBND,2025-04-19,UBND Xã An Bình (giả),Hưởng,2025-04-19,Đủ điều kiện hưởng,"Nhập bổ sung (VT05 nhập, VT04 duyệt)"
+QD00161,HCD000090,732/QĐ-UBND,2026-10-15,UBND Xã An Bình (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00162,HCD000091,175/QĐ-UBND,2025-09-04,UBND Xã Hòa Lạc (giả),Hưởng,2025-09-04,Đủ điều kiện hưởng,ETL/API
+QD00163,HCD000091,163/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00164,HCD000092,778/QĐ-SNV,2021-08-07,Sở Nội vụ Tỉnh Mẫu (giả),Hưởng,2021-08-07,Đủ điều kiện hưởng,ETL/API
+QD00165,HCD000093,829/QĐ-SNV,2024-03-28,Sở Nội vụ Tỉnh Mẫu (giả),Hưởng,2024-03-28,Đủ điều kiện hưởng,ETL/API
+QD00166,HCD000094,554/QĐ-SNV,2020-06-14,Sở Nội vụ Tỉnh Mẫu (giả),Hưởng,2020-06-14,Đủ điều kiện hưởng,ETL/API
+QD00167,HCD000095,941/QĐ-UBND,2020-05-20,UBND Xã Hòa Lạc (giả),Hưởng,2020-05-20,Đủ điều kiện hưởng,ETL/API
+QD00168,HCD000095,376/QĐ-UBND,2026-10-01,UBND Xã Hòa Lạc (giả),Thôi hưởng,2026-10-01,Đối tượng chết (BR-05),ETL/API
+QD00169,HCD000095,579/QĐ-UBND,2026-10-15,UBND Xã Hòa Lạc (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00170,HCD000096,144/QĐ-SNV,2023-07-08,Sở Nội vụ Tỉnh Mẫu (giả),Hưởng,2023-07-08,Đủ điều kiện hưởng,ETL/API
+QD00171,HCD000096,173/QĐ-SNV,2026-09-01,Sở Nội vụ Tỉnh Mẫu (giả),Thôi hưởng,2026-09-01,Đối tượng chết (BR-05),ETL/API
+QD00172,HCD000097,866/QĐ-UBND,2021-04-08,UBND Xã Tân Phú (giả),Hưởng,2021-04-08,Đủ điều kiện hưởng,ETL/API
+QD00173,HCD000097,796/QĐ-UBND,2026-10-15,UBND Xã Tân Phú (giả),Điều chỉnh mức (NĐ 335/2026 Điều 32 khoản 4),2026-10-15,"Chuyển sang mức NĐ 335/2026 từ 07/2026, truy lĩnh phần chênh",ETL/API
+QD00174,HCD000098,995/QĐ-UBND,2023-11-10,UBND Xã An Bình (giả),Hưởng,2023-11-10,Đủ điều kiện hưởng,ETL/API
+QD00175,HCD000099,377/QĐ-UBND,2026-09-15,UBND Xã Tân Phú (giả),Trợ cấp mai táng,2026-09-15,Đủ điều kiện hưởng,ETL/API

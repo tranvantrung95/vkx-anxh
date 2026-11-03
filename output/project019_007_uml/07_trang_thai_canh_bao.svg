@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 841">
+<defs><style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap');
+text { font-family: 'JetBrains Mono', 'SF Mono', 'Menlo', 'Noto Sans', sans-serif; }
+</style>
+<marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#475569"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="28" fill="#0f172a" font-size="16" font-weight="700">6.7 Trạng thái CẢNH BÁO</text>
+<text x="20" y="46" fill="#475569" font-size="9">Nguồn: output/project019_007_ra_soat_mo_hinh_du_lieu.md mục 6. Giả định chờ Q50 đến Q58.</text>
+<path d="M 270.0 106.0 C 270.0 113.2 270.0 135.0 270.0 149.5 C 270.0 164.0 270.0 185.8 270.0 193.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="222.7" y="142.5" width="94.7" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="270.0" y="152.5" fill="#334155" font-size="8.5" text-anchor="middle">quy tắc kích hoạt</text>
+<path d="M 296.7 229.0 C 308.7 237.2 357.1 261.7 369.2 278.0 C 381.3 294.3 369.2 318.8 369.2 327.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="304.0" y="271.0" width="130.4" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="369.2" y="281.0" fill="#334155" font-size="8.5" text-anchor="middle">giao cán bộ xã hoặc tỉnh</text>
+<path d="M 229.4 229.0 C 210.9 237.2 137.2 261.7 118.8 278.0 C 100.4 294.3 118.8 318.8 118.8 327.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="46.0" y="265.5" width="145.7" height="25" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="118.8" y="275.5" fill="#334155" font-size="8.5" text-anchor="middle">chạy lại không còn vi phạm,</text>
+<text x="118.8" y="286.5" fill="#334155" font-size="8.5" text-anchor="middle">giữ lại để đối chiếu</text>
+<path d="M 392.8 363.0 C 403.6 371.2 446.5 395.7 457.2 412.0 C 467.9 428.3 457.2 452.8 457.2 461.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 345.6 363.0 C 334.8 371.2 291.9 395.7 281.2 412.0 C 270.5 428.3 281.2 452.8 281.2 461.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="200.7" y="399.5" width="161.0" height="25" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="281.2" y="409.5" fill="#334155" font-size="8.5" text-anchor="middle">dữ liệu nguồn sai hoặc quy tắc</text>
+<text x="281.2" y="420.5" fill="#334155" font-size="8.5" text-anchor="middle">chưa đúng</text>
+<path d="M 457.2 497.0 C 457.2 505.2 457.2 529.7 457.2 546.0 C 457.2 562.3 457.2 586.8 457.2 595.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="381.8" y="533.5" width="150.8" height="25" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="457.2" y="543.5" fill="#334155" font-size="8.5" text-anchor="middle">dừng chi, thu hồi, lập hồ sơ</text>
+<text x="457.2" y="554.5" fill="#334155" font-size="8.5" text-anchor="middle">bổ sung</text>
+<path d="M 281.2 497.0 C 281.2 505.2 281.2 528.3 281.2 546.0 C 281.2 563.7 281.2 593.5 281.2 603.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="213.4" y="539.0" width="135.5" height="14" rx="3" fill="#ffffff" fill-opacity="0.92"/>
+<text x="281.2" y="549.0" fill="#334155" font-size="8.5" text-anchor="middle">ghi nhận để chỉnh quy tắc</text>
+<path d="M 457.2 631.0 C 457.2 636.8 457.2 654.3 457.2 666.0 C 457.2 677.7 457.2 695.2 457.2 701.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 118.8 363.0 C 118.8 371.2 118.8 394.3 118.8 412.0 C 118.8 429.7 118.8 459.5 118.8 469.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<circle cx="270.0" cy="98.0" r="8" fill="#0f172a"/>
+<rect x="215.0" y="193.0" width="110" height="36" rx="16" fill="#ede7f6" stroke="#6d4fc2" stroke-width="1.6"/><text x="270.0" y="215.0" fill="#0f172a" font-size="11" font-weight="700" text-anchor="middle">Mới</text>
+<rect x="309.6" y="327.0" width="119.2" height="36" rx="16" fill="#ede7f6" stroke="#6d4fc2" stroke-width="1.6"/><text x="369.2" y="349.0" fill="#0f172a" font-size="11" font-weight="700" text-anchor="middle">Đang xác minh</text>
+<rect x="40.0" y="327.0" width="157.60000000000002" height="36" rx="16" fill="#ede7f6" stroke="#6d4fc2" stroke-width="1.6"/><text x="118.8" y="349.0" fill="#0f172a" font-size="11" font-weight="700" text-anchor="middle">Không còn phát hiện</text>
+<rect x="397.6" y="461.0" width="119.2" height="36" rx="16" fill="#ede7f6" stroke="#6d4fc2" stroke-width="1.6"/><text x="457.2" y="483.0" fill="#0f172a" font-size="11" font-weight="700" text-anchor="middle">Xác nhận đúng</text>
+<rect x="224.8" y="461.0" width="112.80000000000001" height="36" rx="16" fill="#ede7f6" stroke="#6d4fc2" stroke-width="1.6"/><text x="281.2" y="483.0" fill="#0f172a" font-size="11" font-weight="700" text-anchor="middle">Cảnh báo sai</text>
+<rect x="402.2" y="595.0" width="110" height="36" rx="16" fill="#ede7f6" stroke="#6d4fc2" stroke-width="1.6"/><text x="457.2" y="617.0" fill="#0f172a" font-size="11" font-weight="700" text-anchor="middle">Đã xử lý</text>
+<circle cx="281.2" cy="613.0" r="9" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/><circle cx="281.2" cy="613.0" r="5" fill="#0f172a"/>
+<circle cx="457.2" cy="711.0" r="9" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/><circle cx="457.2" cy="711.0" r="5" fill="#0f172a"/>
+<circle cx="118.8" cy="479.0" r="9" fill="#ffffff" stroke="#0f172a" stroke-width="1.6"/><circle cx="118.8" cy="479.0" r="5" fill="#0f172a"/>
+<text x="20" y="775" fill="#475569" font-size="8.5">Nút tròn đặc: bắt đầu. Nút tròn đôi: kết thúc. Nhãn: sự kiện làm đổi trạng thái.</text>
+</svg>

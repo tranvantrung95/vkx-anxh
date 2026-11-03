@@ -1,0 +1,77 @@
+classDiagram
+  direction LR
+  class Nguoi["E01 NGƯỜI"]
+  class Ho["E02 HỘ"]
+  class ThanhVienHo["E03 THÀNH VIÊN HỘ"]
+  class Dien["E04 DIỆN ĐỐI TƯỢNG"]
+  class HuongCheDo["E05 HƯỞNG CHẾ ĐỘ"]
+  class QuanHe["E06 QUAN HỆ NGƯỜI–NGƯỜI"]
+  class ChiTra["E07 CHI TRẢ"]
+  class QuyetDinh["E09 QUYẾT ĐỊNH"]
+  class TaiKhoan["E10 TÀI KHOẢN NHẬN"]
+  class GiamDinh["E11 KẾT QUẢ GIÁM ĐỊNH"]
+  class CuTru["E12 CƯ TRÚ"]
+  class DiaBan["E13 ĐỊA BÀN"]
+  class RaSoatHo["E14 KẾT QUẢ RÀ SOÁT HỘ"]
+  class SuKien["E15 SỰ KIỆN"]
+  class CanhBao["E16 CẢNH BÁO"]
+  class BanGhiNguon["E17 BẢN GHI NGUỒN"]
+  class CheDo["E20 CHẾ ĐỘ"]
+  class QuyTac["E23 QUY TẮC"]
+  class DangHuongTinh["E31 ĐÁNG HƯỞNG"]
+  class LanTinh["E32 LẦN TÍNH"]
+  class CoSo["E24 CƠ SỞ"]
+  class HoSoTTHC["E30 HỒ SƠ TTHC"]
+
+  Nguoi -- ThanhVienHo
+  Ho -- ThanhVienHo
+  Ho -- RaSoatHo
+  Nguoi -- QuanHe
+  Nguoi -- Dien
+  Nguoi -- GiamDinh
+  Nguoi -- CuTru
+  CuTru --> DiaBan
+  Ho --> DiaBan
+  HuongCheDo --> Nguoi
+  HuongCheDo --> CheDo
+  HuongCheDo -- QuyetDinh
+  HuongCheDo -- ChiTra
+  ChiTra --> TaiKhoan
+  QuyTac --> CheDo
+  QuyTac ..> Dien
+  QuyTac ..> QuanHe
+  BanGhiNguon --> Nguoi
+  SuKien --> Nguoi
+  SuKien ..> HuongCheDo
+  CanhBao --> QuyTac
+  CanhBao --> HuongCheDo
+  DangHuongTinh --> Nguoi
+  DangHuongTinh --> CheDo
+  DangHuongTinh --> LanTinh
+  DangHuongTinh ..> HuongCheDo : so sánh với
+  CanhBao --> DangHuongTinh
+  CoSo --> DiaBan
+  HoSoTTHC --> QuyetDinh
+
+  style Nguoi fill:#d8f0dc,stroke:#2e7d32
+  style Ho fill:#d8f0dc,stroke:#2e7d32
+  style ThanhVienHo fill:#d8f0dc,stroke:#2e7d32
+  style Dien fill:#d8f0dc,stroke:#2e7d32
+  style HuongCheDo fill:#d8f0dc,stroke:#2e7d32
+  style QuanHe fill:#d8f0dc,stroke:#2e7d32
+  style ChiTra fill:#d8f0dc,stroke:#2e7d32
+  style QuyetDinh fill:#fff3c4,stroke:#b58900
+  style TaiKhoan fill:#fff3c4,stroke:#b58900
+  style GiamDinh fill:#fff3c4,stroke:#b58900
+  style CuTru fill:#fff3c4,stroke:#b58900
+  style DiaBan fill:#fff3c4,stroke:#b58900
+  style RaSoatHo fill:#fff3c4,stroke:#b58900
+  style SuKien fill:#fff3c4,stroke:#b58900
+  style CanhBao fill:#fff3c4,stroke:#b58900
+  style BanGhiNguon fill:#fff3c4,stroke:#b58900
+  style CheDo fill:#fff3c4,stroke:#b58900
+  style QuyTac fill:#fff3c4,stroke:#b58900
+  style DangHuongTinh fill:#fff3c4,stroke:#b58900
+  style LanTinh fill:#fff3c4,stroke:#b58900
+  style CoSo fill:#e6e6e6,stroke:#616161
+  style HoSoTTHC fill:#e6e6e6,stroke:#616161

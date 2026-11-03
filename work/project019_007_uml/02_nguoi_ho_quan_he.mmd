@@ -1,0 +1,102 @@
+classDiagram
+  direction LR
+  class Nguoi["E01 NGƯỜI"] {
+    khóa nội bộ
+    số định danh cá nhân
+    loại giấy tờ định danh
+    mã hồ sơ ASXH
+    họ tên
+    ngày sinh
+    giới tính
+    dân tộc
+    trạng thái sống: còn sống, đã mất, mất tích, chưa xác định
+    ngày mất
+    nguồn xác nhận tử vong
+  }
+  class Ho["E02 HỘ"] {
+    mã hộ
+    loại hộ: cư trú, rà soát nghèo
+    địa bàn
+  }
+  class ThanhVienHo["E03 THÀNH VIÊN HỘ"] {
+    quan hệ với chủ hộ
+    là chủ hộ
+    từ ngày
+    đến ngày
+    nguồn
+  }
+  class RaSoatHo["E14 KẾT QUẢ RÀ SOÁT HỘ"] {
+    kỳ rà soát: năm, thường xuyên hoặc định kỳ
+    phân loại: nghèo, cận nghèo, thoát nghèo, trung bình
+    điểm thu nhập
+    các chiều thiếu hụt
+    chuẩn nghèo áp dụng
+  }
+  class QuanHe["E06 QUAN HỆ NGƯỜI–NGƯỜI"] {
+    loại quan hệ
+    căn cứ: văn bản ủy quyền, quyết định giám hộ, hộ tịch
+    từ ngày
+    đến ngày
+    nguồn
+  }
+  class LoaiQuanHe["Loại quan hệ"] {
+    <<enumeration>>
+    thân nhân NCC
+    giám hộ
+    người chăm sóc
+    nhận nuôi dưỡng
+    phụng dưỡng
+    thờ cúng liệt sĩ
+  }
+  class Dien["E04 DIỆN ĐỐI TƯỢNG"] {
+    diện
+    căn cứ công nhận
+    ngày công nhận
+    nguồn
+    cách sinh: công nhận từ nguồn, suy ra theo quy tắc
+    phiên bản quy tắc
+    hiệu lực từ
+    hiệu lực đến
+  }
+  class GiamDinh["E11 KẾT QUẢ GIÁM ĐỊNH"] {
+    loại: mức độ khuyết tật, tỷ lệ tổn thương cơ thể
+    giá trị
+    ngày giám định
+    hội đồng giám định
+    kỳ giám định lại
+  }
+  class CuTru["E12 CƯ TRÚ"] {
+    loại: thường trú, tạm trú
+    từ ngày
+    đến ngày
+    nguồn
+  }
+  class DiaBan["E13 ĐỊA BÀN"] {
+    mã
+    tên
+    cấp: tỉnh, xã
+    hiệu lực từ
+    hiệu lực đến
+    loại dữ liệu: danh mục nạp từ nguồn
+  }
+  class AnhXaDiaBan["ÁNH XẠ ĐỊA BÀN"] {
+    loại dữ liệu: cấu hình
+    ngày áp dụng
+    căn cứ: QĐ 19/2025/QĐ-TTg
+  }
+
+  Nguoi "1" -- "0..*" ThanhVienHo
+  Ho "1" -- "1..*" ThanhVienHo
+  Ho "1" -- "0..*" RaSoatHo
+  Nguoi "1" -- "0..*" QuanHe : người thứ nhất
+  Nguoi "1" -- "0..*" QuanHe : người thứ hai
+  QuanHe ..> LoaiQuanHe
+  Nguoi "1" -- "0..*" Dien
+  Nguoi "1" -- "0..*" GiamDinh
+  Dien "0..*" --> "0..1" GiamDinh : căn cứ mức độ
+  Nguoi "1" -- "0..*" CuTru
+  CuTru "0..*" --> "1" DiaBan
+  Ho "0..*" --> "1" DiaBan
+  DiaBan "0..*" --> "0..1" DiaBan : cấp trên
+  AnhXaDiaBan "0..*" --> "1" DiaBan : mã cũ
+  AnhXaDiaBan "0..*" --> "1" DiaBan : mã mới

@@ -1,0 +1,58 @@
+classDiagram
+  direction LR
+  class Nguoi["E01 NGƯỜI"]
+  class DiaBan["E13 ĐỊA BÀN"]
+  class HuongCheDo["E05 HƯỞNG CHẾ ĐỘ"]
+  class QuyetDinh["E09 QUYẾT ĐỊNH"]
+  class CoSo["E24 CƠ SỞ"] {
+    mã
+    tên
+    loại: cơ sở TGXH, nuôi dưỡng NCC, điều dưỡng NCC
+    công suất
+  }
+  class LuotChamSoc["E25 LƯỢT CHĂM SÓC TẠI CƠ SỞ"] {
+    hình thức: tập trung, tại nhà
+    từ ngày
+    đến ngày
+  }
+  class PhuongTien["E26 CẤP PHƯƠNG TIỆN TRỢ GIÚP"] {
+    loại phương tiện
+    ngày cấp
+    niên hạn
+    kinh phí
+  }
+  class Dot["E27 ĐỢT CHÍNH SÁCH"] {
+    dịp
+    quyết định
+    các mức
+    thời gian thực hiện
+  }
+  class NghiaTrang["E28 NGHĨA TRANG"] {
+    mã
+    tên
+  }
+  class Mo["E29 MỘ LIỆT SĨ"] {
+    vị trí
+    tình trạng xác định danh tính
+  }
+  class HoSoTTHC["E30 HỒ SƠ TTHC"] {
+    mã hồ sơ
+    thủ tục
+    ngày nhận
+    hạn giải quyết
+    trạng thái
+  }
+
+  CoSo "0..*" --> "1" DiaBan
+  LuotChamSoc "0..*" --> "1" CoSo
+  LuotChamSoc "0..*" --> "1" Nguoi
+  LuotChamSoc "0..*" --> "0..1" HuongCheDo
+  PhuongTien "0..*" --> "1" Nguoi
+  PhuongTien "0..*" --> "0..1" HuongCheDo
+  Dot "1" -- "0..*" HuongCheDo : suất trong đợt
+  NghiaTrang "0..*" --> "1" DiaBan
+  Mo "0..*" --> "1" NghiaTrang
+  Mo "0..1" --> "0..1" Nguoi : liệt sĩ
+  HoSoTTHC "0..*" --> "1" Nguoi : người nộp
+  HoSoTTHC "0..*" --> "1" Nguoi : người được đề nghị
+  HoSoTTHC "0..1" --> "0..1" QuyetDinh : kết quả

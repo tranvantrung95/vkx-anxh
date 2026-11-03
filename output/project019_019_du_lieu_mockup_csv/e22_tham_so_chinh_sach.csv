@@ -1,0 +1,30 @@
+﻿ma_tham_so,ten,ma_che_do,gia_tri,don_vi,ap_dung_tu,ap_dung_den,ma_van_ban,dieu_khoan,phien_ban
+P-MUC-CHUAN-TGXH,Mức chuẩn TGXH,CD01;CD02,500000,đồng/tháng,2024-07-01,2026-06-30,VB04,,CH-2026.10.1
+P-MUC-CHUAN-TGXH,Mức chuẩn TGXH,CD01;CD02,540000,đồng/tháng,2026-07-01,,VB01,Điều 4 khoản 2; Điều 32 khoản 3,CH-2026.10.1
+P-HUU-TRI-XH,Trợ cấp hưu trí xã hội,CD03,500000,đồng/tháng,2025-07-01,2026-06-30,VB03,,CH-2026.10.1
+P-HUU-TRI-XH,Trợ cấp hưu trí xã hội,CD03,540000,đồng/tháng,2026-07-01,,VB01,Điều 31,CH-2026.10.1
+P-HS-TGXH-K1-DUOI4,"Hệ số trẻ em Điều 5 khoản 1, dưới 4 tuổi",CD01,2.5,hệ số,2026-07-01,,VB01,Điều 6 khoản 1 điểm a,CH-2026.10.1
+P-HS-TGXH-K1-TU4,"Hệ số trẻ em Điều 5 khoản 1, từ đủ 4 tuổi",CD01,1.5,hệ số,2026-07-01,,VB01,Điều 6 khoản 1 điểm a,CH-2026.10.1
+P-HS-TGXH-K2,Hệ số người từ 16 tuổi đang học (Điều 5 khoản 2),CD01,1.5,hệ số,2026-07-01,,VB01,Điều 6 khoản 1 điểm b,CH-2026.10.1
+P-HS-TGXH-K4,"Hệ số đơn thân nghèo, mỗi con đang nuôi",CD01,1.0,hệ số/con,2026-07-01,,VB01,Điều 6 khoản 1 điểm d,CH-2026.10.1
+P-MAI-TANG-TGXH-HS-MIN,"Hỗ trợ mai táng TGXH, tối thiểu",CD09,20,lần mức chuẩn,2026-07-01,,VB01,Điều 11 khoản 2,CH-2026.10.1
+P-MAI-TANG-NCC,"Trợ cấp mai táng NCC (GIẢ ĐỊNH mockup: 10 × lương cơ sở 2.340.000; chưa có trong sheet, VL-23)",CD10,23400000,đồng,2026-07-01,,VB05,Điều 6 khoản 4; Điều 16 khoản 12,CH-2026.10.1
+P-TN-1LAN-THANG,Trợ cấp một lần khi thân nhân liệt sĩ chết: số tháng trợ cấp hiện hưởng,CD11,3,tháng,2026-07-01,,VB05,Điều 16 khoản 11,CH-2026.10.1
+NCC-PL1-11,Thân nhân của 3 liệt sĩ trở lên,CD07,9036000,đồng/tháng,2026-07-01,,VB02,Phụ lục I mục 3.4,CH-2026.10.1
+NCC-PL1-12,Tuất nuôi dưỡng: thân nhân liệt sĩ sống cô đơn,CD08,2410000,đồng/tháng,2026-07-01,,VB02,Phụ lục I mục 3.5,CH-2026.10.1
+P-HS-TGXH-K5A-60DEN75,"Hệ số NCT Điều 5 khoản 5 điểm a, 60 đến dưới 75",CD01,1.5,hệ số,2026-07-01,,VB01,Điều 6 khoản 1 điểm đ,CH-2026.10.1
+P-HS-TGXH-K5A-TU75,"Hệ số NCT Điều 5 khoản 5 điểm a, từ 75",CD01,2.0,hệ số,2026-07-01,,VB01,Điều 6 khoản 1 điểm đ,CH-2026.10.1
+P-HS-TGXH-K6-DBN,Hệ số NKT đặc biệt nặng,CD01,2.0,hệ số,2026-07-01,,VB01,Điều 6 khoản 1 điểm e,CH-2026.10.1
+P-HS-TGXH-K6-TE-NCT-DBN,Hệ số NKT đặc biệt nặng là trẻ em hoặc NCT,CD01,2.5,hệ số,2026-07-01,,VB01,Điều 6 khoản 1 điểm e,CH-2026.10.1
+P-HS-TGXH-K6-NANG,Hệ số NKT nặng,CD01,1.5,hệ số,2026-07-01,,VB01,Điều 6 khoản 1 điểm e,CH-2026.10.1
+P-HS-TGXH-K6-TE-NCT-NANG,Hệ số NKT nặng là trẻ em hoặc NCT,CD01,2.0,hệ số,2026-07-01,,VB01,Điều 6 khoản 1 điểm e,CH-2026.10.1
+P-HS-CS-HO-NKT-DBN,Hệ số hộ chăm sóc NKT đặc biệt nặng,CD02,1.0,hệ số/người,2026-07-01,,VB01,Điều 17 khoản 2 điểm c,CH-2026.10.1
+P-TAM-DUNG-THANG,Số tháng không nhận liên tục thì tạm dừng,CD01;CD02;CD03,3,tháng,2026-10-05,,VB01,Điều 9 khoản 1 điểm a,CH-2026.10.1
+NCC-PL1-08,Con liệt sĩ chưa đủ 18 tuổi,CD07,6024000,đồng/tháng,2026-07-01,,VB02,Phụ lục I mục 3.1,CH-2026.10.1
+NCC-PL1-09,Thân nhân của 01 liệt sĩ,CD07,3012000,đồng/tháng,2026-07-01,,VB02,Phụ lục I mục 3.2,CH-2026.10.1
+NCC-PL1-10,Thân nhân của 02 liệt sĩ,CD07,6024000,đồng/tháng,2026-07-01,,VB02,Phụ lục I mục 3.3,CH-2026.10.1
+NCC-PL1-14,"Bà mẹ Việt Nam anh hùng, trợ cấp",CD04,9036000,đồng/tháng,2026-07-01,,VB02,Phụ lục I mục 4,CH-2026.10.1
+NCC-PL1-14-PC,"Bà mẹ Việt Nam anh hùng, phụ cấp",CD05,2524000,đồng/tháng,2026-07-01,,VB02,Phụ lục I mục 4,CH-2026.10.1
+NCC-PL1-38,"Nhiễm chất độc hóa học, tổn thương 41% đến 60%",CD04,3825000,đồng/tháng,2026-07-01,,VB02,Phụ lục I,CH-2026.10.1
+NCC-PL1-39,"Nhiễm chất độc hóa học, tổn thương 61% đến 80%",CD04,5361000,đồng/tháng,2026-07-01,,VB02,Phụ lục I,CH-2026.10.1
+NCC-PL1-54,Người phục vụ NCC sống ở gia đình,CD06,3012000,đồng/tháng,2026-07-01,,VB02,Phụ lục I mục 12.1,CH-2026.10.1

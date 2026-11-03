@@ -1,0 +1,18 @@
+stateDiagram-v2
+  [*] --> DeNghi : hồ sơ TTHC hoặc tự động phát hiện bỏ sót
+  DeNghi : Đề nghị
+  DangHuong : Đang hưởng
+  TamDung : Tạm dừng, cần xác nhận
+  ChamDut : Chấm dứt
+  DeNghi --> DangHuong : quyết định hưởng
+  DeNghi --> [*] : từ chối
+  DangHuong --> DangHuong : điều chỉnh mức do qua mốc tuổi, giám định lại, tham số mới
+  DangHuong --> TamDung : cảnh báo đã mất hoặc chuyển đi chưa xác minh
+  TamDung --> DangHuong : xác minh vẫn đủ điều kiện
+  TamDung --> ChamDut : xác minh không còn đủ điều kiện
+  DangHuong --> ChamDut : mất, hết điều kiện, di chuyển hồ sơ
+  ChamDut --> [*]
+  note right of ChamDut
+    Sự kiện mất có thể làm phát sinh chế độ mới
+    cho người khác: mai táng phí, tuất thân nhân
+  end note

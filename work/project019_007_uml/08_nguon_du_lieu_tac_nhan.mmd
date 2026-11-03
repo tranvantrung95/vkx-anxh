@@ -1,0 +1,46 @@
+flowchart LR
+  ETL(["ETL/API đồng bộ từ 7 nguồn"])
+  ENG(["Engine tính, chạy lại"])
+  VT01(["VT01 Quản trị hệ thống"])
+  VT02(["VT02 Quản trị dữ liệu"])
+  VT03(["VT03 Chuyên viên chính sách"])
+  VT04(["VT04 Người duyệt"])
+  VT05(["VT05 Cán bộ xã, tỉnh"])
+  VT06(["VT06 Thanh tra, tài chính"])
+  VT07(["VT07 Lãnh đạo, hoạch định"])
+
+  subgraph L1["Lớp 1: dữ liệu nạp từ nguồn"]
+    D1["E01 E02 E03 E05 E06 E07<br/>E10 E11 E12 E17<br/>danh mục địa bàn của E13"]
+  end
+  subgraph L2["Lớp 2: cấu hình có phiên bản"]
+    D2["E20 E21 E22 E23<br/>E09 và E14 theo giả định, chờ Q50, Q51<br/>ánh xạ địa bàn của E13"]
+  end
+  subgraph L3["Lớp 3: tổng hợp, chạy lại được"]
+    D3["E04 phần suy ra<br/>E15 SỰ KIỆN<br/>E31 ĐÁNG HƯỞNG<br/>E32 LẦN TÍNH"]
+    D16["E16 CẢNH BÁO"]
+  end
+
+  ETL -->|"nạp, giữ bản chụp"| D1
+  ETL -.->|"E09, E14 nếu nguồn có lưu"| D2
+  VT01 -->|"khai báo nguồn"| ETL
+  VT02 -->|"duyệt gộp, tách"| D1
+  VT05 -->|"nhập E09, E14"| D2
+  VT05 -.->|"nhập E06 khi nguồn thiếu"| D1
+  VT03 -->|"soạn"| D2
+  VT02 -->|"soạn ánh xạ"| D2
+  VT04 -->|"duyệt"| D2
+  D1 --> ENG
+  D2 --> ENG
+  ENG -->|"tạo lại"| D3
+  ENG -->|"phát hiện"| D16
+  VT05 -->|"xác nhận sự kiện"| D3
+  VT05 -->|"xử lý cảnh báo"| D16
+  VT06 -->|"xử lý chi sai"| D16
+  VT01 -.->|"chạy chính thức"| ENG
+  VT06 -.->|"mô phỏng"| ENG
+  VT07 -.->|"mô phỏng"| ENG
+
+  classDef may fill:#e6e6e6,stroke:#616161
+  classDef nguoi fill:#fff3c4,stroke:#b58900
+  class ETL,ENG may
+  class VT01,VT02,VT03,VT04,VT05,VT06,VT07 nguoi

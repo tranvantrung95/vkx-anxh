@@ -1,0 +1,12 @@
+﻿ma_che_do,ten,nhom_chinh_sach,hinh_thuc,don_vi_tinh,ma_van_ban,hieu_luc_tu,hieu_luc_den,phien_ban
+CD01,Trợ cấp xã hội hằng tháng,TGXH,Tiền hằng tháng,Người,VB01,2026-07-01,,CH-2026.10.1
+CD02,Hỗ trợ hộ trực tiếp chăm sóc NKT đặc biệt nặng,TGXH,Tiền hằng tháng,Hộ,VB01,2026-07-01,,CH-2026.10.1
+CD03,Trợ cấp hưu trí xã hội,TGXH,Tiền hằng tháng,Người,VB03,2026-07-01,,CH-2026.10.1
+CD04,Trợ cấp ưu đãi hằng tháng NCC,NCC,Tiền hằng tháng,Người,VB02,2026-07-01,,CH-2026.10.1
+CD05,Phụ cấp hằng tháng NCC,NCC,Tiền hằng tháng,Người,VB02,2026-07-01,,CH-2026.10.1
+CD06,Trợ cấp người phục vụ NCC sống ở gia đình,NCC,Tiền hằng tháng,Người,VB02,2026-07-01,,CH-2026.10.1
+CD07,Trợ cấp tuất hằng tháng thân nhân liệt sĩ,NCC,Tiền hằng tháng,Người,VB05,2026-07-01,,CH-2026.10.1
+CD08,Trợ cấp tuất nuôi dưỡng hằng tháng,NCC,Tiền hằng tháng,Người,VB05,2026-07-01,,CH-2026.10.1
+CD09,Hỗ trợ chi phí mai táng TGXH,TGXH,Một lần,Người,VB01,2026-07-01,,CH-2026.10.1
+CD10,Trợ cấp mai táng NCC,NCC,Một lần,Người,VB05,2026-07-01,,CH-2026.10.1
+CD11,Trợ cấp một lần khi thân nhân liệt sĩ đang hưởng tuất chết,NCC,Một lần,Người,VB05,2026-07-01,,CH-2026.10.1

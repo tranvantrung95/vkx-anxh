@@ -1,0 +1,24 @@
+﻿ma_quy_tac,ten,ma_che_do,dieu_kien,can_cu,trang_thai,ap_dung_tu,phien_ban
+BR-01,Mức trợ cấp xã hội hằng tháng,CD01,Mức = mức chuẩn kỳ T × hệ số diện tại T,NĐ 335 Điều 6 khoản 1,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-02,Nhiều hệ số: một mức cao nhất,CD01,Nhiều diện cùng kỳ thì chỉ hưởng mức cao nhất,NĐ 335 Điều 6 khoản 2,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-03,Ngoại lệ đơn thân nghèo nuôi con,CD01,"Đơn thân nghèo (khoản 4) đồng thời thuộc khoản 5, 6, 8: hưởng cả hai",NĐ 335 Điều 6 khoản 2 câu 2,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-05,"Thôi hưởng, điều chỉnh mức",CD01;CD03,Chết: thôi từ tháng sau tháng chết. Đổi điều kiện: điều chỉnh từ tháng thay đổi,NĐ 335 Điều 8 khoản 4,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-06,Chuyển nơi cư trú,CD01;CD03,"Nơi cũ thôi chi, nơi mới hưởng từ tháng thôi chi",NĐ 335 Điều 8 khoản 3,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-07,Tạm dừng do không nhận,CD01;CD02;CD03,Không nhận liên tục từ P-TAM-DUNG-THANG tháng thì tạm dừng,NĐ 335 Điều 9 khoản 1 điểm a,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-08,Thôi hưởng TGXH,CD01,"Chết, mất tích, không còn đủ điều kiện Điều 5...",NĐ 335 Điều 9 khoản 2,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-09,Thôi hỗ trợ chăm sóc,CD02,Người được chăm sóc chết thì thôi hỗ trợ chăm sóc,NĐ 335 Điều 9 khoản 3,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-10,Mai táng TGXH,CD09,Đối tượng Điều 11 khoản 1 chết: hỗ trợ ≥ 20 × mức chuẩn; trùng văn bản (kể cả BHXH) thì một mức cao nhất,"NĐ 335 Điều 11 khoản 1, 2",Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-27,Mai táng NCC,CD10,"NCC, thân nhân đang hưởng hằng tháng chết: một trợ cấp mai táng; thuộc diện mai táng BHXH thì hưởng theo BHXH",PL 02/2020 Điều 6 khoản 4,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-28,Chấm dứt trợ cấp NCC,CD04;CD07;CD08,"NCC, thân nhân chết: thôi trợ cấp hằng tháng (thời điểm theo NĐ 131/2021 Điều 118)",PL 02/2020 Điều 54,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-41,Đối chiếu chi phải gộp truy lĩnh,CD01;CD02;CD03,Số đã chi kỳ T = thường kỳ T + truy lĩnh của kỳ gốc T; so với mức quyết định của T,"Suy luận BA từ BR-13; NĐ 335 Điều 32 khoản 3, 4",Chờ đối chiếu,2026-07-01,CH-2026.10.1
+BR-12,Hộ chăm sóc NKT đặc biệt nặng,CD02,"Hộ trực tiếp chăm sóc NKT ĐBN: hệ số 1,0 mỗi người",NĐ 335 Điều 17 khoản 2 điểm c,Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-13,Chuyển mức từ 01/07/2026,CD01,"Người đang hưởng theo NĐ 20/2021, NĐ 176/2025: từ 07/2026 tính theo NĐ 335","NĐ 335 Điều 32 khoản 3, 4",Đã đối chiếu,2026-07-01,CH-2026.10.1
+BR-16,Hưu trí xã hội và TGXH,CD01;CD03,Đủ cả hai thì hưởng mức cao hơn,NĐ 335 Điều 31,Đã đối chiếu (theo 007),2026-07-01,CH-2026.10.1
+BR-20,Mức NCC theo bảng phụ lục,CD04;CD05;CD06,Mức = giá trị bảng phụ lục của kỳ T theo mã diện,NĐ 321/2026 Phụ lục I,Chờ đối chiếu (TV),2026-07-01,CH-2026.10.1
+BR-22,Con liệt sĩ chưa đủ 18 tuổi,CD04,Dưới 18: mục 3.1; tháng sau tháng đủ 18 chuyển mục thân nhân tương ứng,NĐ 321/2026 Phụ lục I mục 3.1,Chờ đối chiếu (TV),2026-07-01,CH-2026.10.1
+BR-52,Trạng thái sống chưa xác định,Mọi chế độ,Không kết luận chi đúng; trả 'chưa đủ dữ liệu',Tài liệu 007 mục 4.1,Dự thảo,2026-07-01,CH-2026.10.1
+KT-HTXH,Điều kiện hưu trí xã hội (rút gọn cho mockup),CD03,"Từ 75 tuổi, không có lương hưu hoặc trợ cấp BHXH hằng tháng, không hưởng trợ cấp NCC hằng tháng",NĐ 176/2025 (chưa trích điều),"Giả định mockup, chưa có trong sheet Quy tắc BR",2026-07-01,CH-2026.10.1
+KT-TK,Một tài khoản nhận cho nhiều đối tượng khác hộ,Mọi chế độ,Một tài khoản nhận cho từ 3 đối tượng thuộc từ 2 hộ trở lên,Đề xuất BA (UC08),"Giả định mockup, chưa có trong sheet Quy tắc BR",2026-07-01,CH-2026.10.1
+KT-TUAT-ND,Tuất nuôi dưỡng thân nhân liệt sĩ sống cô đơn,CD08,"Thân nhân liệt sĩ hưởng tuất hằng tháng, sống một mình và không có người phụng dưỡng (rút gọn khái niệm 'sống cô đơn')",PL 02/2020 Điều 16 khoản 4,"Giả định mockup, chưa có trong sheet Quy tắc BR (VL-39)",2026-07-01,CH-2026.10.1
+KT-TUAT-1L,Trợ cấp một lần khi thân nhân liệt sĩ chết,CD11,Thân nhân đang hưởng tuất hằng tháng chết: 3 tháng trợ cấp tuất hiện hưởng (chưa cộng tuất nuôi dưỡng),PL 02/2020 Điều 16 khoản 11,"Giả định mockup, chưa có trong sheet Quy tắc BR (VL-39)",2026-07-01,CH-2026.10.1
+KT-BHYT,Người hưởng trợ cấp hằng tháng chưa có thẻ BHYT,CD01;CD03;CD04;CD07,Đang đáng hưởng tại kỳ chốt mà không có thẻ BHYT còn hạn,Đề xuất BA (UC16),"Giả định mockup, chưa có trong sheet Quy tắc BR",2026-07-01,CH-2026.10.1

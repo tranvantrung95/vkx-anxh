@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800">
+<defs>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap');
+text { font-family: 'JetBrains Mono', 'SF Mono', 'Menlo', 'Noto Sans', sans-serif; }
+</style>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#eef2f7" stroke-width="0.5"/></pattern>
+<marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#475569"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect width="100%" height="100%" fill="url(#grid)"/>
+<text x="40" y="38" fill="#0f172a" font-size="16" font-weight="700">MẪU 2 · Tác nhân VT05 Cán bộ xã, tỉnh</text>
+<text x="40" y="58" fill="#475569" font-size="9">VT05 thêm hoặc sửa dữ liệu của thực thể nào, ai duyệt, chỉ được xem gì. Nguồn: output/project019_007 mục 3.6 (khối F). Giả định chờ Q56 đến Q58.</text>
+<rect x="40" y="120" width="330" height="250" rx="24" fill="#ffffff"/>
+<rect x="40" y="120" width="330" height="250" rx="24" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+<text x="205.0" y="154" fill="#92400e" font-size="10" font-weight="700" text-anchor="middle">VT05 · Người dùng</text>
+<text x="205.0" y="178" fill="#0f172a" font-size="14" font-weight="700" text-anchor="middle">Cán bộ xã, tỉnh</text>
+<text x="205.0" y="214" fill="#475569" font-size="8.5" text-anchor="middle">Cấp xã và tỉnh (cấp huyện đã bỏ)</text>
+<text x="205.0" y="229" fill="#475569" font-size="8.5" text-anchor="middle">Nguồn vai trò: UC04, UC05, UC09 đến UC11,</text>
+<text x="205.0" y="244" fill="#475569" font-size="8.5" text-anchor="middle">NĐ 335 Điều 8, 009 mục 3.2</text>
+<text x="205.0" y="259" fill="#475569" font-size="8.5" text-anchor="middle">Chưa có tài liệu phân quyền của nguồn</text>
+<text x="205.0" y="274" fill="#475569" font-size="8.5" text-anchor="middle">(Q56, Q57). Toàn bộ là giả định.</text>
+<path d="M 370.0 160.0 L 470.0 160.0 L 470.0 138.0 L 640.0 138.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 370.0 196.0 L 494.0 196.0 L 494.0 256.0 L 640.0 256.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 370.0 232.0 L 518.0 232.0 L 518.0 374.0 L 640.0 374.0" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+<path d="M 370.0 268.0 L 542.0 268.0 L 542.0 492.0 L 640.0 492.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<path d="M 370.0 304.0 L 566.0 304.0 L 566.0 610.0 L 640.0 610.0" fill="none" stroke="#475569" stroke-width="1.2" marker-end="url(#arrow)"/>
+<g transform="translate(640,90)"><rect width="560" height="96" rx="6" fill="#ffffff"/><rect width="560" height="96" rx="6" fill="#fff3c4" stroke="#b58900" stroke-width="1.5"/><text x="10" y="17" fill="#b58900" font-size="10" font-weight="700">E09</text><text x="42" y="17" fill="#0f172a" font-size="11" font-weight="700">QUYẾT ĐỊNH</text><line x1="0" y1="26" x2="560" y2="26" stroke="#b58900" stroke-width="0.5" stroke-opacity="0.5"/><text x="10" y="43" fill="#475569" font-size="8.5">Nhập quyết định hưởng. Sửa tạo phiên bản mới, không ghi đè.</text><rect x="10" y="56" width="56.1" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/><text x="38.0" y="66" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT05 nhập</text><rect x="71.1" y="56" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/><text x="101.6" y="66" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT04 duyệt</text><text x="550" y="88" fill="#334155" font-size="7.5" font-style="italic" text-anchor="end">Giả định D8, chờ Q50</text></g>
+<g transform="translate(640,208)"><rect width="560" height="96" rx="6" fill="#ffffff"/><rect width="560" height="96" rx="6" fill="#fff3c4" stroke="#b58900" stroke-width="1.5"/><text x="10" y="17" fill="#b58900" font-size="10" font-weight="700">E14</text><text x="42" y="17" fill="#0f172a" font-size="11" font-weight="700">KẾT QUẢ RÀ SOÁT HỘ</text><line x1="0" y1="26" x2="560" y2="26" stroke="#b58900" stroke-width="0.5" stroke-opacity="0.5"/><text x="10" y="43" fill="#475569" font-size="8.5">Nhập kết quả rà soát hộ theo kỳ, không ghi đè kỳ cũ.</text><rect x="10" y="56" width="56.1" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/><text x="38.0" y="66" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT05 nhập</text><rect x="71.1" y="56" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/><text x="101.6" y="66" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT04 duyệt</text><text x="550" y="88" fill="#334155" font-size="7.5" font-style="italic" text-anchor="end">Giả định D8, chờ Q51</text></g>
+<g transform="translate(640,326)"><rect width="560" height="96" rx="6" fill="#ffffff"/><rect width="560" height="96" rx="6" fill="#d8f0dc" stroke="#2e7d32" stroke-width="1.5"/><text x="10" y="17" fill="#2e7d32" font-size="10" font-weight="700">E06</text><text x="42" y="17" fill="#0f172a" font-size="11" font-weight="700">QUAN HỆ NGƯỜI–NGƯỜI</text><line x1="0" y1="26" x2="560" y2="26" stroke="#2e7d32" stroke-width="0.5" stroke-opacity="0.5"/><text x="10" y="43" fill="#475569" font-size="8.5">Ngoại lệ: ủy quyền thờ cúng, người chăm sóc. Đánh dấu nguồn 'nhập tay'.</text><rect x="10" y="56" width="46.3" height="14" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="0.8"/><text x="33.2" y="66" fill="#075985" font-size="8" font-weight="600" text-anchor="middle">ETL/API</text><rect x="61.300000000000004" y="56" width="56.1" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/><text x="89.4" y="66" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT05 nhập</text><rect x="122.4" y="56" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/><text x="152.9" y="66" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT04 duyệt</text><text x="550" y="88" fill="#334155" font-size="7.5" font-style="italic" text-anchor="end">ETL nạp lại không ghi đè</text></g>
+<g transform="translate(640,444)"><rect width="560" height="96" rx="6" fill="#ffffff"/><rect width="560" height="96" rx="6" fill="#ece7ff" stroke="#6d4fc2" stroke-width="1.5"/><text x="10" y="17" fill="#6d4fc2" font-size="10" font-weight="700">E15</text><text x="42" y="17" fill="#0f172a" font-size="11" font-weight="700">SỰ KIỆN</text><line x1="0" y1="26" x2="560" y2="26" stroke="#6d4fc2" stroke-width="0.5" stroke-opacity="0.5"/><text x="10" y="43" fill="#475569" font-size="8.5">Chỉ đổi trạng thái sự kiện do engine tạo, không sửa nội dung.</text><rect x="10" y="56" width="61.0" height="14" rx="3" fill="#ede9fe" stroke="#7c3aed" stroke-width="0.8"/><text x="40.5" y="66" fill="#5b21b6" font-size="8" font-weight="600" text-anchor="middle">Engine tạo</text><rect x="76.0" y="56" width="75.7" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/><text x="113.8" y="66" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT05 xác nhận</text><text x="550" y="88" fill="#334155" font-size="7.5" font-style="italic" text-anchor="end">Không cần duyệt</text></g>
+<g transform="translate(640,562)"><rect width="560" height="96" rx="6" fill="#ffffff"/><rect width="560" height="96" rx="6" fill="#ece7ff" stroke="#6d4fc2" stroke-width="1.5"/><text x="10" y="17" fill="#6d4fc2" font-size="10" font-weight="700">E16</text><text x="42" y="17" fill="#0f172a" font-size="11" font-weight="700">CẢNH BÁO</text><line x1="0" y1="26" x2="560" y2="26" stroke="#6d4fc2" stroke-width="0.5" stroke-opacity="0.5"/><text x="10" y="43" fill="#475569" font-size="8.5">Đổi trạng thái, ghi kết quả xử lý. UC06 đến UC08 do VT06 xử lý.</text><rect x="10" y="56" width="90.4" height="14" rx="3" fill="#ede9fe" stroke="#7c3aed" stroke-width="0.8"/><text x="55.2" y="66" fill="#5b21b6" font-size="8" font-weight="600" text-anchor="middle">Engine phát hiện</text><rect x="105.4" y="56" width="61.0" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/><text x="135.9" y="66" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT05 xử lý</text><rect x="171.4" y="56" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/><text x="201.9" y="66" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT04 duyệt</text><text x="550" y="88" fill="#334155" font-size="7.5" font-style="italic" text-anchor="end">Chạy lại không ghi đè phần xử lý</text></g>
+<text x="632.0" y="132.0" fill="#334155" font-size="8.5" text-anchor="end">nhập</text>
+<text x="632.0" y="250.0" fill="#334155" font-size="8.5" text-anchor="end">nhập theo kỳ (cấp xã)</text>
+<text x="632.0" y="368.0" fill="#334155" font-size="8.5" text-anchor="end">nhập khi nguồn thiếu</text>
+<text x="632.0" y="486.0" fill="#334155" font-size="8.5" text-anchor="end">xác nhận hoặc bác</text>
+<text x="632.0" y="604.0" fill="#334155" font-size="8.5" text-anchor="end">xử lý UC09 đến UC11</text>
+<rect x="40" y="410" width="330" height="132" rx="6" fill="#ffffff"/>
+<rect x="40" y="410" width="330" height="132" rx="6" fill="#f1f5f9" stroke="#64748b" stroke-width="1.2"/>
+<text x="50" y="428" fill="#0f172a" font-size="10" font-weight="700">Chỉ xem</text>
+<text x="50" y="446" fill="#475569" font-size="8.5">Hồ sơ 360° (UC04, UC05) trong địa bàn được phân</text>
+<text x="50" y="472" fill="#0f172a" font-size="10" font-weight="700">Không làm được</text>
+<text x="50" y="490" fill="#475569" font-size="8.5">Sửa tay E01, E02, E03, E05, E07, E10, E11, E12</text>
+<text x="50" y="504" fill="#475569" font-size="8.5">(dữ liệu nạp từ nguồn qua ETL/API)</text>
+<text x="50" y="522" fill="#475569" font-size="8.5">Đổi nội dung E31, E32 do engine tính</text>
+<text x="40" y="740" fill="#0f172a" font-size="11" font-weight="700">Chú giải</text>
+<rect x="40" y="750" width="46.3" height="14" rx="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="0.8"/>
+<text x="63.2" y="760" fill="#075985" font-size="8" font-weight="600" text-anchor="middle">ETL/API</text>
+<rect x="94.30000000000001" y="750" width="41.4" height="14" rx="3" fill="#ede9fe" stroke="#7c3aed" stroke-width="0.8"/>
+<text x="115.0" y="760" fill="#5b21b6" font-size="8" font-weight="600" text-anchor="middle">Engine</text>
+<rect x="143.70000000000002" y="750" width="119.8" height="14" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
+<text x="203.6" y="760" fill="#92400e" font-size="8" font-weight="600" text-anchor="middle">VT0x nhập, soạn, xử lý</text>
+<rect x="271.5" y="750" width="61.0" height="14" rx="3" fill="#dcfce7" stroke="#16a34a" stroke-width="0.8"/>
+<text x="302.0" y="760" fill="#166534" font-size="8" font-weight="600" text-anchor="middle">VT0x duyệt</text>
+<text x="40" y="786" fill="#475569" font-size="8.5">Nét liền: việc chắc chắn theo mô hình. Nét đứt: ngoại lệ khi nguồn thiếu. Màu khung thực thể theo lớp dữ liệu (xanh lơ: nạp từ nguồn, vàng: cấu hình, tím: tổng hợp).</text>
+</svg>

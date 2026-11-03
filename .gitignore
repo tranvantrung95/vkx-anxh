@@ -1,0 +1,17 @@
+# Tài liệu gốc của khách (Phụ lục III dự thảo hợp đồng, checklist gốc): không đưa lên repo công khai
+input/
+
+# Bản sao lưu và file trung gian (script cap_nhat_checklist.py tự sao lưu vào tmp/)
+tmp/
+
+# Chỉ mục sinh tự động, không phải nguồn sự thật (xem CLAUDE.md)
+.codegraph/
+graphify-out/
+
+# Cấu hình cục bộ của Claude Code
+.claude/settings.local.json
+
+# File khóa của Excel, file hệ thống, file lạ
+~$*
+.DS_Store
+/-
