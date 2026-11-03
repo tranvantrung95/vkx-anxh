@@ -117,3 +117,11 @@ Next: người dùng mở file kiểm số khối D khớp TC-UC12-04; hỏi Q60
 - audit2: ĐẠT.
 - Next: người dùng duyệt; tùy chọn xuất .docx, thêm bảng (+) vào 013 qua cap_nhat_checklist.py, hoặc đóng gói thành skill BA dùng chung.
 - 30/10/2026: xuất output/project019_018_quy_trinh_ba_chuan.docx (21 trang A4, Times New Roman, 35 bảng có viền, hàng tiêu đề lặp lại, sơ đồ mạch chính dọc 21 cm). Script: tmp/xuat_018_20261030/build_docx.py (pandoc + python-docx; ảnh sơ đồ dựng bằng mmdc). Đã xem bản PDF do Word xuất. Sơ đồ đổi LR → TB ở cả .md. Sửa "hợp nhất" → "phù hợp" ở mục 1 (PF-121).
+
+## POC trên dữ liệu giả 019 (03/11/2026)
+- Theo yêu cầu "làm bản POC dữ liệu mockup", người dùng chọn Python + web tĩnh, đủ 7 màn hình.
+- `work/project019_020_poc_pipeline.py`: đọc 30 CSV của 019, chạy nguồn và ghép định danh (T02, T06), phép đo chất lượng (UC01), DB01 theo 4 ngày chốt (BR-50, 51, 53), hồ sơ 360° (UC04), đối soát tính lại độc lập từ E31, E05, E07 (UC06, 07, 09, 11), thu hồi (đầu ra 2), đề xuất chính sách (đầu ra 1), chỉ tiêu xã và dự báo 1–5 năm theo già hóa (đầu ra 3). Ghi `output/project019_020_poc_ket_qua.json` và `output/project019_020_poc.html` (nhúng dữ liệu vào mẫu `work/project019_020_poc_giao_dien.html`).
+- `work/project019_020_poc_test.py`: 52 kiểm tra, tất cả đạt (25/25 cảnh báo khớp E16, 26 ca TC-M, BR-50/51/53, thu hồi, VD2 khớp E36, hồ sơ 360°). Headless Chromium: 8 màn hình không lỗi JS, không tràn ngang ở 1366 và 400 px.
+- Phát hiện từ dữ liệu giả: 3/32 người đã mất còn hưởng "Đang hưởng"; người đã mất vẫn là thành viên hộ; NKT đặc biệt nặng có quan hệ chăm sóc 0/7; không hộ nhà tạm/xuống cấp nào có NCC; chưa có thương binh, bệnh binh trong bộ 019; dự báo chi giảm dần vì tử vong lớn hơn người mới tròn 75.
+- Giả định POC ghi trong khóa `gia_dinh` của JSON và màn "Luồng xử lý".
+- Chạy lại: `python3 -I work/project019_020_poc_pipeline.py && python3 -I work/project019_020_poc_test.py`.

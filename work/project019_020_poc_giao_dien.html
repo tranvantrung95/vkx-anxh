@@ -1,0 +1,354 @@
+<title>POC dữ liệu an sinh</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<style>
+/* Bố cục: thanh điều hướng trái (xếp lên trên ở màn hẹp) + vùng nội dung các màn hình, mỗi màn hình là một route theo hash */
+:root{
+  --bg:#F3F5F8;--surface:#FFFFFF;--surface-2:#F7F9FB;--line:#D9DFE6;--line-soft:#EBEFF3;
+  --fg:#14212B;--muted:#526170;--accent:#1B5E9E;--accent-soft:#E6EEF7;--accent-ink:#1B4F82;
+  --warn:#8A3A0C;--warn-soft:#FCEBDD;--ok:#1F5A3D;--ok-soft:#E3F0EA;
+  --nav:#0F2A44;--nav-fg:#DCE5EE;--nav-muted:#8FA6BD;--nav-hover:#18395A;
+  --h0:#E6EEF7;--h1:#BCD2EA;--h2:#8FB1D3;--h3:#4F86BE;--h4:#1B4F82;--h-ink-light:#14212B;--h-ink-dark:#FFFFFF;
+  --hatch-a:#EEF1F4;--hatch-b:#F7F9FB;--orange:#B4501A;
+  --f-body:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-mono:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E151C;--surface:#16212B;--surface-2:#1B2833;--line:#2B3B49;--line-soft:#223140;
+  --fg:#E4EAF0;--muted:#9AABBB;--accent:#7FB0E3;--accent-soft:#1D3348;--accent-ink:#A9CBEE;
+  --warn:#F2B184;--warn-soft:#3A2618;--ok:#8FD1AE;--ok-soft:#173326;
+  --nav:#0A1118;--nav-fg:#D5DEE7;--nav-muted:#8296AA;--nav-hover:#16242F;
+  --h0:#1D3348;--h1:#24476A;--h2:#2F6191;--h3:#4F86BE;--h4:#8FB9E6;--h-ink-light:#E4EAF0;--h-ink-dark:#0E151C;
+  --hatch-a:#1B2833;--hatch-b:#16212B;--orange:#E08A55;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E151C;--surface:#16212B;--surface-2:#1B2833;--line:#2B3B49;--line-soft:#223140;
+  --fg:#E4EAF0;--muted:#9AABBB;--accent:#7FB0E3;--accent-soft:#1D3348;--accent-ink:#A9CBEE;
+  --warn:#F2B184;--warn-soft:#3A2618;--ok:#8FD1AE;--ok-soft:#173326;
+  --nav:#0A1118;--nav-fg:#D5DEE7;--nav-muted:#8296AA;--nav-hover:#16242F;
+  --h0:#1D3348;--h1:#24476A;--h2:#2F6191;--h3:#4F86BE;--h4:#8FB9E6;--h-ink-light:#E4EAF0;--h-ink-dark:#0E151C;
+  --hatch-a:#1B2833;--hatch-b:#16212B;--orange:#E08A55;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.5}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+h1,h2,h3{text-wrap:balance}
+.app{display:flex;flex-wrap:wrap;min-height:100vh}
+.side{flex:0 1 250px;background:var(--nav);color:var(--nav-fg);padding-block:24px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:16px;display:flex;flex-direction:column;gap:18px}
+.side h2{margin:0;padding:0 8px;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--nav-muted)}
+.nav{display:flex;flex-direction:column;gap:2px}
+.nav a{display:flex;justify-content:space-between;align-items:center;gap:8px;min-height:40px;padding:8px;border-radius:6px;color:var(--nav-fg);text-decoration:none;font-size:14px}
+.nav a:hover{background:var(--nav-hover)}
+.nav a.on{background:var(--surface);color:var(--fg);font-weight:600}
+.nav .ph{font-family:var(--f-mono);font-size:11px;color:var(--nav-muted)}
+.nav a.on .ph{color:var(--muted)}
+main{flex:999 1 560px;min-width:0;padding-block:28px 56px;padding-left:max(16px,min(32px,4vw));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:20px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+h1{margin:0;font-size:28px;font-weight:700;letter-spacing:-.01em}
+h3{margin:0;font-size:16px;font-weight:600}
+.sub{color:var(--muted);font-size:13px}
+.mono{font-family:var(--f-mono)}
+.num{font-variant-numeric:tabular-nums}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.between{display:flex;flex-wrap:wrap;gap:8px 16px;justify-content:space-between;align-items:baseline}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;min-width:0}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,var(--min,220px)),1fr))}
+.kpi .v{font-size:30px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.2;margin-block:4px}
+.badge{display:inline-flex;align-items:center;height:24px;padding:0 10px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap}
+.b-warn{background:var(--warn-soft);color:var(--warn)}.b-acc{background:var(--accent-soft);color:var(--accent-ink)}
+.b-ok{background:var(--ok-soft);color:var(--ok)}.b-n{background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
+.nodata{background:repeating-linear-gradient(135deg,var(--hatch-a) 0 6px,var(--hatch-b) 6px 12px);color:var(--muted)}
+.note{padding:14px 16px;border-radius:8px;background:var(--surface);border:1px solid var(--line);font-size:14px}
+.note.w{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+.btn,.chip,.seg button{font:inherit;cursor:pointer}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:6px;border:1px solid var(--accent);background:var(--accent);color:var(--surface);font-size:14px;font-weight:600}
+.chip{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--fg);font-size:14px}
+.chip[aria-pressed="true"]{background:var(--nav);border-color:var(--nav);color:var(--nav-fg)}
+.chip b{font-family:var(--f-mono);font-size:13px}
+.seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{min-height:40px;padding:0 14px;border:0;border-right:1px solid var(--line);background:var(--surface);color:var(--fg);font-size:13px}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--nav);color:var(--nav-fg);font-weight:600}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font-size:12px;font-weight:600;color:var(--muted)}
+select,input[type=text],input[type=search]{height:42px;border:1px solid var(--line);border-radius:6px;padding:0 10px;font:inherit;font-size:14px;background:var(--surface);color:var(--fg)}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-size:12px;font-weight:600;color:var(--muted);padding:10px 12px;border-bottom:1px solid var(--line);background:var(--surface-2);vertical-align:bottom}
+td{padding:10px 12px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.grp td{background:var(--surface-2);font-weight:600;font-size:13px}
+tr.sel td{background:var(--accent-soft)}
+tr.click{cursor:pointer}tr.click:hover td{background:var(--surface-2)}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center;width:100%;min-height:44px;padding:8px 10px;border:1px solid transparent;border-radius:8px;background:none;color:var(--fg);font:inherit;text-align:left}
+button.bar{cursor:pointer}button.bar:hover{background:var(--surface-2)}
+button.bar[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.track{grid-column:1/-1;height:10px;border-radius:5px;background:var(--line-soft);overflow:hidden}
+.track span{display:block;height:100%;border-radius:5px;background:var(--accent)}
+.kv{display:grid;grid-template-columns:minmax(110px,auto) minmax(0,1fr);gap:6px 16px;margin:0;font-size:14px}
+.kv dt{color:var(--muted)}.kv dd{margin:0}
+.li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;padding:10px 0;border-top:1px solid var(--line-soft)}
+.li:first-child{border-top:0}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;list-style:none;margin:0;padding:0}
+.steps li{padding:12px 14px;border-radius:8px;border:1px solid var(--line);background:var(--surface);font-size:14px}
+.steps li.on{background:var(--nav);color:var(--nav-fg);border-color:var(--nav)}
+.steps .k{display:block;font-family:var(--f-mono);font-size:12px;opacity:.75}
+.tile{display:flex;flex-direction:column;justify-content:center;gap:2px;min-height:96px;padding:12px;border-radius:8px;border:2px solid transparent;font:inherit;text-align:left;cursor:pointer}
+.tile[aria-pressed="true"]{border-color:var(--orange)}
+.legend{display:flex;gap:2px}.legend span{flex:1;height:12px}
+.pipe{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:12px}
+.pipe a{display:flex;flex-direction:column;gap:4px;padding:14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--fg);text-decoration:none}
+.pipe a:hover{border-color:var(--accent)}
+svg text{fill:var(--muted);font-family:var(--f-body);font-size:11px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<div class="app">
+  <nav class="side" aria-label="Điều hướng">
+    <div style="padding:0 8px">
+      <div style="font-size:17px;font-weight:700;color:var(--nav-fg)">Dữ liệu an sinh</div>
+      <div style="font-size:12px;color:var(--nav-muted)">POC trên dữ liệu giả 019</div>
+    </div>
+    <div><h2>POC</h2><div class="nav"><a href="#gioi-thieu" data-r="gioi-thieu">Luồng xử lý <span class="ph">POC</span></a></div></div>
+    <div><h2>Đầu ra</h2><div class="nav">
+      <a href="#de-xuat" data-r="de-xuat">Đề xuất chính sách <span class="ph">ĐR1</span></a>
+      <a href="#thu-hoi" data-r="thu-hoi">Đối soát và thu hồi <span class="ph">ĐR2</span></a>
+      <a href="#vi-mo" data-r="vi-mo">Điều hành vĩ mô <span class="ph">ĐR3</span></a></div></div>
+    <div><h2>Phân tích</h2><div class="nav">
+      <a href="#tong-quan" data-r="tong-quan">Tổng quan <span class="ph">DB01</span></a>
+      <a href="#chat-luong" data-r="chat-luong">Chất lượng dữ liệu <span class="ph">DB05</span></a></div></div>
+    <div><h2>Khai thác</h2><div class="nav">
+      <a href="#ho-so" data-r="ho-so">Tra cứu hồ sơ <span class="ph">KT01</span></a>
+      <a href="#canh-bao" data-r="canh-bao">Cảnh báo <span class="ph">UC20</span></a></div></div>
+    <div style="margin-top:auto;padding:12px 8px 0;border-top:1px solid var(--nav-hover);font-size:12px;color:var(--nav-muted)">Mọi tên, số định danh, địa bàn đều là dữ liệu giả.</div>
+  </nav>
+  <main id="view" aria-live="polite"></main>
+</div>
+
+<script>
+const POC = /*__POC_DATA__*/null;
+const S = {r:'gioi-thieu', ngay:'2026-10-31', nhom:'all', cbNhom:'all', cb:null, hs:null, q:'', tab:'tbb', tuoiMin:75, chiNcc:true, metric:'mat_do', hz:5, xa:null};
+const $ = s => document.querySelector(s);
+const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmt = n => n == null ? '—' : String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+const pct = (t, m) => m ? (Math.round(t / m * 1000) / 10).toString().replace('.', ',') + '%' : '—';
+const vnd = n => fmt(n) + ' đ';
+const XA = POC.xa;
+const xaTen = m => XA[m] || 'Chưa rõ địa bàn';
+const dmy = s => s ? s.slice(0,10).split('-').reverse().join('/') : '—';
+const kyVN = (a, b) => a === b ? a.split('-').reverse().join('/') : a.slice(5) + '–' + b.split('-').reverse().join('/');
+const head = (eb, t, badges) => `<header class="between" style="align-items:flex-end"><div style="display:flex;flex-direction:column;gap:6px"><div class="eyebrow">${eb}</div><h1>${t}</h1><div class="row">${badges}</div></div></header>`;
+const FAKE = '<span class="badge b-acc">Dữ liệu giả, bộ 019</span>';
+const GD = s => `<span class="badge b-warn">${s || 'Giả định'}</span>`;
+const kpi = (l, v, s, cls='') => `<div class="card kpi ${cls}"><div class="sub">${l}</div><div class="v">${v}</div><div class="sub">${s}</div></div>`;
+const CB = Object.fromEntries(POC.canh_bao.map(c => [c.ma, c]));
+const TT = {'Mới':'b-acc','Đang xác minh':'b-warn','Xác nhận đúng':'b-ok'};
+
+const V = {};
+
+V['gioi-thieu'] = () => {
+  const khop = POC.canh_bao.filter(c => c.ma_e16).length, n = POC.canh_bao.length;
+  const d = POC.db01[S.ngay];
+  const buoc = [
+    ['chat-luong','1 · Nạp và ghép định danh','T02, T06', `${POC.nguon.length} nguồn · ${fmt(POC.nguon.reduce((s,x)=>s+(x.ghep_mau||0),0))} bản ghi đã qua bước ghép`],
+    ['chat-luong','2 · Đo chất lượng','UC01, DB05', `${POC.phep_do.length} phép đo đúng, đủ, sạch, sống`],
+    ['tong-quan','3 · Tổng hợp theo ngày chốt','UC02, DB01', `${d.tong_duy_nhat} người duy nhất tại 31/10/2026`],
+    ['ho-so','4 · Hồ sơ 360°','UC04, KT01', `${Object.keys(POC.ho_so).length} hồ sơ người tra cứu được`],
+    ['canh-bao','5 · Đối soát đáng hưởng và thực chi','UC06, UC07, UC09, UC11', `${n} cảnh báo, khớp E16 ${khop}/${n}`],
+    ['thu-hoi','6 · Lập danh sách gửi xã','Đầu ra 1, 2', `${POC.thu_hoi.danh_sach.length} trường hợp chi thừa · ${vnd(POC.thu_hoi.tong)}`],
+    ['vi-mo','7 · Chỉ tiêu xã và dự báo','UC12, UC14, UC18', `Dự báo ${POC.vi_mo.du_bao.nam[0]}–${POC.vi_mo.du_bao.nam.at(-1)}`],
+  ];
+  return head('POC · project019 · lần tính ' + POC.lan_tinh.ma, 'Luồng xử lý trên dữ liệu giả', GD('Giả định, chưa chốt phạm vi') + FAKE) +
+  `<div class="note">Pipeline Python đọc 30 bảng của bộ dữ liệu giả 019 như dữ liệu đã nạp từ 7 nguồn, chạy từng bước dưới đây và xuất kết quả cho các màn hình. Bước đối soát được tính lại độc lập từ E31 đáng hưởng, E05 hưởng chế độ và E07 chi trả, sau đó so với E16 của bộ dữ liệu.</div>
+  <div class="pipe">${buoc.map(b => `<a href="#${b[0]}"><span class="eyebrow">${b[2]}</span><strong>${b[1]}</strong><span class="sub">${b[3]}</span></a>`).join('')}</div>
+  <section class="card"><h3>Giả định của POC</h3><ul style="margin:10px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:14px;max-width:80ch">${POC.gia_dinh.map(g=>`<li>${esc(g)}</li>`).join('')}</ul></section>`;
+};
+
+V['tong-quan'] = () => {
+  const d = POC.db01[S.ngay], xs = [...Object.keys(XA), 'CHUA_RO'];
+  const groups = [{id:'all', ten:'Tất cả nhóm (người duy nhất)', tong:d.tong_duy_nhat, theo_xa:d.duy_nhat}, ...Object.entries(d.nhom).map(([k,v]) => ({id:k, ...v}))];
+  const cur = groups.find(g => g.id === S.nhom) || groups[0];
+  const mx = Math.max(1, ...xs.map(x => cur.theo_xa[x] || 0));
+  const sumNhom = Object.values(d.nhom).reduce((s,g)=>s+g.tong,0);
+  const tuoi = ['Dưới 16','16–59','60–74','Từ 75'];
+  return head('DB01 · UC02 · BR-50, BR-51, BR-53', 'Tổng quan an sinh', GD() + FAKE) +
+  `<section class="card row" style="gap:16px;align-items:flex-end"><div class="field"><label for="f-ngay">Ngày chốt</label><select id="f-ngay" data-a="ngay">${Object.keys(POC.db01).map(k=>`<option value="${k}" ${k===S.ngay?'selected':''}>${dmy(k)}</option>`).join('')}</select></div><div class="field"><label>Địa bàn</label><div style="height:42px;display:flex;align-items:center">Tỉnh Mẫu (giả), 3 xã</div></div></section>
+  <section class="grid">${kpi('Người duy nhất có diện hiệu lực', fmt(d.tong_duy_nhat), `Tổng các nhóm ${sumNhom}; mỗi người đếm một lần`)}
+  ${kpi('Hộ có thành viên tại ngày chốt', fmt(d.so_ho), Object.entries(d.phan_loai_ho).map(([k,v])=>`${v} ${k.toLowerCase()}`).join(' · '))}
+  ${kpi('Hồ sơ chưa xác định người', `<span style="color:var(--warn)">${d.ho_so_chua_xd_nguoi}</span>`, 'Không cộng vào số người')}
+  ${kpi('Chưa xác định trạng thái sống', fmt(d.chua_xd_song), 'Vẫn đếm, không ghi "còn sống" (BR-52)', d.chua_xd_song ? '' : 'nodata')}</section>
+  <section class="grid" style="--min:340px">
+    <div class="card" style="display:flex;flex-direction:column;gap:8px"><div class="between"><h3>Số người theo nhóm</h3><span class="sub">Chọn nhóm để lọc khối bên cạnh</span></div>
+      ${groups.map(g=>`<button class="bar" data-a="nhom" data-v="${g.id}" aria-pressed="${g.id===cur.id}"><span>${esc(g.ten)}</span><span class="mono">${g.tong}</span><span class="track"><span style="width:${g.tong/d.tong_duy_nhat*100}%"></span></span></button>`).join('')}
+      <p class="sub" style="margin:0">Một người thuộc nhiều nhóm được đếm ở mỗi nhóm.</p></div>
+    <div class="card" style="display:flex;flex-direction:column;gap:8px"><h3>Theo xã: ${esc(cur.id==='all'?'tất cả nhóm':cur.ten.toLowerCase())}</h3>
+      ${xs.map(x=>`<div class="bar"><span>${xaTen(x)}</span><span class="mono">${cur.theo_xa[x]||0}</span><span class="track"><span style="width:${(cur.theo_xa[x]||0)/mx*100}%;${x==='CHUA_RO'?'background:var(--muted)':''}"></span></span></div>`).join('')}
+      <div class="sub">Cơ cấu tuổi (PT02): ${tuoi.map(t=>`${t} <b class="mono">${d.tuoi[t]||0}</b>`).join(' · ')}</div></div>
+  </section>
+  <section class="card" style="padding:0"><div style="padding:16px 20px 8px"><h3>Bảng nhóm × xã</h3></div><div class="scroll"><table style="min-width:640px"><thead><tr><th>Nhóm</th>${xs.map(x=>`<th class="n">${xaTen(x)}</th>`).join('')}<th class="n">Tỉnh</th></tr></thead><tbody>
+  ${groups.slice(1).concat(groups[0]).map(g=>`<tr ${g.id==='all'?'style="font-weight:700"':''}><td>${esc(g.id==='all'?'Người duy nhất':g.ten)}</td>${xs.map(x=>`<td class="n">${g.theo_xa[x]||0}</td>`).join('')}<td class="n">${g.tong}</td></tr>`).join('')}</tbody></table></div></section>`;
+};
+
+V['chat-luong'] = () => {
+  const cell = (t, m, extra='') => t == null ? `<td class="n nodata">Chưa đánh giá</td>` : `<td class="n"><b>${pct(t,m)}</b><div class="sub">${t}/${m}${extra}</div></td>`;
+  const nh = ['Đủ','Đúng','Sạch','Sống','Quan hệ'];
+  return head('DB05 · UC01 · PT09', 'Chất lượng dữ liệu nguồn', GD() + FAKE) +
+  `<div class="note">Bảng chỉ hiện giá trị, chưa tô màu đạt hay không đạt vì ngưỡng chưa chốt. Ô gạch chéo là chưa đánh giá, khác 0% (BR-53).</div>
+  <section class="card" style="padding:0"><div style="padding:16px 20px 8px"><h3>Theo nguồn, lần đồng bộ ${dmy(POC.nguon[0].thoi_diem)}</h3></div><div class="scroll"><table style="min-width:820px"><thead><tr><th>Nguồn</th><th>Kiểu nạp</th><th class="n">Bản ghi</th><th class="n">Lỗi nạp</th><th class="n">Ghép được</th><th class="n">Ghép mờ chờ duyệt</th><th class="n">Không ghép được</th><th class="n">Trùng khóa</th></tr></thead><tbody>
+  ${POC.nguon.map(n=>`<tr><td><b>${esc(n.ten)}</b><div class="sub">${esc(n.co_quan)}</div></td><td>${esc(n.kieu)}</td><td class="n">${fmt(n.so_ban_ghi)}</td><td class="n" ${n.so_loi?'style="color:var(--warn);font-weight:600"':''}>${n.so_loi}</td>${cell(n.ghep_tu,n.ghep_mau)}${n.ghep_mau==null?'<td class="n nodata">—</td><td class="n nodata">—</td><td class="n nodata">—</td>':`<td class="n">${n.ghep_mo}</td><td class="n">${n.khong_ghep}</td><td class="n">${n.trung_khoa}</td>`}</tr>`).join('')}</tbody></table></div></section>
+  <section class="card" style="padding:0"><div style="padding:16px 20px 8px"><h3>Phép đo theo thực thể</h3></div><div class="scroll"><table style="min-width:720px"><thead><tr><th>Nhóm</th><th>Phép đo</th><th>Thực thể</th><th class="n">Giá trị</th><th>Ghi chú</th></tr></thead><tbody>
+  ${nh.map(g=>POC.phep_do.filter(p=>p.nhom===g).map((p,i)=>`<tr><td>${i?'':`<b>${g}</b>`}</td><td>${esc(p.ten)}</td><td class="mono sub">${p.thuc_the}</td>${cell(p.tu,p.mau)}<td class="sub">${esc(p.ghi_chu||'')}</td></tr>`).join('')).join('')}</tbody></table></div></section>
+  <section class="card"><h3>Bản ghi chưa ghép được (mẫu đã che)</h3>${POC.loi_ghep.map(l=>`<div class="li"><div><b class="mono">${esc(l.khoa)}</b> · ${esc(l.nguon)}<div class="sub">${esc(l.phuong_phap)} · tin cậy ${String(l.tin_cay).replace('.',',')}</div></div><span class="badge ${l.trang_thai.startsWith('Ghép mờ')?'b-warn':'b-n'}">${esc(l.trang_thai)}</span></div>`).join('')}</section>`;
+};
+
+V['ho-so'] = () => {
+  const all = Object.values(POC.ho_so);
+  if (!S.hs) S.hs = (all.find(p => p.huong.length && p.quan_he.length && p.canh_bao.length && p.song === 'Còn sống') || all[0]).ma;
+  const q = S.q.trim().toLowerCase();
+  const res = q ? all.filter(p => p.ma.toLowerCase().includes(q) || p.ten.toLowerCase().includes(q) || (p.so_dd||'').endsWith(q)).slice(0, 8) : [];
+  const p = POC.ho_so[S.hs];
+  const link = (m, t) => POC.ho_so[m] ? `<button class="chip" data-a="hs" data-v="${m}" style="min-height:32px">${esc(t || POC.ho_so[m].ten)}</button>` : esc(m);
+  const st = p.song === 'Còn sống' ? 'b-ok' : p.song === 'Đã mất' ? 'b-n' : 'b-warn';
+  const blk = (n, t, body) => `<section class="card"><h3><span class="badge b-acc mono" style="margin-right:8px">${n}</span>${t}</h3><div style="margin-top:8px">${body}</div></section>`;
+  const empty = '<div class="nodata" style="padding:12px;border-radius:8px;font-size:14px">Không có</div>';
+  return head('KT01 · UC04 · GĐ1b', 'Hồ sơ 360°', GD() + FAKE) +
+  `<form class="card" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));align-items:end" onsubmit="return false"><div class="field"><label for="q">Mã người, họ tên hoặc 4 số cuối số định danh</label><input id="q" type="search" data-a="q" value="${esc(S.q)}" placeholder="Ví dụ: NG000424 hoặc Hạnh"></div><div class="field"><label for="ly">Lý do tra cứu</label><select id="ly"><option>Xác minh hồ sơ hưởng</option><option>Xử lý cảnh báo được giao</option></select></div><p class="sub" style="margin:0">Bản thật ghi nhật ký mỗi lần mở hồ sơ (T10).</p></form>
+  ${q ? `<div class="row">${res.length ? res.map(r=>link(r.ma, `${r.ten} · ${r.ma}`)).join('') : '<span class="sub">Không tìm thấy. Bản thật cho tìm theo họ tên, ngày sinh, địa bàn và trả danh sách ứng viên.</span>'}</div>` : ''}
+  <section class="card between" style="align-items:center"><div><div style="font-size:22px;font-weight:700">${esc(p.ten)} <span class="sub" style="font-weight:400">(giả) · ${p.ma}</span></div><div class="sub">${esc(p.gioi)} · sinh ${p.nam_sinh} · ${p.tuoi} tuổi · ${esc(p.xa)} · số định danh <span class="mono">${esc(p.so_dd_che)}</span></div></div><div class="row"><span class="badge ${st}">${esc(p.song)}${p.ngay_mat?' '+dmy(p.ngay_mat):''}</span><span class="badge ${p.bhyt?'b-ok':'b-warn'}">${p.bhyt?'Có thẻ BHYT':'Chưa có thẻ BHYT'}</span></div></section>
+  <div class="grid" style="--min:380px;align-items:start">
+    <div style="display:flex;flex-direction:column;gap:16px">
+      ${blk(4,'Là đối tượng', p.dien.length ? p.dien.map(d=>`<div class="li"><div><b>${esc(d.ten)}</b><div class="sub">${esc(d.nguon)} · từ ${dmy(d.tu)}${d.den?' đến '+dmy(d.den):''}</div></div><span class="badge ${d.hieu_luc?'b-ok':'b-n'}">${d.hieu_luc?'Hiệu lực':'Hết hiệu lực'}</span></div>`).join('') + p.giam_dinh.map(g=>`<div class="li sub">Giám định: ${esc(g)}</div>`).join('') : empty)}
+      ${blk(5,'Hưởng chế độ', p.huong.length ? p.huong.map(h=>`<div class="li"><div style="flex:1 1 220px"><b>${esc(h.che_do)}</b><div class="sub">Vai trò: <b style="color:var(--fg)">${esc(h.vai_tro)}</b> · ${esc(h.trang_thai)}${h.nhan!==p.ma?' · người nhận '+link(h.nhan):''}${h.doi_tuong && h.doi_tuong!==p.ma?' · đối tượng '+link(h.doi_tuong):''}</div></div><div style="text-align:right"><b class="mono">${vnd(h.muc)}</b><div class="sub">${h.ky_chi?'chi gần nhất '+h.ky_chi+': '+fmt(h.da_chi):'chưa có chi trả'}</div></div></div>`).join('') : empty)}
+    </div>
+    <div style="display:flex;flex-direction:column;gap:16px">
+      ${blk(6,'Quan hệ', p.quan_he.length ? p.quan_he.map(r=>`<div class="li"><div>${r.chieu==='Người này là'?'Là':'Có'} <b>${esc(r.loai.toLowerCase())}</b> ${r.chieu==='Người này là'?'của':'là'} ${link(r.ma, r.ten)}<div class="sub">${esc(r.nguon)}</div></div></div>`).join('') : empty)}
+      ${blk(7,'Hộ', p.ho ? `<dl class="kv"><dt>Mã hộ</dt><dd class="mono">${p.ho.ma}</dd><dt>Vai trò</dt><dd>${esc(p.ho.vai_tro)} · ${p.ho.so_tv} thành viên</dd><dt>Phân loại</dt><dd>${esc(p.ho.phan_loai||'Chưa có kết quả rà soát')}</dd><dt>Nhà ở</dt><dd>${esc(p.ho.nha_o||'Chưa có dữ liệu')}</dd></dl>` : empty)}
+      ${blk(8,'Cảnh báo', p.canh_bao.length ? p.canh_bao.map(m=>{const c=CB[m];return `<div class="li"><div><b>${esc(c.loai)}</b><div class="sub">${c.quy_tac} · kỳ ${kyVN(c.ky_tu,c.ky_den)} · ${c.ma}</div></div><button class="chip" data-a="gocb" data-v="${m}" style="min-height:32px">${vnd(c.so_tien)}</button></div>`}).join('') : empty)}
+      ${blk(9,'Nguồn đã ghép', p.nguon.length ? p.nguon.map(n=>`<div class="li"><span>${esc(n.nguon)}</span><span class="sub">${esc(n.phuong_phap)} · ${String(n.tin_cay).replace('.',',')} · ${esc(n.trang_thai)}</span></div>`).join('') : empty)}
+    </div></div>`;
+};
+
+V['canh-bao'] = () => {
+  const ds = POC.canh_bao.filter(c => S.cbNhom === 'all' || c.nhom === S.cbNhom);
+  if (!S.cb || !CB[S.cb]) S.cb = (POC.canh_bao.find(c => c.trang_thai === 'Đang xác minh') || POC.canh_bao[0]).ma;
+  const c = CB[S.cb], nh = ['all','CHI SAI','BỎ SÓT','CHUYỂN ĐỔI','KHÁC'];
+  const sum = f => POC.canh_bao.filter(f).reduce((s,x)=>s+x.so_tien,0);
+  const khop = POC.canh_bao.filter(x=>x.ma_e16).length;
+  const steps = ['Mới','Đang xác minh','Xác nhận đúng','Đóng'], idx = Math.max(0, steps.indexOf(c.trang_thai));
+  return head('UC20 · UC06, UC07, UC09, UC11 · lần tính ' + POC.lan_tinh.ma, 'Cảnh báo và xác minh', GD() + FAKE + `<span class="badge b-ok">Khớp E16: ${khop}/${POC.canh_bao.length}</span>`) +
+  `<section class="grid">${kpi('Cảnh báo', POC.canh_bao.length, 'Tính lại từ E31, E05, E07')}${kpi('Chi thừa', `<span style="color:var(--warn)">${fmt(sum(x=>x.chieu==='Thừa'))}</span>`, 'đồng')}${kpi('Chi thiếu, bỏ sót', fmt(sum(x=>x.chieu==='Thiếu')), 'đồng')}${kpi('Chưa xác định chiều lệch', fmt(sum(x=>x.chieu==='Chưa xác định')), 'đồng, không cộng vào hai thẻ trên')}</section>
+  <div class="row" role="group" aria-label="Lọc nhóm">${nh.map(n=>`<button class="chip" data-a="cbNhom" data-v="${n}" aria-pressed="${S.cbNhom===n}">${n==='all'?'Tất cả':n.charAt(0)+n.slice(1).toLowerCase()} <b>${n==='all'?POC.canh_bao.length:POC.canh_bao.filter(x=>x.nhom===n).length}</b></button>`).join('')}</div>
+  <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start">
+    <section class="card" style="flex:999 1 560px;padding:0"><div class="scroll"><table style="min-width:680px"><thead><tr><th>Mã</th><th>Loại</th><th>Chế độ</th><th>Kỳ</th><th class="n">Số tiền</th><th>Trạng thái</th></tr></thead><tbody>
+    ${ds.map(x=>`<tr class="click ${x.ma===c.ma?'sel':''}" data-a="cb" data-v="${x.ma}" tabindex="0"><td class="mono">${x.ma}<div class="sub">${x.ma_e16||'không có ở E16'}</div></td><td><b>${esc(x.loai)}</b><div class="sub">${x.quy_tac}</div></td><td>${esc(x.ten_che_do)}</td><td class="mono">${kyVN(x.ky_tu,x.ky_den)}</td><td class="n mono">${fmt(x.so_tien)}</td><td><span class="badge ${TT[x.trang_thai]||'b-n'}">${esc(x.trang_thai)}</span></td></tr>`).join('')}</tbody></table></div></section>
+    <aside class="card" style="flex:1 1 340px;display:flex;flex-direction:column;gap:14px"><div><div class="eyebrow">${c.ma} · ${c.ma_e16||''} · ${c.uc}${c.ma_tc?' · '+c.ma_tc:''}</div><h3 style="font-size:20px">${esc(c.loai)}</h3></div>
+      <dl class="kv"><dt>Đối tượng</dt><dd>${c.loai_doi_tuong} ${POC.ho_so[c.ma_doi_tuong]?`<button class="chip" data-a="hs" data-v="${c.ma_doi_tuong}" style="min-height:32px">${esc(POC.ho_so[c.ma_doi_tuong].ten)}</button>`:`<span class="mono">${c.ma_doi_tuong}</span>`}</dd><dt>Xã</dt><dd>${xaTen(c.xa)}</dd><dt>Chế độ</dt><dd>${esc(c.ten_che_do)}</dd><dt>Kỳ</dt><dd class="mono">${kyVN(c.ky_tu,c.ky_den)} (${c.so_ky} kỳ)</dd><dt>Chiều lệch</dt><dd>${c.chieu}</dd><dt>Số tiền</dt><dd class="mono"><b>${vnd(c.so_tien)}</b></dd><dt>Quy tắc</dt><dd>${c.quy_tac} · ${esc(c.ten_quy_tac)}</dd><dt>Sự kiện</dt><dd>${c.su_kien.length?c.su_kien.map(esc).join('<br>'):'Không có'}</dd><dt>Xử lý</dt><dd>${c.vai_tro}</dd></dl>
+      ${c.ket_qua_xu_ly?`<div class="note w">${esc(c.ket_qua_xu_ly)}</div>`:''}
+      <ol class="steps" aria-label="Vòng đời">${steps.map((s,i)=>`<li class="${i===idx?'on':''}"><span class="k">${i+1}</span>${s}</li>`).join('')}</ol></aside></div>`;
+};
+
+V['thu-hoi'] = () => {
+  const t = POC.thu_hoi, xs = Object.keys(t.theo_xa).sort();
+  return head('Đầu ra 2 · UC07, UC20, T15 · KT03', 'Đối soát và thu hồi', GD() + FAKE) +
+  `<ol class="steps"><li><span class="k">1 · xong</span>Lập danh sách từ cảnh báo</li><li class="on"><span class="k">2 · đang làm</span>Người duyệt VT04 ký</li><li><span class="k">3</span>Gửi UBND xã kèm phụ lục</li><li><span class="k">4</span>Xã xác minh, phản hồi</li><li><span class="k">5</span>Theo dõi thu hồi</li></ol>
+  <div class="note">Chỉ cảnh báo đã xác nhận đúng mới thành đề nghị thu hồi. Trường hợp khác gửi xã xác minh trước.</div>
+  <section class="grid">${kpi('Trường hợp chi thừa', t.danh_sach.length, `ở ${xs.length} xã`)}${kpi('Số tiền cần làm rõ', `<span style="color:var(--warn)">${fmt(t.tong)}</span>`, 'đồng')}${kpi('Đề nghị thu hồi ngay', fmt(t.de_nghi_ngay), 'đồng, đã xác nhận đúng')}${kpi('Đã thu hồi', 'Chưa theo dõi được', 'Dữ liệu chi trả chưa có khoản thu hồi (Q32, Q44)', 'nodata')}</section>
+  <section class="card" style="padding:0"><div style="padding:16px 20px 8px"><h3>Chi thừa theo xã</h3></div><div class="scroll"><table style="min-width:900px"><thead><tr><th>Mã</th><th>Đối tượng</th><th>Nội dung</th><th>Kỳ</th><th class="n">Số tiền</th><th>Căn cứ</th><th>Bước tiếp</th></tr></thead><tbody>
+  ${xs.map(x=>`<tr class="grp"><td colspan="7">${xaTen(x)} · ${t.theo_xa[x].so} trường hợp · ${vnd(t.theo_xa[x].tien)}</td></tr>` + t.danh_sach.filter(c=>(c.xa||'CHUA_RO')===x).map(c=>`<tr><td class="mono">${c.ma}<div class="sub">${c.ma_e16||''}</div></td><td>${POC.ho_so[c.ma_doi_tuong]?esc(POC.ho_so[c.ma_doi_tuong].ten):c.loai_doi_tuong+' '+c.ma_doi_tuong}</td><td>${esc(c.loai)}<div class="sub">${esc(c.ten_che_do)}</div></td><td class="mono">${kyVN(c.ky_tu,c.ky_den)}</td><td class="n mono">${fmt(c.so_tien)}</td><td>${c.quy_tac}${c.su_kien.length?'<div class="sub">'+esc(c.su_kien[0])+'</div>':''}</td><td><span class="badge ${c.buoc==='Đề nghị thu hồi'?'b-ok':c.buoc==='Đang xác minh'?'b-warn':'b-n'}">${c.buoc}</span></td></tr>`).join('')).join('')}</tbody></table></div></section>
+  <section class="grid" style="--min:360px"><div class="card"><h3>Hồ sơ trùng lặp</h3>${t.trung_lap.map(r=>`<div class="li"><div><b>${esc(r.noi_dung)}</b><div class="sub">${r.ma} · ${r.quy_tac}${r.xa?' · '+xaTen(r.xa):''}</div></div><span class="mono">${r.so_tien?fmt(r.so_tien):''}</span></div>`).join('')}</div>
+  <div class="card"><h3>Để riêng, chưa đưa vào danh sách</h3>${t.de_rieng.map(r=>`<div class="li"><div><b>${esc(r.loai)}</b><div class="sub">${r.ma} · ${esc(r.ly_do)}</div></div><span class="mono">${fmt(r.so_tien)}</span></div>`).join('')}</div></section>`;
+};
+
+V['de-xuat'] = () => {
+  const d = POC.de_xuat;
+  const tbb = d.tbb.filter(r => r.tuoi >= S.tuoiMin), nha = d.nha.filter(r => !S.chiNcc || r.co_ncc);
+  const tabs = [['me','Mẹ Việt Nam anh hùng còn sống',d.me.length,'người'],['tbb','Thương bệnh binh, nhiễm CĐHH già yếu',tbb.length,'người'],['bs','Đủ điều kiện, chưa hưởng',d.bo_sot.length,'trường hợp'],['nha','Hỗ trợ nhà ở, nhà tình nghĩa',nha.length,'hộ']];
+  let body = '';
+  if (S.tab === 'me') body = `<div class="note">Tiêu chí: diện Bà mẹ Việt Nam anh hùng hiệu lực (E04), còn sống tại ngày chốt (E01), có hay chưa có quan hệ phụng dưỡng, phục vụ (E06). Đề xuất phụng dưỡng, thăm hỏi; không phát sinh trợ cấp mới.</div>` +
+    tbl(['Người','Tuổi','Xã','Hộ','Phụng dưỡng','Đề xuất'], d.me.map(r=>[esc(r.ten)+`<div class="sub">${r.ma}</div>`, r.tuoi, esc(r.xa), `${r.so_tv_ho} người`, r.co_phung_duong?'<span class="badge b-ok">Đã có</span>':'<span class="badge b-warn">Chưa có</span>', r.co_phung_duong?'Thăm hỏi định kỳ':'Nhận phụng dưỡng']));
+  if (S.tab === 'tbb') body = `<div class="card row" style="gap:16px"><div class="field"><label for="tuoi">Từ bao nhiêu tuổi</label><input id="tuoi" type="range" min="60" max="90" step="1" value="${S.tuoiMin}" data-a="tuoi" style="width:220px"></div><b class="mono" style="font-size:20px">${S.tuoiMin}</b><span class="sub">Tỷ lệ tổn thương từ 81% và chưa có người phục vụ thì đề xuất trợ cấp người phục vụ ${vnd(d.muc_phuc_vu)}/tháng (NCC-PL1-54); còn lại đề xuất điều dưỡng.</span></div>` +
+    tbl(['Người','Tuổi','Xã','Diện','Tỷ lệ tổn thương','Người phục vụ','Đề xuất','Kinh phí/tháng'], tbb.map(r=>[esc(r.ten)+`<div class="sub">${r.ma}</div>`, r.tuoi, esc(r.xa), esc(r.dien), r.ty_le!=null?r.ty_le+'%':'—', r.co_nguoi_phuc_vu?'Có':'Chưa có', r.de_xuat, r.muc_thang?fmt(r.muc_thang):'—']), `Không có người từ ${S.tuoiMin} tuổi trong diện này.`) +
+    `<div class="sub">Tổng kinh phí dự kiến: <b class="mono">${vnd(tbb.reduce((s,r)=>s+r.muc_thang,0)*12)}</b>/năm. Bộ dữ liệu giả chỉ có diện nhiễm chất độc hóa học, chưa có thương binh, bệnh binh.</div>`;
+  if (S.tab === 'bs') body = `<div class="note">Lấy từ cảnh báo bỏ sót của bước đối soát. Truy lĩnh tính từ kỳ đáng hưởng đầu tiên trong cửa sổ 07–10/2026.</div>` +
+    tbl(['Đối tượng','Xã','Nội dung','Chế độ','Truy lĩnh, một lần','Hằng tháng từ kỳ sau'], d.bo_sot.map(r=>[(POC.ho_so[r.ma_doi_tuong]?esc(POC.ho_so[r.ma_doi_tuong].ten):r.loai_doi_tuong+' '+r.ma_doi_tuong)+`<div class="sub">${r.ma} · ${r.quy_tac}</div>`, esc(r.xa), esc(r.loai), esc(r.che_do), fmt(r.truy_linh), r.mot_lan?'Một lần':fmt(r.hang_thang)])) +
+    `<div class="sub">Tổng truy lĩnh và một lần: <b class="mono">${vnd(d.bo_sot.reduce((s,r)=>s+r.truy_linh,0))}</b> · thêm <b class="mono">${vnd(d.bo_sot.reduce((s,r)=>s+r.hang_thang,0))}</b>/tháng</div>`;
+  if (S.tab === 'nha') body = `<div class="note w">QĐ 21/2024/QĐ-TTg chỉ áp dụng đến 31/12/2025. Chưa có văn bản đợt mới, danh sách chỉ dùng để rà nhu cầu, chưa tính mức hỗ trợ.</div>
+    <label class="row" style="font-size:14px"><input id="chincc" type="checkbox" data-a="chincc" ${S.chiNcc?'checked':''} style="width:20px;height:20px"> Chỉ hộ có người có công hoặc thân nhân liệt sĩ</label>` +
+    tbl(['Hộ','Xã','Nhà ở','Thành viên','Người phụ thuộc','Thu nhập chính','Có NCC'], nha.map(r=>[`<span class="mono">${r.ma_ho}</span>`, esc(r.xa), esc(r.nha_o), r.so_tv, r.phu_thuoc, esc(r.nguon_thu_nhap), r.co_ncc?'<span class="badge b-ok">Có</span>':'<span class="badge b-n">Không</span>']),
+      `Trong ${d.nha.length} hộ nhà tạm hoặc xuống cấp (E35), không hộ nào có thành viên mang diện người có công. Bỏ chọn ô trên để xem cả ${d.nha.length} hộ.`);
+  return head('Đầu ra 1 · UC09, UC10, UC13 · KT02 · E27', 'Danh sách đề xuất chính sách', GD('Giả định, chưa có UC riêng') + FAKE) +
+  `<div class="row" role="tablist">${tabs.map(t=>`<button class="chip" role="tab" data-a="tab" data-v="${t[0]}" aria-pressed="${S.tab===t[0]}" aria-selected="${S.tab===t[0]}" style="min-height:56px;border-radius:10px">${t[1]} <b>${t[2]}</b><span class="sub">${t[3]}</span></button>`).join('')}</div>${body}`;
+};
+function tbl(h, rows, empty) {
+  return `<section class="card" style="padding:0"><div class="scroll"><table style="min-width:760px"><thead><tr>${h.map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>${rows.length ? rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('') : `<tr><td colspan="${h.length}" class="nodata" style="padding:16px">${empty||'Không có'}</td></tr>`}</tbody></table></div></section>`;
+}
+
+V['vi-mo'] = () => {
+  const vm = POC.vi_mo, db = vm.du_bao;
+  const M = {mat_do:['Người có diện trên 1.000 dân','',v=>String(v).replace('.',',')], ty_le_75:['Tỷ lệ dân số từ 75 tuổi','%',v=>String(v).replace('.',',')], chi_bq:['Chi bình quân mỗi người hưởng','đ',fmt]};
+  const m = M[S.metric], vals = vm.xa.map(x => x[S.metric]), lo = Math.min(...vals), hi = Math.max(...vals);
+  const bin = v => hi === lo ? 2 : Math.min(4, Math.floor((v - lo) / (hi - lo) * 5));
+  if (!S.xa) S.xa = vm.xa[0].ma;
+  const sx = vm.xa.find(x => x.ma === S.xa);
+  const n = S.hz, ys = [db.nam_goc, ...db.nam.slice(0, n)];
+  const ser = k => [db.goc, ...db[k].slice(0, n)];
+  const all = [...ser('cao'), ...ser('thap'), ...ser('vd2'), db.goc];
+  const ymin = Math.floor(Math.min(...all) / 1e8) * 1e8, ymax = Math.ceil(Math.max(...all) / 1e8) * 1e8;
+  const X = i => 60 + i * (560 / n), Y = v => 250 - (v - ymin) / (ymax - ymin) * 210;
+  const pts = a => a.map((v, i) => `${X(i).toFixed(1)},${Y(v).toFixed(1)}`).join(' ');
+  const band = ser('cao').map((v,i)=>`${X(i).toFixed(1)},${Y(v).toFixed(1)}`).concat(ser('thap').map((v,i)=>`${X(i).toFixed(1)},${Y(v).toFixed(1)}`).reverse()).join(' ');
+  const ticks = [0,1,2,3,4].map(i => ymin + (ymax - ymin) * i / 4);
+  const ty = v => (v / 1e9).toFixed(2).replace('.', ',');
+  return head('Đầu ra 3 · UC14 (GĐ2) · UC12 (GĐ2) · UC18 (GĐ3)', 'Điều hành vĩ mô', GD('Giả định, ngoài phạm vi GĐ1') + FAKE) +
+  `<div class="note">Bộ dữ liệu giả chỉ có 1 tỉnh, 3 xã nên bản đồ nhiệt ở POC theo xã. Bản thật cho Lãnh đạo Bộ theo 34 tỉnh cần ranh giới GIS và dân số từng tỉnh.</div>
+  <section class="grid">${kpi('Chi hằng tháng kỳ 10/2026', fmt(db.goc/12), 'đồng, tổng đáng hưởng E31')}${kpi('Chi một năm theo mức hiện hành', fmt(db.goc), 'đồng')}${kpi('Người tròn 75 tuổi vào hưu trí XH', `+${db.moi_75[n-1]}`, `đến hết ${db.nam[n-1]}, mức ${fmt(db.muc_ht)} đ/tháng`)}${kpi('Tỷ lệ tử vong thô dùng cho dự báo', String(db.ty_le_chet).replace('.',',')+'%', 'mỗi năm, từ E15 kỳ 07–10/2026')}</section>
+  <section style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start">
+    <div class="card" style="flex:1 1 380px;display:flex;flex-direction:column;gap:14px"><h3>Bản đồ nhiệt theo xã</h3>
+      <div class="seg" role="group">${Object.entries(M).map(([k,v])=>`<button data-a="metric" data-v="${k}" aria-pressed="${S.metric===k}">${v[0]}</button>`).join('')}</div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:6px">${vm.xa.map(x=>{const b=bin(x[S.metric]);return `<button class="tile" data-a="xa" data-v="${x.ma}" aria-pressed="${S.xa===x.ma}" style="background:var(--h${b});color:var(${b>=3?'--h-ink-dark':'--h-ink-light'})"><span style="font-size:13px">${esc(x.ten)}</span><b class="mono" style="font-size:20px">${m[2](x[S.metric])}${m[1]}</b></button>`}).join('')}</div>
+      <div><div class="legend" aria-hidden="true">${[0,1,2,3,4].map(i=>`<span style="background:var(--h${i})"></span>`).join('')}</div><div class="between sub"><span>Thấp ${m[2](lo)}</span><span>Cao ${m[2](hi)}</span></div></div>
+      <dl class="kv"><dt>Xã đang chọn</dt><dd><b>${esc(sx.ten)}</b></dd><dt>Dân số (E12)</dt><dd class="mono">${sx.dan_so}</dd><dt>Người có diện</dt><dd class="mono">${sx.co_dien}</dd><dt>Chi tháng 10/2026</dt><dd class="mono">${vnd(sx.chi_thang)}</dd></dl></div>
+    <div class="card" style="flex:1 1 480px;display:flex;flex-direction:column;gap:12px">
+      <div class="between" style="align-items:center"><h3>Dự báo chi ngân sách theo già hóa</h3><div class="seg" role="group">${[1,3,5].map(h=>`<button data-a="hz" data-v="${h}" aria-pressed="${S.hz===h}">${h} năm</button>`).join('')}</div></div>
+      <div class="sub">Tỷ đồng mỗi năm · năm ${db.nam_goc} là mức chi hiện hành quy năm</div>
+      <svg viewBox="0 0 640 290" role="img" aria-label="Dự báo chi ngân sách ${ys[0]} đến ${ys.at(-1)}" style="width:100%;height:auto">
+        ${ticks.map(t=>`<line x1="60" x2="620" y1="${Y(t)}" y2="${Y(t)}" stroke="var(--line-soft)"></line><text x="52" y="${Y(t)+4}" text-anchor="end">${ty(t)}</text>`).join('')}
+        <polygon points="${band}" fill="var(--h1)" opacity=".7"></polygon>
+        <polyline points="${pts(ser('co_so'))}" fill="none" stroke="var(--accent)" stroke-width="2.5"></polyline>
+        <polyline points="${pts(ser('vd2'))}" fill="none" stroke="var(--orange)" stroke-width="2.5" stroke-dasharray="6 4"></polyline>
+        ${ys.map((y,i)=>`<text x="${X(i)}" y="276" text-anchor="middle">${y}</text><circle cx="${X(i)}" cy="${Y(ser('co_so')[i])}" r="3.5" fill="var(--accent)"></circle>`).join('')}
+      </svg>
+      <div class="row sub" style="gap:6px 18px"><span><b style="color:var(--accent)">━</b> Cơ sở ${ys.at(-1)}: ${ty(ser('co_so').at(-1))} tỷ</span><span><b style="color:var(--orange)">┅</b> Mức chuẩn TGXH 600.000 đ (VD2): ${ty(ser('vd2').at(-1))} tỷ</span><span><span style="display:inline-block;width:14px;height:10px;background:var(--h1)"></span> Tử vong ±50%</span></div>
+      <div class="scroll"><table style="min-width:520px"><thead><tr><th>Năm</th><th class="n">Người mới vào hưu trí XH</th><th class="n">Cơ sở</th><th class="n">Khoảng</th><th class="n">VD2</th></tr></thead><tbody>${db.nam.slice(0,n).map((y,i)=>`<tr><td>${y}</td><td class="n">${db.moi_75[i]}</td><td class="n">${fmt(db.co_so[i])}</td><td class="n sub">${fmt(db.thap[i])} – ${fmt(db.cao[i])}</td><td class="n">${fmt(db.vd2[i])}</td></tr>`).join('')}</tbody></table></div>
+      <p class="sub" style="margin:0">Chi giảm dần vì người hưởng hiện tại phần lớn cao tuổi, số giảm do tử vong lớn hơn số người mới tròn 75 tuổi. Muốn dự báo người mới vào diện cần nguồn dân số dự báo, chưa có trong 7 nguồn.</p></div>
+  </section>`;
+};
+
+function render() {
+  const r = (location.hash || '#gioi-thieu').slice(1);
+  S.r = V[r] ? r : 'gioi-thieu';
+  document.querySelectorAll('.nav a').forEach(a => a.classList.toggle('on', a.dataset.r === S.r));
+  $('#view').innerHTML = V[S.r]();
+}
+function act(e) {
+  const t = e.target.closest('[data-a]'); if (!t) return;
+  const a = t.dataset.a, v = t.dataset.v;
+  if (e.type === 'input' && !['q','tuoi'].includes(a)) return;
+  if (e.type === 'change' && !['ngay','chincc'].includes(a)) return;
+  if (e.type === 'click' && ['q','tuoi','ngay','chincc'].includes(a)) return;
+  if (a === 'ngay') S.ngay = t.value;
+  else if (a === 'q') { S.q = t.value; render(); const q = $('#q'); q.focus(); q.setSelectionRange(q.value.length, q.value.length); return; }
+  else if (a === 'tuoi') S.tuoiMin = +t.value;
+  else if (a === 'chincc') S.chiNcc = t.checked;
+  else if (a === 'hs') { S.hs = v; S.q = ''; if (S.r !== 'ho-so') { location.hash = 'ho-so'; return; } }
+  else if (a === 'gocb') { S.cb = v; S.cbNhom = 'all'; location.hash = 'canh-bao'; return; }
+  else if (a === 'hz') S.hz = +v;
+  else S[a] = v;
+  render();
+  if (a === 'tuoi') $('#tuoi').focus();
+}
+['click','input','change'].forEach(ev => document.addEventListener(ev, act));
+document.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.matches('tr[data-a]')) act({type:'click', target:e.target}); });
+window.addEventListener('hashchange', () => { render(); window.scrollTo(0, 0); });
+render();
+</script>
