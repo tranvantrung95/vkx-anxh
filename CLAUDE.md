@@ -89,7 +89,7 @@ Người dùng giữ vai trò **BA** của module tích hợp và phân tích d�
 - Các file `.md` trong `output/` (011, 014, 015, 016…) là bản chụp tại ngày lập; nội dung đặc tả, BR, kế hoạch sửa tiếp ở sheet tương ứng của 013, không sửa song song ở `.md`.
 - Bản gốc khách hàng: `input/Checklist_hop_ky_thuat_module_tich_hop_du_lieu.xlsx` (chỉ đọc).
 - Phụ lục III dự thảo hợp đồng (Cục Người có công – Liên danh VNPT-VKX, 208 mục yêu cầu): chỉ có dạng 7 ảnh chụp trong `input/VKX - VNPT IT - Migrate ASSH [...]/` (trùng nội dung với file zip cùng tên). Sheet "UC tham khảo PL III" của Excel đã chép 153 mục liên quan dữ liệu.
-- Phạm vi đã đề xuất: `output/project019_003_bao_cao_use_case_va_nhan_su_ba_vnpt_it.md`. Bối cảnh bài toán: `output/project019_002_bai_toan_ba_du_lieu_an_sinh.md`. Phân tích input và các điểm lệch phạm vi chưa giải quyết (người có công hay toàn bộ ASXH, nguồn hay đích của "7 nguồn API"): `output/project019_004_phan_tich_input.md`.
+- Phạm vi đã đề xuất: `output/project019_003_bao_cao_use_case_va_nhan_su_ba_vnpt_it.md`. Bối cảnh bài toán: `output/project019_002_bai_toan_ba_du_lieu_an_sinh.md`. Phân tích input và các điểm lệch phạm vi (người có công hay toàn bộ ASXH: người dùng xác nhận toàn bộ ASXH ngày 04/11/2026, gồm mọi nội dung trong các tài liệu research, ghi ở Q27; nguồn hay đích của "7 nguồn API" chưa giải quyết): `output/project019_004_phan_tich_input.md`.
 - Tiến độ và việc kế tiếp: `work/CHECKPOINT.md`.
 - `graphify-out/` (đồ thị tri thức, có bản Markdown của Excel trong `converted/`) và `.codegraph/` là chỉ mục sinh tự động, không phải nguồn sự thật.
 

@@ -8,19 +8,21 @@ Ngày lập: 04/11/2026. Người lập: Claude, phiên rà soát theo yêu cầ
 
 **Đối chiếu bên ngoài:** tra web ngày 04/11/2026 cho 5 dữ kiện pháp lý (mục 2, nguồn ở cuối tài liệu). Không chạy được `audit2.py`: skill `kiem-tra-ai-2` không có trong môi trường này.
 
-Mọi task, UC, BR nhắc tới dưới đây vẫn ở trạng thái **Giả định** hoặc **Chờ đối chiếu** như trong file 013. Tài liệu này không đổi trạng thái nào.
+Mọi task, UC, BR nhắc tới dưới đây vẫn ở trạng thái **Giả định** hoặc **Chờ đối chiếu** như trong file 013.
+
+**Cập nhật 04/11/2026 (lần 2):** người dùng xác nhận phạm vi là **toàn bộ an sinh xã hội, gồm mọi nội dung trong các tài liệu research**; người có công không phải lõi riêng. Bản đầu của tài liệu này lấy quyết định Q27 ngày 03/11 ("lõi người có công") làm chuẩn để phản biện, nên đã sửa lại mục 1, 3.2, 3.3, 3.4, 3.5, 7, 8. Cùng ngày đã ghi xác nhận này vào Q27, mâu thuẫn #1 và cột cách giảm của R10 trong file 013 bằng `cap_nhat_checklist.py` (sao lưu: `tmp/project019_013_checklist_kem_so_do_uml_truoc_20261104_013208.xlsx`). Ngoài ba chỗ đó, tài liệu này không đổi trạng thái nào trong file 013.
 
 ## 1. Kết luận
 
-Phần tra cứu pháp lý làm tốt và kỷ luật ghi nhãn giả định được giữ ở mức tài liệu. Nhưng sau 13 ngày (22/10 đến 04/11/2026), dự án chưa có một dữ kiện nào do khách hàng hoặc dữ liệu thật xác nhận. Khối lượng tài liệu lại tăng nhanh nhất đúng trong giai đoạn đó.
+Phần tra cứu pháp lý làm tốt và kỷ luật ghi nhãn giả định được giữ ở mức tài liệu. Nhưng sau 13 ngày (22/10 đến 04/11/2026), ngoài xác nhận phạm vi của người dùng ngày 04/11, dự án chưa có một dữ kiện nào do khách hàng hoặc dữ liệu thật xác nhận. Khối lượng tài liệu lại tăng nhanh nhất đúng trong giai đoạn đó.
 
 Lỗi nặng nhất xảy ra ngày 03/11. Thay vì báo lên rằng không hỏi được ai, nhóm BA tự trả lời 67 trên 68 câu hỏi khảo sát, gắn trạng thái "Đã quyết". Ba mâu thuẫn phạm vi lớn nhất được ghi "Đã xử lý". Một rủi ro cấp dự án, lẽ ra phải báo bằng văn bản, đã bị biến thành một cuốn sổ trông như đã chốt.
 
 Năm vấn đề cần sửa trước mọi việc khác:
 
-1. Câu hỏi phạm vi (người có công hay toàn bộ an sinh xã hội, xây mới hay chuyển đổi, nguồn nào, kiến trúc nào) đang được BA quyết thay khách hàng (mục 3.2, 3.6, 3.7).
-2. Lõi được tuyên bố là người có công, nhưng công sức dồn vào trợ giúp xã hội, hộ nghèo và dự báo. Quy tắc lõi người có công cho kỳ 2026 chưa đối chiếu bản gốc (mục 3.4).
-3. Phụ lục III là tài liệu duy nhất có tính hợp đồng nhưng bị coi là "tham khảo, không bắt buộc". Cả 153/153 mục chưa đánh giá, và không có truy vết từ mục Phụ lục III sang UC rồi sang tiêu chí nghiệm thu (mục 3.5).
+1. Câu hỏi phạm vi (xây mới hay chuyển đổi, nguồn nào, kiến trúc nào) đang được BA quyết thay khách hàng (mục 3.2, 3.6, 3.7). Q27 cho thấy rủi ro này đã xảy ra: ngày 03/11 BA tự quyết "lõi là người có công", ngày 04/11 người dùng xác nhận phạm vi là toàn bộ an sinh xã hội. Các sửa ngày 03/11 theo quyết định sai cần làm lại.
+2. Phạm vi toàn bộ an sinh xã hội nhưng độ vững không đều giữa các mảng. Quy tắc trợ giúp xã hội và hưu trí xã hội đã đối chiếu bản gốc; người có công kỳ 2026, giảm nghèo, trẻ em ngoài trợ giúp xã hội thì chưa (mục 3.4).
+3. Tài liệu yêu cầu của khách hàng chỉ phủ một phần phạm vi. Phụ lục III (người có công) bị coi là "tham khảo, không bắt buộc", 153/153 mục chưa đánh giá. Phần trợ giúp xã hội, giảm nghèo, trẻ em, người khuyết tật không có tài liệu yêu cầu, chủ đầu tư hay nguồn dữ liệu nào được xác định (mục 3.5).
 4. Một số sản phẩm mâu thuẫn với kết luận của chính dự án: kịch bản dự báo VD2 và bộ dữ liệu giả 019 (mục 4.1, 4.2).
 5. Kế hoạch, ước lượng và mốc demo đã vỡ nhưng chưa lập lại. Hai tài liệu gửi ra ngoài (003, 012) vẫn dùng số cũ (mục 4.6, 5).
 
@@ -57,7 +59,7 @@ Từ 03/11, sheet "Checklist họp" đổi thành "Sổ giả định và quyế
 Bốn vấn đề:
 
 1. **BA quyết cả những câu ngoài thẩm quyền.** Có 30/68 câu thuộc loại "3 Phạm vi" (6 câu) hoặc "4 Dữ liệu và hệ thống" (24 câu). Theo định nghĩa của chính sổ, BA không có thẩm quyền hoặc không có dữ liệu để quyết những câu này. Chúng vẫn mang trạng thái "Đã quyết". Có 11 câu ghi căn cứ "Không có". Q1 đến Q3 (hệ thống Git, CI/CD, môi trường) cũng "Đã quyết".
-2. **Mâu thuẫn được đóng bằng cách chọn một phía.** Sheet "Mâu thuẫn & rủi ro" ghi mâu thuẫn #1 (phạm vi), #2 (xây mới hay chuyển đổi), #3 (số nguồn) là "Đã xử lý 03/11/2026: BA quyết theo Q27, Q38, Q28". Đây là ba mâu thuẫn lớn nhất của dự án. Chúng chưa được xử lý. Cùng ngày, BA-04 ghi mô hình lõi "Đã chốt", tức mốc M1 "Mô hình lõi đã duyệt" được coi là đạt bằng tự duyệt.
+2. **Mâu thuẫn được đóng bằng cách chọn một phía.** Sheet "Mâu thuẫn & rủi ro" ghi mâu thuẫn #1 (phạm vi), #2 (xây mới hay chuyển đổi), #3 (số nguồn) là "Đã xử lý 03/11/2026: BA quyết theo Q27, Q38, Q28". Đây là ba mâu thuẫn lớn nhất của dự án. Mâu thuẫn #1 cho thấy cách làm này sai ra sao: phía BA chọn ngày 03/11 (lõi người có công) bị người dùng bác ngay ngày 04/11. Mâu thuẫn #2 và #3 vẫn chỉ là giả định của BA. Cùng ngày 03/11, BA-04 ghi mô hình lõi "Đã chốt", tức mốc M1 "Mô hình lõi đã duyệt" được coi là đạt bằng tự duyệt.
 3. **"Không có đầu mối" mâu thuẫn với chính hồ sơ.** Anh Hoàng Nam Dương (bên giao việc) ra chỉ đạo ngày 27/10 (014) và đưa nhận định để chốt D8 (CHECKPOINT 27/10). VNPT-IT đang chờ profile BA (012). Vẫn có người để gửi câu hỏi. Nếu họ không trả lời được câu phạm vi thì đó là điểm chặn cấp dự án, cần báo bằng văn bản kèm hạn trả lời. BA không nên dùng tình trạng đó làm lý do để tự quyết.
 4. **Nhãn dễ bị đọc nhầm.** Khi file 013 đến tay người khác, "Đã quyết" sẽ được hiểu là "đã chốt". Điều này trái quy tắc chung trong `CLAUDE.md`: giả định không được trình bày như phạm vi đã chốt.
 
@@ -73,28 +75,54 @@ Từ đó đến nay, thông tin cụ thể mới duy nhất là sơ đồ luồ
 | 30/10 | Sheet "Chế độ theo nhóm đối tượng" 123 dòng; "Kịch bản dự báo" VD1 đến VD11; "Mô phỏng dự báo" 413 công thức cho một xã giả; tài liệu 018 "Quy trình BA chuẩn" (21 trang .docx) |
 | 03/11 | Bộ dữ liệu giả 019 (29 bảng, khoảng 4.600 dòng, một engine thu nhỏ, các ca gieo sẵn TC-M01 đến TC-M26); 3 quy tắc KT- mới; T17, UC21 đến UC24; Q64 đến Q68 |
 
-Trong khi đó, kế hoạch BA chính thức (sheet "Kế hoạch BA") có BA-02, BA-03, BA-05 đến BA-11 đều "Chưa làm". BA-01 ước 1 ngày công, hạn 28/10, đến 03/11 vẫn "Đang làm: 33/68".
+Với phạm vi toàn bộ an sinh xã hội, các sản phẩm này không nằm ngoài phạm vi, nên không phải công sức bỏ đi. Vấn đề là thứ tự: chúng là đặc tả chi tiết cho GĐ2, GĐ3 (dự báo, chế độ theo nhóm) và dữ liệu kiểm thử, làm trước khi có thông tin, trái chỉ đạo, trong khi việc của GĐ1a chưa làm. Kế hoạch BA chính thức (sheet "Kế hoạch BA") có BA-02, BA-03, BA-05 đến BA-11 đều "Chưa làm". BA-01 ước 1 ngày công, hạn 28/10, đến 03/11 vẫn "Đang làm: 33/68".
 
-### 3.4. Lõi được tuyên bố là người có công, công sức lại dồn vào trợ giúp xã hội
+### 3.4. Phạm vi toàn bộ an sinh xã hội: Q27 ghi ngược, độ vững không đều
 
-Ngày 03/11, Q27 quyết lõi là người có công; trợ giúp xã hội và hộ nghèo là phần mở rộng. Đối chiếu với sản phẩm hiện có:
+**Q27 trong file 013 đã ghi ngược phạm vi.** Ngày 03/11, Q27 ghi "lõi bắt buộc là người có công; trợ giúp xã hội, hộ nghèo, trẻ em, người khuyết tật là phần mở rộng". Ngày 04/11, người dùng xác nhận phạm vi là toàn bộ an sinh xã hội, gồm mọi nội dung trong các tài liệu research. Q27, mâu thuẫn #1 và R10 đã sửa ngày 04/11. Khoảng 180 ô ở 6 sheet khác vẫn mang dấu quyết định cũ:
 
-- **Quy tắc vững nhất nằm ngoài lõi.** 16 trong 23 BR "Đã đối chiếu" là trợ giúp xã hội (BR-01 đến BR-16). Phía người có công, ba quy tắc nền đều "Chờ đối chiếu (TV)": BR-20 (mức hằng tháng theo bảng phụ lục), BR-21 (hai mốc áp dụng NĐ 321), BR-22 (con liệt sĩ dưới 18 tuổi). BR-23 và BR-25 chỉ "Đã đối chiếu từ 01/01/2027". Trước mốc đó, 011 mục 3.2 ghi "chưa đọc bản gốc chưa sửa".
-- **Câu tóm tắt ở 016 gây hiểu nhầm.** 016 mục 1 viết "bộ quy tắc chính sách là phần chắc nhất". Phần chắc đó nằm ở mảng mà BA đã xếp ngoài lõi.
+- cột "Phạm vi" ở sheet Căn cứ pháp lý chia văn bản thành "Lõi người có công" và "Mở rộng" (VL-09 ghi đã làm theo Q27);
+- cột "Phạm vi" ở sheet Chế độ theo nhóm đối tượng ghi "Mở rộng: TGXH (theo quyết định Q27)" cho các nhóm ngoài người có công;
+- VL-15 xếp nhóm C "thuộc lõi người có công"; VL-41 đề xuất hạ UC08, UC13, UC15, UC17 nếu chỉ làm người có công;
+- ghi chú "theo quyết định Q27" ở T17, UC21 đến UC24 (sheet Task & Usecase) và ở sheet Đặc tả UC.
+
+**Độ vững không đều giữa các mảng.** Với phạm vi toàn bộ, mảng nào cũng phải đạt cùng một mức. Hiện trạng:
+
+| Mảng | Quy tắc, căn cứ | Mức đối chiếu |
+|---|---|---|
+| Trợ giúp xã hội (gồm trẻ em, người khuyết tật, người cao tuổi thuộc diện NĐ 335) | BR-01 đến BR-16 | Đã đối chiếu bản Công báo (CB) |
+| Hưu trí xã hội | BR-16, tham số P-HUU-TRI-XH | CB; quy tắc KT-HTXH trong dữ liệu giả chưa trích điều NĐ 176/2025 |
+| Người có công | BR-24, BR-26 đến BR-29 CB. BR-20, BR-21, BR-22 "Chờ đối chiếu (TV)". BR-23, BR-25 chỉ đối chiếu cho kỳ từ 01/01/2027 | Phần mức hưởng hằng tháng kỳ 2026 chưa đối chiếu |
+| Giảm nghèo, hộ | BR-42 "Chờ đối chiếu (BC)"; mức NĐ 351/2025 ở mức BC; hiệu lực TT 25/2026 chưa xác minh; T08 ghép hộ GIẢ ĐỊNH | Chưa đối chiếu |
+| Trẻ em ngoài diện trợ giúp xã hội (Luật Trẻ em, NĐ 56/2017) | Chưa có BR | BC; chưa xác minh NĐ 56/2017 còn hiệu lực |
+| Bảo hiểm thất nghiệp, người cai nghiện (2 trong 7 CSDL thành phần của dự thảo NĐ CSDL quốc gia về ASXH, 007 mục 2) | Không có UC, không có BR | Research chỉ nêu là còn thiếu; chưa rõ có thuộc phạm vi |
+
+Hệ quả:
+
+- **Câu "bộ quy tắc chính sách là phần chắc nhất" (016 mục 1) chỉ đúng một phần.** Chắc ở trợ giúp xã hội và hưu trí xã hội; người có công kỳ 2026 và giảm nghèo chưa đạt mức đó.
 - **UC06 nhánh người có công không có quy tắc cho kỳ nó sẽ chạy.** Đặc tả 015 chỉ có quy tắc cho kỳ từ 01/2027. GĐ1a và GĐ1b (15/11, 30/11/2026) chạy trên dữ liệu kỳ 2026.
 - **Tiền đề về cộng dồn chưa được kiểm.** Tiền đề "người có công nhiều diện chỉ được cộng dồn từ 2027" chưa ai kiểm, vì chưa ai đọc bản PL 02/2020 trước sửa đổi, dù đó là văn bản công khai. Nếu bản gốc đã cho cộng dồn thì thiết kế tách hai nhánh theo ngày của UC06 là thừa.
-- **Dữ liệu giả và mô phỏng cũng nghiêng về trợ giúp xã hội.** Bộ dữ liệu giả 019 và sheet "Mô phỏng dự báo" dựng phần trợ giúp xã hội kỹ hơn. Phần người có công trong dữ liệu giả chỉ có 6 diện; chưa có thờ cúng, điều dưỡng, hai mốc của BR-21, giới hạn hai suất tuất.
-- **UC lõi mới chưa có nội dung.** UC21 đến UC23 thêm cho người có công cùng ngày quyết Q27, nhưng chưa có đặc tả và chưa vào truy vết (VL-37, VL-38).
+- **Dữ liệu giả mỏng ở người có công.** Phần người có công trong dữ liệu giả 019 chỉ có 6 diện; chưa có thờ cúng, điều dưỡng, hai mốc của BR-21, giới hạn hai suất tuất.
+- **UC mới chưa có nội dung.** UC21 đến UC23 (người có công) và UC24 thêm ngày 03/11 nhưng chưa có đặc tả và chưa vào truy vết (VL-37, VL-38).
 
-### 3.5. Phụ lục III bị coi là tham khảo
+### 3.5. Tài liệu yêu cầu chỉ phủ một phần phạm vi
 
-Sheet "UC tham khảo PL III" ghi "Chỉ để tham khảo, KHÔNG bắt buộc; có thể thay đổi, gộp, bỏ". Đây là phụ lục yêu cầu kỹ thuật của dự thảo hợp đồng giữa Cục Người có công và Liên danh VNPT-VKX, tức là căn cứ để nghiệm thu. Hiện trạng:
+#### 3.5.1. Phần người có công: Phụ lục III bị coi là tham khảo
+
+Sheet "UC tham khảo PL III" ghi "Chỉ để tham khảo, KHÔNG bắt buộc; có thể thay đổi, gộp, bỏ". Đây là phụ lục yêu cầu kỹ thuật của dự thảo hợp đồng giữa Cục Người có công và Liên danh VNPT-VKX, tức là căn cứ để nghiệm thu phần người có công. Hiện trạng:
 
 - **Chưa đánh giá mục nào.** Cả 153/153 mục ghi "Chưa đánh giá".
 - **Truy vết đi sai trục.** Ma trận truy vết chỉ đi theo chiều văn bản pháp luật, BR, UC, TC. Không có chiều mục Phụ lục III, UC, TC. Vì vậy chưa trả lời được câu hỏi kiểu "mục 163 nghiệm thu bằng gì".
 - **Loại 55 mục mà không có căn cứ.** 55 mục (26 mục A, 2 mục B, 20 mục D, 7 mục H theo 004 mục 2.3) bị loại khỏi phân tích, và Q30 quyết bên mình không làm các mục quy trình động, thủ tục hành chính, chi trả. Không có văn bản phân công trong liên danh nào làm căn cứ.
 - **Tài liệu hợp đồng chỉ có dạng ảnh.** VL-04 (xin Phụ lục III dạng file) vẫn "Chưa làm" sau 9 ngày. Tài liệu hợp đồng duy nhất hiện chỉ có dưới dạng 7 ảnh chụp màn hình điện thoại.
-- **Ưu tiên ngược.** UC không có căn cứ Phụ lục III (T08, UC05, UC13, UC15 theo 009 mục 1.3; UC24 mới thêm) vẫn có thẻ đặc tả, tham số, dữ liệu giả.
+#### 3.5.2. Phần ngoài người có công: chưa có tài liệu yêu cầu, chủ đầu tư, nguồn dữ liệu
+
+Với phạm vi toàn bộ an sinh xã hội, phần trợ giúp xã hội, hưu trí xã hội, giảm nghèo, trẻ em, người khuyết tật lớn hơn phần người có công, nhưng chưa có giấy tờ nào của khách hàng đỡ phần này:
+
+- **Không có tài liệu yêu cầu.** Danh sách T và UC cho các mảng này lấy từ checklist trong `input/` và từ 002. 009 mục 1.2 (G2) xếp cả hai là GIẢ ĐỊNH; T08, UC05, UC13, UC15 không có mục Phụ lục III nào làm căn cứ (009 mục 1.3). Khi nghiệm thu, không có văn bản nào để đối chiếu các UC này.
+- **Chủ đầu tư và người nghiệm thu chưa xác định.** Dự thảo hợp đồng duy nhất là với Cục Người có công (Bộ Nội vụ). Trợ giúp xã hội do Bộ Y tế chủ trì (NĐ 335/2026 Điều 35); hộ nghèo thuộc Bộ Nông nghiệp và Môi trường. Q18 hiện chỉ ghi Cục Người có công nghiệm thu cuối.
+- **Không có nguồn dữ liệu trợ giúp xã hội rõ ràng.** Q28 ghi 6 nguồn chiều vào theo sơ đồ ngày 03/11: dân cư, hộ tịch, người có công ("Lao động – TBXH cũ"), BHXH, hộ nghèo và cận nghèo cấp tỉnh, Mặt trận Tổ quốc và quỹ hỗ trợ. Không có nguồn riêng cho trợ giúp xã hội, trẻ em hay người khuyết tật. Nếu không có nguồn đó, BR-01 đến BR-16 (phần vững nhất, mục 3.4) không có dữ liệu để chạy. Cần hỏi nguồn "Lao động – TBXH cũ" có gồm dữ liệu bảo trợ xã hội như thời còn Bộ Lao động – Thương binh và Xã hội quản lý hay không.
+- **Ranh giới "tất cả những gì có trong research" chưa rõ ở hai chỗ.** Research có nêu thủ tục hành chính, quy trình động và chi trả của Phụ lục III (T-THIẾU-02, T-THIẾU-07), cùng hai CSDL thành phần bảo hiểm thất nghiệp và người cai nghiện, nhưng chỉ dưới dạng "còn thiếu". Q30 và Q44 hiện loại các phần này. Cần người dùng nói rõ chúng có thuộc phạm vi không.
 
 ### 3.6. Gạt đi tín hiệu kiến trúc duy nhất từ phía giao việc
 
@@ -196,8 +224,9 @@ Mô hình hiện có 33 mã thực thể (E01 đến E36, trừ E08, E18, E19), 
 |---|---|---|
 | NĐ 335/2026, NĐ 321/2026, PL 05/2026, NĐ 351/2025 và các mốc hiệu lực | 010, 011, 017 | Đúng (tra web 04/11/2026) |
 | Mức người có công là bảng phụ lục, không phải công thức | 017 kết luận 4, BR-20 | Hợp lý, có ví dụ; nhưng VD2 làm ngược lại |
-| "Bộ quy tắc là phần chắc nhất" | 016 mục 1 | Gây hiểu nhầm: phần chắc là trợ giúp xã hội; lõi người có công kỳ 2026 chưa đối chiếu |
-| Mâu thuẫn #1, #2, #3 "Đã xử lý" | 013, sheet Mâu thuẫn & rủi ro | Sai: chỉ là giả định của BA |
+| Q27: lõi là người có công, phần còn lại là mở rộng (03/11) | 013, sheet Checklist họp | Sai: người dùng xác nhận 04/11 phạm vi là toàn bộ an sinh xã hội; đã sửa Q27, còn khoảng 180 ô ở 6 sheet theo quyết định cũ |
+| "Bộ quy tắc là phần chắc nhất" | 016 mục 1 | Đúng một phần: chắc ở trợ giúp xã hội, hưu trí xã hội; người có công kỳ 2026 và giảm nghèo chưa đối chiếu |
+| Mâu thuẫn #1, #2, #3 "Đã xử lý" (03/11) | 013, sheet Mâu thuẫn & rủi ro | Sai ở thời điểm ghi: chỉ là giả định của BA. #1 nay đã có xác nhận của người dùng; #2, #3 vẫn là giả định |
 | Mô hình lõi "đã chốt" (mốc M1) | 013, sheet Kế hoạch BA | Sai: tự duyệt |
 | Q62 "Đã kiểm chứng" | 013, sheet Checklist họp | Sai theo quy ước CB của dự án |
 | Người có công nhiều diện chỉ được cộng dồn từ 2027 | 009, 010, 015 (UC06) | Chưa kiểm: chưa đọc bản trước sửa đổi |
@@ -211,22 +240,27 @@ Mô hình hiện có 33 mã thực thể (E01 đến E36, trừ E08, E18, E19), 
 Các việc dưới đây chưa được cấp mã VL. Nếu người dùng đồng ý, ghi vào sheet "Việc cần làm (VL)" của file 013 từ VL-48 bằng `cap_nhat_checklist.py`.
 
 1. **Dừng sinh sản phẩm mới** (UC, sheet, dữ liệu giả, kịch bản) cho tới khi có câu trả lời ở việc 2.
-2. **Gửi một trang "5 câu chặn" bằng văn bản** cho anh Dương và VNPT-IT, có hạn trả lời:
-   - (a) phạm vi là người có công hay toàn bộ an sinh xã hội, bên mình nhận phần nào của Phụ lục III (Q27, Q30, Q44);
+2. **Gửi một trang "5 câu chặn" bằng văn bản** cho anh Dương và VNPT-IT, có hạn trả lời. Phạm vi đã rõ (toàn bộ an sinh xã hội, người dùng xác nhận 04/11), nên câu (a) chuyển sang căn cứ của phạm vi đó:
+   - (a) phần trợ giúp xã hội, giảm nghèo, trẻ em, người khuyết tật dựa trên tài liệu yêu cầu nào, ai là chủ đầu tư và ai nghiệm thu; bên mình có nhận phần quy trình, thủ tục, chi trả của Phụ lục III không (Q30, Q44);
    - (b) xây mới hay nâng cấp, và chuyển đổi hệ thống nào (Q38);
-   - (c) danh sách nguồn và kiến trúc đích: Oracle với Spring Boot, hay lakehouse theo sơ đồ 03/11 (Q28, Q16);
+   - (c) danh sách nguồn, trong đó nguồn trợ giúp xã hội, trẻ em, người khuyết tật lấy từ đâu; kiến trúc đích là Oracle với Spring Boot, hay lakehouse theo sơ đồ 03/11 (Q28, Q37, Q16);
    - (d) quyền đọc dữ liệu, hoặc bản dump đã che (Q5 đến Q7);
    - (e) ngày và nội dung demo, có chấp nhận demo bằng dữ liệu giả không (Q22).
 
    Nói rõ trong văn bản: nếu không có trả lời, demo chỉ chứng minh logic trên dữ liệu giả.
-3. **Sửa trạng thái cho đúng nghĩa.** Đổi "Đã quyết (giả định)" thành một nhãn không thể đọc nhầm là đã chốt, ví dụ "Giả định BA, chưa xác nhận". Mở lại mâu thuẫn #1, #2, #3. Trả Q62 về mức BC. Bỏ trạng thái "đã chốt" của BA-04 và mốc M1.
+3. **Sửa trạng thái cho đúng nghĩa.**
+   - Làm lại các chỗ đã sửa ngày 03/11 theo Q27 cũ (mục 3.4): cột "Phạm vi" ở sheet Căn cứ pháp lý và Chế độ theo nhóm đối tượng, VL-09, VL-15, VL-41, ghi chú ở T17, UC21 đến UC24 và sheet Đặc tả UC.
+   - Đổi "Đã quyết (giả định)" thành một nhãn không thể đọc nhầm là đã chốt, ví dụ "Giả định BA, chưa xác nhận".
+   - Mở lại mâu thuẫn #2, #3. Trả Q62 về mức BC. Bỏ trạng thái "đã chốt" của BA-04 và mốc M1.
 4. **Lập lại kế hoạch.** Báo ban giám đốc và VNPT-IT rằng số công ở 003 và 012 không còn hiệu lực. Xin đội kỹ thuật ước lượng cho phần demo.
-5. **Lấy Phụ lục III làm trục.** Xin bản dạng file (VL-04); đánh giá 153 mục; thêm truy vết từ mục Phụ lục III sang UC và TC; tạm gác các UC không có căn cứ trong Phụ lục III.
-6. **Sửa lõi người có công.**
-   - Đọc PL 02/2020 bản trước sửa đổi (Điều 3, Điều 6) và Phụ lục NĐ 321/2026 bản Công báo.
-   - Viết lại VD2 theo bảng phụ lục.
-   - Sửa mức mai táng người có công trong dữ liệu giả.
-   - Thêm vào dữ liệu giả biến thể "truy lĩnh gộp vào kỳ chi".
+5. **Dựng danh mục yêu cầu cho toàn phạm vi.**
+   - Phần người có công: xin Phụ lục III dạng file (VL-04); đánh giá 153 mục; thêm truy vết từ mục Phụ lục III sang UC và TC.
+   - Phần còn lại: gom yêu cầu của trợ giúp xã hội, hưu trí xã hội, giảm nghèo, trẻ em, người khuyết tật từ các tài liệu research thành một danh mục có mã, gửi bên giao việc xác nhận làm căn cứ nghiệm thu thay cho văn bản khách hàng còn thiếu.
+6. **Đưa các mảng chưa vững lên cùng mức với trợ giúp xã hội.**
+   - Giảm nghèo: đối chiếu NĐ 351/2025 và TT 25/2026 bản gốc (ngưỡng, số chỉ số thiếu hụt, ngày hiệu lực); đưa BR-42 về "Đã đối chiếu" hoặc ghi rõ phần còn thiếu.
+   - Trẻ em ngoài trợ giúp xã hội: xác minh NĐ 56/2017 còn hiệu lực; viết BR nếu có UC dùng tới.
+   - Người có công: đọc PL 02/2020 bản trước sửa đổi (Điều 3, Điều 6) và Phụ lục NĐ 321/2026 bản Công báo; viết lại VD2 theo bảng phụ lục; sửa mức mai táng người có công trong dữ liệu giả.
+   - Dữ liệu giả: thêm biến thể "truy lĩnh gộp vào kỳ chi".
 7. **Rút 010 và 011 khỏi danh sách gửi kèm của 012**, hoặc biên tập lại dòng người lập. Thống nhất tên VKX trong mọi tài liệu gửi ra ngoài.
 8. **Cập nhật `work/CHECKPOINT.md`** cho các thay đổi ngày 03/11.
 
