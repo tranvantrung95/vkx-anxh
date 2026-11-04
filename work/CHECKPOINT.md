@@ -117,3 +117,10 @@ Next: người dùng mở file kiểm số khối D khớp TC-UC12-04; hỏi Q60
 - audit2: ĐẠT.
 - Next: người dùng duyệt; tùy chọn xuất .docx, thêm bảng (+) vào 013 qua cap_nhat_checklist.py, hoặc đóng gói thành skill BA dùng chung.
 - 30/10/2026: xuất output/project019_018_quy_trinh_ba_chuan.docx (21 trang A4, Times New Roman, 35 bảng có viền, hàng tiêu đề lặp lại, sơ đồ mạch chính dọc 21 cm). Script: tmp/xuat_018_20261030/build_docx.py (pandoc + python-docx; ảnh sơ đồ dựng bằng mmdc). Đã xem bản PDF do Word xuất. Sơ đồ đổi LR → TB ở cả .md. Sửa "hợp nhất" → "phù hợp" ở mục 1 (PF-121).
+
+## Phản biện research (04/11/2026)
+- Tạo output/project019_020_phan_bien_research.md: phản biện toàn bộ 002 đến 019 và file 013 (24 sheet). Không sửa file nào khác ngoài CHECKPOINT này.
+- Phát hiện chính: sổ giả định 03/11 tự "quyết" 67/68 câu (30 câu loại Phạm vi hoặc Dữ liệu và hệ thống) và đóng mâu thuẫn #1 đến #3; công sức dồn vào TGXH trong khi BR lõi NCC kỳ 2026 chưa đối chiếu; PL III 153/153 chưa đánh giá, không có truy vết PL III → UC → TC; VD2 dùng phép nhân tỷ lệ trái BR-20 và 017 kết luận 4; mockup 019 dùng lương cơ sở cũ (mai táng NCC 23.400.000 thay vì 25.300.000), có truy lĩnh tách kỳ trái Q39, số ca 16/26/27 và TC-M24 lặp; Q62 "Đã kiểm chứng" với nguồn BC; 012 gửi kèm 010, 011 ghi "agent BA".
+- Đã tra web 04/11/2026: NĐ 335/2026, NĐ 321/2026, PL 05/2026, NĐ 351/2025, lương cơ sở 2.530.000 (NĐ 161/2026) đều khớp.
+- Ghi chú: các mục 03/11/2026 (sổ giả định, mockup 019, T17, UC21 đến UC24) chưa được ghi vào CHECKPOINT trước đó.
+Next: người dùng xem mục 8 của 020; nếu đồng ý thì cấp VL-48 trở đi vào file 013 bằng cap_nhat_checklist.py.
